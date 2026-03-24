@@ -448,7 +448,9 @@ function AboutPage() {
 export default function App() {
   return (
     <>
-      <Ticker news={[...allNews].sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || b.year - a.year || (b.month || 0) - (a.month || 0))} />
+      <div className="sticky-top">
+        <Ticker news={[...allNews].sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || b.year - a.year || (b.month || 0) - (a.month || 0))} />
+      </div>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/articulo/:id" element={<ArticlePage />} />

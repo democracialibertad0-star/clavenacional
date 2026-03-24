@@ -151,7 +151,29 @@ export function ArticleView({ news }) {
   }
 
   return (
-    <div className="article-view">
+    <div className="article-layout">
+      {/* Left sidebar: Newsletter + Publicidad */}
+      <aside className="article-left-sidebar">
+        <div className="article-sidebar-sticky">
+          <div className="article-sidebar-box">
+            <h4 className="article-sidebar-title">Newsletter</h4>
+            <p className="article-sidebar-text">Recibe lo más importante cada semana.</p>
+            <input type="email" placeholder="Tu correo" className="article-sidebar-input" />
+            <button className="article-sidebar-btn">Suscribirse</button>
+          </div>
+          <div className="article-sidebar-box">
+            <h4 className="article-sidebar-title">Publicidad</h4>
+            <p className="article-sidebar-text">Anuncia en Mundoscopio y llega a miles de lectores.</p>
+            <input type="text" placeholder="Tu empresa" className="article-sidebar-input" />
+            <input type="email" placeholder="Tu correo" className="article-sidebar-input" />
+            <button className="article-sidebar-btn article-sidebar-btn-alt">Solicitar info</button>
+          </div>
+          <SocialShareBar title={news.title} layout="vertical" />
+        </div>
+      </aside>
+
+      {/* Main article content */}
+      <div className="article-view">
       {/* Breadcrumb */}
       <nav className="article-breadcrumb">
         <Link to="/">Home</Link>
@@ -164,9 +186,6 @@ export function ArticleView({ news }) {
           </>
         )}
       </nav>
-
-      {/* Social share floating bar */}
-      <SocialShareBar title={news.title} />
 
       {/* Hero image */}
       <div className="article-hero-img">
@@ -352,6 +371,7 @@ export function ArticleView({ news }) {
           </div>
         )}
       </div>
+    </div>
     </div>
   )
 }

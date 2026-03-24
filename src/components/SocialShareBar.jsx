@@ -43,7 +43,7 @@ const ICONS = {
   ),
 }
 
-export function SocialShareBar({ title, url }) {
+export function SocialShareBar({ title, url, layout = 'floating' }) {
   const [showCopied, setShowCopied] = useState(false)
   const encodedUrl = encodeURIComponent(url || window.location.href)
   const encodedTitle = encodeURIComponent(title || document.title)
@@ -66,8 +66,10 @@ export function SocialShareBar({ title, url }) {
 
   const scrollToTop = () => window.scrollTo({ top: 0, behavior: 'smooth' })
 
+  const isInline = layout === 'vertical'
+
   return (
-    <div className="social-share-bar">
+    <div className={isInline ? 'social-share-inline' : 'social-share-bar'}>
       <div className="share-buttons">
         {['email', 'linkedin', 'x', 'bluesky', 'facebook', 'reddit', 'print'].map(p => (
           <button
