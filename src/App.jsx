@@ -71,6 +71,7 @@ function ArchiveAccordion({ years, sortedAll, activeYear, setActiveYear, activeM
   }
 
   const getCountForYear = (year) => sortedAll.filter(n => n.year === year).length
+  const getCountForMonth = (year, month) => sortedAll.filter(n => n.year === year && n.month === month).length
 
   return (
     <div className="archive-accordion">
@@ -95,6 +96,7 @@ function ArchiveAccordion({ years, sortedAll, activeYear, setActiveYear, activeM
                   onClick={() => setActiveMonth(null)}
                 >
                   Todo {y}
+                  <span className="archive-month-count">{getCountForYear(y)}</span>
                 </button>
                 {months.map(m => (
                   <button
@@ -102,7 +104,8 @@ function ArchiveAccordion({ years, sortedAll, activeYear, setActiveYear, activeM
                     className={`archive-month-btn ${activeMonth === m ? 'active' : ''}`}
                     onClick={() => setActiveMonth(activeMonth === m ? null : m)}
                   >
-                    {MONTH_NAMES[m]}
+                    {String(m).padStart(2, '0')} — {MONTH_NAMES[m]}
+                    <span className="archive-month-count">{getCountForMonth(y, m)}</span>
                   </button>
                 ))}
               </div>
