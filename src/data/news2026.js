@@ -2158,10 +2158,7 @@ const news2026 = [
       { src: "https://picsum.photos/seed/debate531e/800/500", caption: "Seguidores de los candidatos reunidos frente al Palacio Legislativo" },
       { src: "https://picsum.photos/seed/debate531f/800/500", caption: "Periodistas y analistas políticos cubrieron el evento para medios nacionales e internacionales" }
     ],
-    videoLinks: [
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "Resumen completo: Primera jornada del Debate Presidencial 2026" },
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "Análisis en vivo: politólogos evalúan el desempeño de los candidatos" }
-    ],
+    videoLinks: [],
     moreInfo: [
       "El debate presidencial es un mecanismo consagrado en la normativa electoral peruana. El Jurado Nacional de Elecciones tiene la facultad de organizar hasta cuatro jornadas de debate durante la campaña, con participación obligatoria de todos los candidatos que superen el umbral de inscripción. La negativa a participar implica sanciones económicas y puede afectar el financiamiento público del partido.",
       "Desde el histórico debate de 1990 entre Mario Vargas Llosa y Alberto Fujimori —considerado un punto de inflexión en la historia electoral peruana— los debates presidenciales han ganado progresivamente más peso en la formación de la opinión pública. La irrupción de las redes sociales ha transformado radicalmente la dinámica: hoy, el impacto de un debate se mide tanto en audiencia televisiva como en viralización digital.",
@@ -2218,10 +2215,7 @@ const news2026 = [
       { src: "https://picsum.photos/seed/aliaga532d/800/500", caption: "Analistas económicos debatieron en vivo la propuesta de los seis ministerios" },
       { src: "https://picsum.photos/seed/aliaga532e/800/500", caption: "López Aliaga en conferencia de prensa tras culminar el debate presidencial" }
     ],
-    videoLinks: [
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "López Aliaga: 'El Estado tiene que reducirse a seis ministerios como máximo'" },
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "Economistas analizan la propuesta de reducción del Estado de López Aliaga" }
-    ],
+    videoLinks: [],
     moreInfo: [
       "Renovación Popular es un partido de derecha liberal-conservadora fundado en 2020. Su candidato presidencial Rafael López Aliaga, ingeniero civil y empresario del sector construcción e inmobiliario, obtuvo el 12.8% de los votos en la primera vuelta de 2021, quedando en tercer lugar detrás de Pedro Castillo y Keiko Fujimori. Su base electoral se concentra en Lima Metropolitana, particularmente en los distritos de mayores ingresos.",
       "La propuesta de reducir el número de ministerios tiene antecedentes en la historia política peruana. Durante el gobierno de Alberto Fujimori se produjo una fusión de algunas carteras ministeriales en el marco de las reformas de los años noventa. Sin embargo, ningún gobierno ha planteado una reducción tan drástica como la que propone López Aliaga, que implicaría eliminar el 70% del actual gabinete.",
@@ -2279,10 +2273,7 @@ const news2026 = [
       { src: "https://picsum.photos/seed/alvarez533e/800/500", caption: "Conferencia de prensa de Carlos Álvarez tras concluir la primera jornada del debate" },
       { src: "https://picsum.photos/seed/alvarez533f/800/500", caption: "El equipo de asesores técnicos de Contigo Perú respaldó al candidato en el debate" }
     ],
-    videoLinks: [
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "Álvarez: 'Hay que desratizar al Perú, fumigar la función pública' — momento viral del debate" },
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "Álvarez vs López Aliaga: el intercambio más tenso de la noche" }
-    ],
+    videoLinks: [],
     moreInfo: [
       "Carlos Álvarez Aspillaga es un imitador, humorista y comunicador peruano nacido en Lima en 1964. Durante más de tres décadas fue una figura omnipresente en la televisión peruana, conocido por sus imitaciones de políticos, artistas y personajes populares. Su decisión de incursionar en política activa sorprendió a la opinión pública, aunque quienes lo conocen de cerca señalan que su interés por la cosa pública es genuino y de larga data.",
       "Contigo Perú es un movimiento político fundado en 2024 que se define como de centro-progresista. Agrupa a profesionales, activistas anticorrupción y ciudadanos independientes que buscan una alternativa a los partidos tradicionales. Su inscripción ante el JNE fue aprobada en enero de 2025, y la candidatura de Álvarez fue ratificada en congreso interno con el 78% de los votos de los delegados.",
@@ -2340,10 +2331,7 @@ const news2026 = [
       { src: "https://picsum.photos/seed/grozo534e/800/500", caption: "Analistas calificaron la intervención de Grozo como la más sustantiva de la noche" },
       { src: "https://picsum.photos/seed/grozo534f/800/500", caption: "Seguidores de Perú Primero celebraron el desempeño de su candidato en las redes sociales" }
     ],
-    videoLinks: [
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "Grozo: 'La corrupción es un cáncer que ha hecho metástasis en el Estado peruano'" },
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "El programa anticorrupción de Grozo: cinco ejes de reforma institucional" }
-    ],
+    videoLinks: [],
     moreInfo: [
       "Wolfgang Grozo Paredes es economista graduado de la Pontificia Universidad Católica del Perú (PUCP) con maestría y doctorado en Economía Pública por la Universidad de Chicago. Ha publicado más de cuarenta artículos académicos sobre reforma institucional, corrupción y desarrollo económico en América Latina. Antes de lanzarse a la política, fue asesor senior del Banco Mundial para programas de gobernanza en nueve países de la región.",
       "Perú Primero es un movimiento político fundado en 2023 que se autodefine como de centro reformista y tecnocrático. Agrupa principalmente a profesionales, académicos y empresarios que comparten la convicción de que el Perú necesita reformas institucionales profundas antes que cambios ideológicos. Su inscripción electoral fue aprobada por el JNE en septiembre de 2024.",
@@ -2402,10 +2390,7 @@ const news2026 = [
       { src: "https://picsum.photos/seed/nieto535f/800/500", caption: "El equipo técnico de Acción Popular incluyó a especialistas en seguridad y criminología" },
       { src: "https://picsum.photos/seed/nieto535g/800/500", caption: "Ciudadanos en Lima siguieron el bloque de seguridad con atención durante el debate" }
     ],
-    videoLinks: [
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "Nieto: 'No estamos dando la respuesta adecuada para detener esta ola de criminalidad'" },
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "El plan de seguridad de Acción Popular: inteligencia policial, reforma penitenciaria y cooperación regional" }
-    ],
+    videoLinks: [],
     moreInfo: [
       "Jorge Nieto Montesinos es abogado y politólogo con una larga carrera en el servicio público peruano. Ha ocupado los cargos de ministro del Interior, ministro de Defensa y presidente del Consejo de Ministros en distintas administraciones. Académicamente, ha sido profesor de ciencia política en la PUCP y es autor de varios libros sobre reforma policial y seguridad democrática en América Latina.",
       "Acción Popular, fundado en 1956 por Fernando Belaúnde Terry, es uno de los partidos más antiguos del Perú. Gobernó el país en dos períodos (1963-1968 y 1980-1985) y ha mantenido una presencia parlamentaria continua en las últimas décadas. Ideológicamente se ubica en el centro-derecha con una tradición reformista y descentralista. La candidatura de Nieto busca actualizar el legado belaundista para los desafíos actuales.",
@@ -2465,10 +2450,7 @@ const news2026 = [
       { src: "https://picsum.photos/seed/mapa536g/800/500", caption: "Investigadores del Instituto de Estudios Peruanos presentan análisis de tendencias electorales" },
       { src: "https://picsum.photos/seed/mapa536h/800/500", caption: "Comunidades rurales andinas han sido determinantes en los resultados de múltiples elecciones" }
     ],
-    videoLinks: [
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "Cincuenta años de elecciones en el Perú: cómo cambió el mapa político" },
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "Fernando Tuesta analiza las fracturas del electorado peruano en 2026" }
-    ],
+    videoLinks: [],
     moreInfo: [
       "El Perú retornó a la democracia electoral en 1980 tras doce años de gobierno militar bajo el general Juan Velasco Alvarado y su sucesor Francisco Morales Bermúdez. Desde entonces ha celebrado nueve elecciones presidenciales, con distintos grados de competitividad y limpieza. El ciclo 2016-2026 fue el más turbulento: cuatro presidentes distintos ocuparon el cargo en menos de una década, producto de vacancias, renuncias y el fallido intento de autogolpe de Pedro Castillo en diciembre de 2022.",
       "El sistema electoral peruano contempla dos vueltas cuando ningún candidato obtiene más del 50% más uno de los votos válidos en primera vuelta. Históricamente, solo Fernando Belaúnde en 1980 y Alberto Fujimori en 1995 han ganado en primera vuelta. El resto de presidentes electos ha requerido segunda vuelta, lo que ha dado lugar a alianzas electorales y transferencias de voto que a menudo reconfiguran radicalmente el mapa político entre ambas rondas.",
@@ -2526,10 +2508,7 @@ const news2026 = [
       { src: "https://picsum.photos/seed/tiktok537e/800/500", caption: "Un candidato graba contenido para TikTok con su equipo de comunicación digital" },
       { src: "https://picsum.photos/seed/tiktok537f/800/500", caption: "Paneles digitales muestran métricas de alcance de las campañas en redes sociales" }
     ],
-    videoLinks: [
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "La campaña digital: cómo los candidatos pelean por el voto joven en TikTok" },
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "Influencers y política: el negocio detrás de la publicidad electoral encubierta" }
-    ],
+    videoLinks: [],
     moreInfo: [
       "TikTok llegó al Perú en 2019 y creció exponencialmente durante la pandemia de COVID-19. En 2026, la plataforma registra 11.4 millones de usuarios activos en el país, de los cuales el 37% tiene entre 18 y 29 años. Su algoritmo de recomendación basado en el comportamiento del usuario —no en la red social del mismo— lo hace especialmente efectivo para alcanzar audiencias nuevas sin necesidad de una base de seguidores previa.",
       "La regulación de la publicidad política en redes sociales es uno de los vacíos normativos más urgentes del sistema electoral peruano. La Ley Orgánica de Elecciones y el Reglamento de Propaganda Electoral del JNE fueron diseñados en una época de televisión y medios impresos, y no contemplan adecuadamente las características específicas de las plataformas digitales. El JNE ha propuesto al Congreso una actualización normativa que aún no ha sido aprobada.",
@@ -2588,10 +2567,7 @@ const news2026 = [
       { src: "https://picsum.photos/seed/jne538f/800/500", caption: "Ciudadanos enviaron más de 180 mil preguntas para el ciclo de debates presidenciales" },
       { src: "https://picsum.photos/seed/jne538g/800/500", caption: "El equipo técnico del JNE coordina la producción televisiva del debate presidencial" }
     ],
-    videoLinks: [
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "JNE presenta el calendario completo de debates presidenciales 2026: horarios y sedes" },
-      { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", title: "Transmisión oficial: Primera jornada del Debate Presidencial 2026 — Lima" }
-    ],
+    videoLinks: [],
     moreInfo: [
       "El Jurado Nacional de Elecciones (JNE) es el organismo constitucional autónomo encargado de administrar justicia en materia electoral, mantener y custodiar el Registro de Organizaciones Políticas y velar por el cumplimiento de las normas electorales. Tiene su sede en Lima y está compuesto por cinco miembros elegidos por distintas instituciones: la Corte Suprema, la Junta de Fiscales Supremos, el Colegio de Abogados de Lima, los decanos de las facultades de Derecho de las universidades públicas y privadas.",
       "Los debates presidenciales en el Perú tienen una historia que se remonta a 1990, cuando Alberto Fujimori y Mario Vargas Llosa protagonizaron el enfrentamiento televisivo que muchos analistas consideran el más importante de la historia electoral peruana. Desde entonces, los debates se han convertido en un elemento central de la campaña, aunque su formato y organización han variado significativamente según el ciclo electoral.",
