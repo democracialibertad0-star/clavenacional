@@ -5,7 +5,11 @@ import { Header } from './components/Header'
 import { NewsCard } from './components/NewsCard'
 import { ArticleView } from './components/ArticleView'
 import { ReportersPage } from './components/ReportersPage'
-import { TerminosPage, PrivacidadPage, CookiesPage } from './components/LegalPages'
+import {
+  TerminosPage, PrivacidadPage, CookiesPage,
+  CopyrightPage, DerechosLectorPage, PublicidadPage,
+  ContactoPage, EticaEditorialPage, NewsletterPage,
+} from './components/LegalPages'
 import { AdminPanel } from './components/AdminPanel'
 import { ImageWithFallback } from './components/ImageWithFallback'
 import { Footer } from './components/Footer'
@@ -445,6 +449,12 @@ export default function App() {
         <Route path="/terminos" element={<TerminosPage />} />
         <Route path="/privacidad" element={<PrivacidadPage />} />
         <Route path="/cookies" element={<CookiesPage />} />
+        <Route path="/copyright" element={<CopyrightPage />} />
+        <Route path="/derechos-lector" element={<DerechosLectorPage />} />
+        <Route path="/publicidad" element={<PublicidadPage />} />
+        <Route path="/contacto" element={<ContactoPage />} />
+        <Route path="/etica-editorial" element={<EticaEditorialPage />} />
+        <Route path="/newsletter" element={<NewsletterPage />} />
         <Route path="/admin" element={<AdminPanel />} />
       </Routes>
       <Footer />
