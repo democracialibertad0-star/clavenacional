@@ -1464,6 +1464,208 @@ h1, h2, h3, h4 {
   .hero-sidebar { flex-direction: column; }
 }
 
+/* ========== COOKIE BANNER ========== */
+.cookie-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1a1a1a;
+  color: #ccc;
+  z-index: 9999;
+  padding: 0;
+  box-shadow: 0 -4px 20px rgba(0,0,0,.3);
+  animation: slideUp .4s ease-out;
+}
+@keyframes slideUp {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+.cookie-banner-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 20px;
+  flex-wrap: wrap;
+}
+.cookie-text {
+  flex: 1;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  min-width: 280px;
+}
+.cookie-link {
+  color: var(--azul);
+  text-decoration: underline;
+}
+.cookie-actions {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+.cookie-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all .2s;
+}
+.cookie-btn-accept {
+  background: var(--rojo);
+  color: #fff;
+}
+.cookie-btn-accept:hover { background: #a93226; }
+.cookie-btn-reject {
+  background: transparent;
+  color: #999;
+  border: 1px solid #444;
+}
+.cookie-btn-reject:hover { background: #2a2a2a; color: #fff; }
+
+/* ========== NEWSLETTER POPUP ========== */
+.nl-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.6);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  animation: fadeIn .3s ease-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.nl-popup {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px 36px;
+  max-width: 480px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0,0,0,.3);
+  animation: popIn .3s ease-out;
+}
+@keyframes popIn {
+  from { transform: scale(.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+.nl-close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #999;
+  line-height: 1;
+  transition: color .2s;
+}
+.nl-close:hover { color: var(--negro); }
+.nl-header { text-align: center; margin-bottom: 24px; }
+.nl-badge {
+  display: inline-block;
+  background: var(--rojo);
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 14px;
+}
+.nl-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+.nl-desc {
+  font-size: 0.9rem;
+  color: var(--texto-sec);
+  line-height: 1.6;
+}
+.nl-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.nl-email {
+  padding: 14px 16px;
+  border: 2px solid var(--borde);
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color .2s;
+}
+.nl-email:focus {
+  outline: none;
+  border-color: var(--rojo);
+}
+.nl-submit {
+  padding: 14px;
+  background: var(--rojo);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: inherit;
+  transition: background .2s;
+}
+.nl-submit:hover { background: #a93226; }
+.nl-privacy {
+  font-size: 0.72rem;
+  color: #999;
+  text-align: center;
+  margin-top: 12px;
+  line-height: 1.5;
+}
+.nl-success {
+  text-align: center;
+  padding: 20px 0;
+}
+.nl-success-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #27AE60;
+  color: #fff;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+}
+.nl-success h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+.nl-success p {
+  color: var(--texto-sec);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .cookie-banner-inner { flex-direction: column; text-align: center; }
+  .cookie-actions { width: 100%; justify-content: center; }
+  .nl-popup { padding: 30px 20px; }
+  .nl-title { font-size: 1.3rem; }
+}
+
 /* ========== ADMIN PANEL ========== */
 .admin-panel {
   max-width: 1400px;

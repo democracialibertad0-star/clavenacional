@@ -13,6 +13,8 @@ import {
 import { AdminPanel } from './components/AdminPanel'
 import { ImageWithFallback } from './components/ImageWithFallback'
 import { Footer } from './components/Footer'
+import { CookieBanner } from './components/CookieBanner'
+import { NewsletterPopup } from './components/NewsletterPopup'
 import { REPORTERS } from './data/reporters'
 import allNews from './data/index'
 
@@ -458,6 +460,8 @@ export default function App() {
         <Route path="/admin" element={<AdminPanel />} />
       </Routes>
       <Footer />
+      <CookieBanner />
+      <NewsletterPopup />
     </>
   )
 }
