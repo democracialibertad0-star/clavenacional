@@ -1,4 +1,4 @@
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 const CATEGORIES = [
   'Todas', 'Politica', 'Tecnologia', 'Videojuegos',
@@ -12,10 +12,20 @@ const MONTHS = [
 
 export function Header({ activeCategory, onCategoryChange }) {
   const location = useLocation()
+  const navigate = useNavigate()
   const isHome = location.pathname === '/'
 
   const now = new Date()
   const dateStr = `${now.getDate()} de ${MONTHS[now.getMonth() + 1]} de ${now.getFullYear()}`
+
+  const handleCategoryClick = (cat) => {
+    if (isHome && onCategoryChange) {
+      onCategoryChange(cat)
+    } else {
+      // Navigate to home with category param
+      navigate(cat === 'Todas' ? '/' : `/?cat=${encodeURIComponent(cat)}`)
+    }
+  }
 
   return (
     <header className="site-header">
@@ -29,18 +39,18 @@ export function Header({ activeCategory, onCategoryChange }) {
           </div>
           <div className="header-date">
             <div>{dateStr}</div>
-            <div style={{ fontSize: '0.7rem', marginTop: 2 }}>Desde 2018 | Chimbote, Peru</div>
+            <div style={{ fontSize: '0.7rem', marginTop: 2 }}>Desde 2018 | Chimbote, Perú</div>
           </div>
         </div>
         <nav className="header-nav">
-          {isHome && CATEGORIES.map(cat => (
+          {CATEGORIES.map(cat => (
             <span
               key={cat}
-              className={`nav-link ${activeCategory === cat ? 'active' : ''}`}
-              onClick={() => onCategoryChange(cat)}
+              className={`nav-link ${isHome && activeCategory === cat ? 'active' : ''}`}
+              onClick={() => handleCategoryClick(cat)}
             >
-              {cat === 'Politica' ? 'Politica' :
-               cat === 'Tecnologia' ? 'Tecnologia' :
+              {cat === 'Politica' ? 'Política' :
+               cat === 'Tecnologia' ? 'Tecnología' :
                cat === 'Noticias Locales' ? 'Locales' : cat}
             </span>
           ))}

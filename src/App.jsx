@@ -1,5 +1,5 @@
-import { useState, useMemo } from 'react'
-import { Routes, Route, useNavigate, useParams } from 'react-router-dom'
+import { useState, useMemo, useEffect } from 'react'
+import { Routes, Route, useNavigate, useParams, useSearchParams } from 'react-router-dom'
 import { Ticker } from './components/Ticker'
 import { Header } from './components/Header'
 import { NewsCard } from './components/NewsCard'
@@ -119,10 +119,17 @@ function ArchiveAccordion({ years, sortedAll, activeYear, setActiveYear, activeM
 
 function HomePage() {
   const navigate = useNavigate()
-  const [activeCategory, setActiveCategory] = useState('Todas')
+  const [searchParams] = useSearchParams()
+  const catParam = searchParams.get('cat')
+  const [activeCategory, setActiveCategory] = useState(catParam || 'Todas')
   const [activeYear, setActiveYear] = useState(null)
   const [activeMonth, setActiveMonth] = useState(null)
   const [searchQuery, setSearchQuery] = useState('')
+
+  // Sync category from URL params (when navigating from other pages)
+  useEffect(() => {
+    if (catParam) setActiveCategory(catParam)
+  }, [catParam])
 
   const sortedAll = useMemo(() =>
     [...allNews].sort((a, b) =>
