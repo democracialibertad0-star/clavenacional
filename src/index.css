@@ -1099,6 +1099,28 @@ h1, h2, h3, h4 {
 .reporter-of-day {
   text-align: center;
 }
+.sidebar-nl-input {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--borde);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-family: inherit;
+  margin-bottom: 8px;
+}
+.sidebar-nl-btn {
+  width: 100%;
+  padding: 8px;
+  background: var(--rojo);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+.sidebar-nl-btn:hover { background: #a93226; }
 
 /* Sidebar rank number */
 .sidebar-rank {

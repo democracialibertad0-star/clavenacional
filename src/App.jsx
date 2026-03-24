@@ -358,22 +358,14 @@ function HomePage() {
               />
             </div>
 
-            {/* Reporter of the day */}
-            <div className="sidebar-box reporter-of-day">
-              <h3 className="sidebar-title">Reportero del Día</h3>
-              <div className="reporter-avatar-lg" style={{ background: todayReporter.color }}>
-                {todayReporter.avatar}
-              </div>
-              <div className="reporter-name" style={{ marginBottom: 4 }}>{todayReporter.name}</div>
-              <div style={{ fontSize: '0.78rem', color: '#666', marginBottom: 8 }}>
-                @{todayReporter.alias}
-              </div>
-              <div style={{ fontSize: '0.8rem', fontWeight: 600, color: todayReporter.color }}>
-                {todayReporter.specialty}
-              </div>
-              <p style={{ fontSize: '0.82rem', color: '#555', marginTop: 8, lineHeight: 1.5 }}>
-                {todayReporter.bio}
+            {/* Newsletter sidebar */}
+            <div className="sidebar-box sidebar-newsletter">
+              <h3 className="sidebar-title">Newsletter</h3>
+              <p style={{ fontSize: '0.85rem', color: '#555', marginBottom: 12, lineHeight: 1.5 }}>
+                Recibe las noticias más importantes cada semana en tu correo.
               </p>
+              <input type="email" placeholder="Tu correo" className="sidebar-nl-input" />
+              <button className="sidebar-nl-btn">Suscribirse</button>
             </div>
 
             {/* Categories */}
