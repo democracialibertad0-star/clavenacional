@@ -54,7 +54,6 @@ export function Header({ activeCategory, onCategoryChange }) {
                cat === 'Noticias Locales' ? 'Locales' : cat}
             </span>
           ))}
-          <Link to="/reporteros" className="nav-link">Reporteros</Link>
           <Link to="/acerca" className="nav-link">Acerca</Link>
         </nav>
       </div>
