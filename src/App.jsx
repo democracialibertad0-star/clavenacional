@@ -122,7 +122,11 @@ function HomePage() {
   const [searchQuery, setSearchQuery] = useState('')
 
   const sortedAll = useMemo(() =>
-    [...allNews].sort((a, b) => b.year - a.year || (b.month || 0) - (a.month || 0)),
+    [...allNews].sort((a, b) =>
+      (b.featured ? 1 : 0) - (a.featured ? 1 : 0) ||
+      b.year - a.year ||
+      (b.month || 0) - (a.month || 0)
+    ),
     []
   )
 
@@ -442,7 +446,7 @@ function AboutPage() {
 export default function App() {
   return (
     <>
-      <Ticker news={[...allNews].sort((a, b) => b.year - a.year || (b.month || 0) - (a.month || 0))} />
+      <Ticker news={[...allNews].sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || b.year - a.year || (b.month || 0) - (a.month || 0))} />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/articulo/:id" element={<ArticlePage />} />
