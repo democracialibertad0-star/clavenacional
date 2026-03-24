@@ -1,62 +1,99 @@
 import { Link } from 'react-router-dom'
 
+const CATEGORIAS = [
+  { label: 'Política',        slug: 'politica' },
+  { label: 'Tecnología',      slug: 'tecnologia' },
+  { label: 'Videojuegos',     slug: 'videojuegos' },
+  { label: 'Festividades',    slug: 'festividades' },
+  { label: 'Noticias Locales', slug: 'locales' },
+  { label: 'Internacional',   slug: 'internacional' },
+]
+
 export function Footer() {
   return (
     <footer className="site-footer">
       <div className="container">
+
         <div className="footer-grid">
-          <div>
-            <h4 className="footer-title">Mundoscopio</h4>
+
+          {/* Column 1 — Brand */}
+          <div className="footer-col footer-col--brand">
+            <span className="footer-logo">Mundoscopio</span>
             <p className="footer-text">
-              Noticiero digital peruano potenciado por inteligencia artificial.
-              Cubrimos Peru y el mundo desde 2018 con un equipo de 6 reporteros IA
-              especializados en politica, tecnologia, videojuegos, festividades,
-              noticias locales e internacional.
+              Noticiero digital peruano. Cubrimos Perú y el mundo desde 2018.
             </p>
+            <p className="footer-meta">Fundado en Chimbote, Áncash.</p>
           </div>
-          <div>
-            <h4 className="footer-title">Secciones</h4>
+
+          {/* Column 2 — Secciones */}
+          <div className="footer-col">
+            <h4 className="footer-heading">Secciones</h4>
             <ul className="footer-links">
               <li><Link to="/">Inicio</Link></li>
               <li><Link to="/reporteros">Reporteros</Link></li>
               <li><Link to="/acerca">Acerca de</Link></li>
-            </ul>
-            <h4 className="footer-title" style={{ marginTop: 16 }}>Categorias</h4>
-            <ul className="footer-links">
-              <li><a href="#">Politica</a></li>
-              <li><a href="#">Tecnologia</a></li>
-              <li><a href="#">Videojuegos</a></li>
-              <li><a href="#">Festividades</a></li>
-              <li><a href="#">Noticias Locales</a></li>
-              <li><a href="#">Internacional</a></li>
+              <li><Link to="/newsletter">Newsletter</Link></li>
+              <li><Link to="/contacto">Contacto</Link></li>
             </ul>
           </div>
-          <div>
-            <h4 className="footer-title">Legal</h4>
+
+          {/* Column 3 — Categorías */}
+          <div className="footer-col">
+            <h4 className="footer-heading">Categorías</h4>
             <ul className="footer-links">
-              <li><Link to="/terminos">Terminos y Condiciones</Link></li>
-              <li><Link to="/privacidad">Politica de Privacidad</Link></li>
-              <li><Link to="/cookies">Politica de Cookies</Link></li>
-            </ul>
-            <h4 className="footer-title" style={{ marginTop: 16 }}>Contacto</h4>
-            <ul className="footer-links">
-              <li><a href="mailto:mundoscopio@noticiero.pe">mundoscopio@noticiero.pe</a></li>
-              <li><span style={{ color: '#aaa', fontSize: '0.82rem' }}>Nuevo Chimbote, Ancash, Peru</span></li>
-              <li><span style={{ color: '#aaa', fontSize: '0.82rem' }}>Fundado: 23 de marzo de 2018</span></li>
+              {CATEGORIAS.map(({ label, slug }) => (
+                <li key={slug}>
+                  <Link to={`/?categoria=${slug}`}>{label}</Link>
+                </li>
+              ))}
             </ul>
           </div>
-        </div>
+
+          {/* Column 4 — Legal */}
+          <div className="footer-col">
+            <h4 className="footer-heading">Legal</h4>
+            <ul className="footer-links">
+              <li><Link to="/terminos">Términos y Condiciones</Link></li>
+              <li><Link to="/privacidad">Política de Privacidad</Link></li>
+              <li><Link to="/cookies">Política de Cookies</Link></li>
+              <li><Link to="/copyright">Aviso de Copyright</Link></li>
+              <li><Link to="/derechos-lector">Derechos del Lector</Link></li>
+              <li><Link to="/etica-editorial">Ética Editorial</Link></li>
+            </ul>
+          </div>
+
+          {/* Column 5 — Acerca de */}
+          <div className="footer-col">
+            <h4 className="footer-heading">Acerca de</h4>
+            <ul className="footer-links">
+              <li><Link to="/publicidad">Publicidad</Link></li>
+              <li><Link to="/contacto">Contacto</Link></li>
+              <li>
+                <a href="mailto:mundoscopio@noticiero.pe">
+                  mundoscopio@noticiero.pe
+                </a>
+              </li>
+            </ul>
+          </div>
+
+        </div>{/* /footer-grid */}
+
         <div className="footer-bottom">
-          Mundoscopio 2018-2026. Todos los derechos reservados.
-          <br />
-          Contenido editorial asistido por inteligencia artificial. Hecho desde Chimbote, Ancash, Peru.
-          <br />
-          <Link to="/terminos" style={{ color: '#888' }}>Terminos</Link>
-          {' · '}
-          <Link to="/privacidad" style={{ color: '#888' }}>Privacidad</Link>
-          {' · '}
-          <Link to="/cookies" style={{ color: '#888' }}>Cookies</Link>
+          <div className="footer-bottom-left">
+            <span>© 2018–2026 Mundoscopio. Todos los derechos reservados.</span>
+            <span className="footer-bottom-location">Hecho desde Chimbote, Áncash, Perú</span>
+          </div>
+          <div className="footer-bottom-links">
+            <Link to="/terminos">Términos</Link>
+            <span className="footer-dot" aria-hidden="true">·</span>
+            <Link to="/privacidad">Privacidad</Link>
+            <span className="footer-dot" aria-hidden="true">·</span>
+            <Link to="/cookies">Cookies</Link>
+            <span className="footer-dot" aria-hidden="true">·</span>
+            <Link to="/copyright">Copyright</Link>
+          </div>
         </div>
+
       </div>
     </footer>
   )

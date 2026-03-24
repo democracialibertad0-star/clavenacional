@@ -30,6 +30,84 @@ function getCatClass(cat) {
   return map[cat] || 'politica'
 }
 
+function CategoryStrip({ articles, category, onArticleClick }) {
+  return (
+    <div className="cat-strip">
+      <div className="cat-strip-header">
+        <h2 className="cat-strip-title">{category}</h2>
+      </div>
+      <div className="cat-strip-scroll">
+        {articles.map(news => (
+          <div key={news.id} className="cat-strip-card" onClick={() => onArticleClick(news)}>
+            <div className="cat-strip-img">
+              <ImageWithFallback
+                news={news}
+                style={{ width: '100%', height: '100%' }}
+                showCaption={false}
+              />
+            </div>
+            <div className="cat-strip-body">
+              <span className={`cat-strip-label cat-${getCatClass(news.cat)}`}>{news.cat}</span>
+              <h3 className="cat-strip-card-title">{news.title}</h3>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function ArchiveAccordion({ years, sortedAll, activeYear, setActiveYear, activeMonth, setActiveMonth, MONTH_NAMES }) {
+  const getMonthsForYear = (year) => {
+    const months = new Set()
+    sortedAll.filter(n => n.year === year).forEach(n => { if (n.month) months.add(n.month) })
+    return Array.from(months).sort((a, b) => b - a)
+  }
+
+  const getCountForYear = (year) => sortedAll.filter(n => n.year === year).length
+
+  return (
+    <div className="archive-accordion">
+      <h3 className="sidebar-title">Archivo</h3>
+      {years.map(y => {
+        const isOpen = activeYear === y
+        const months = getMonthsForYear(y)
+        return (
+          <div key={y} className="archive-year-group">
+            <button
+              className={`archive-year-btn ${isOpen ? 'open' : ''}`}
+              onClick={() => { setActiveYear(isOpen ? null : y); setActiveMonth(null) }}
+            >
+              <span>{y}</span>
+              <span className="archive-year-count">{getCountForYear(y)}</span>
+              <span className="archive-chevron">{isOpen ? '▾' : '▸'}</span>
+            </button>
+            {isOpen && (
+              <div className="archive-months">
+                <button
+                  className={`archive-month-btn ${!activeMonth ? 'active' : ''}`}
+                  onClick={() => setActiveMonth(null)}
+                >
+                  Todo {y}
+                </button>
+                {months.map(m => (
+                  <button
+                    key={m}
+                    className={`archive-month-btn ${activeMonth === m ? 'active' : ''}`}
+                    onClick={() => setActiveMonth(activeMonth === m ? null : m)}
+                  >
+                    {MONTH_NAMES[m]}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
 function HomePage() {
   const navigate = useNavigate()
   const [activeCategory, setActiveCategory] = useState('Todas')
@@ -44,16 +122,9 @@ function HomePage() {
 
   const filteredNews = useMemo(() => {
     let news = sortedAll
-
-    if (activeCategory !== 'Todas') {
-      news = news.filter(n => n.cat === activeCategory)
-    }
-    if (activeYear) {
-      news = news.filter(n => n.year === activeYear)
-    }
-    if (activeMonth) {
-      news = news.filter(n => n.month === activeMonth)
-    }
+    if (activeCategory !== 'Todas') news = news.filter(n => n.cat === activeCategory)
+    if (activeYear) news = news.filter(n => n.year === activeYear)
+    if (activeMonth) news = news.filter(n => n.month === activeMonth)
     if (searchQuery.trim()) {
       const q = searchQuery.toLowerCase()
       news = news.filter(n =>
@@ -65,25 +136,21 @@ function HomePage() {
     return news
   }, [sortedAll, activeCategory, activeYear, activeMonth, searchQuery])
 
-  // Get available months for selected year
-  const availableMonths = useMemo(() => {
-    if (!activeYear) return []
-    const months = new Set()
-    sortedAll.filter(n => n.year === activeYear).forEach(n => {
-      if (n.month) months.add(n.month)
-    })
-    return Array.from(months).sort((a, b) => a - b)
-  }, [sortedAll, activeYear])
-
-  const heroNews = filteredNews.slice(0, 3)
-  const restNews = filteredNews.slice(3)
-  const latestNews = sortedAll.slice(0, 8)
+  const heroNews = filteredNews.slice(0, 4)
+  const restNews = filteredNews.slice(4)
+  const latestNews = sortedAll.slice(0, 10)
   const todayReporter = REPORTERS[new Date().getDay() % REPORTERS.length]
 
-  const handleArticleClick = (news) => {
-    navigate(`/articulo/${news.id}`)
-  }
+  // Category sections for homepage strips
+  const catSections = useMemo(() => {
+    const cats = ['Politica', 'Tecnologia', 'Internacional', 'Videojuegos', 'Noticias Locales', 'Festividades']
+    return cats.map(cat => ({
+      cat,
+      articles: sortedAll.filter(n => n.cat === cat).slice(0, 6)
+    })).filter(s => s.articles.length > 0)
+  }, [sortedAll])
 
+  // Grouped by month for archive view
   const groupedByMonth = useMemo(() => {
     if (!activeYear) return null
     const groups = {}
@@ -101,10 +168,16 @@ function HomePage() {
       }))
   }, [restNews, activeYear])
 
+  const handleArticleClick = (news) => navigate(`/articulo/${news.id}`)
+
+  const isFiltering = activeCategory !== 'Todas' || activeYear || searchQuery.trim()
+
   return (
     <>
       <Header activeCategory={activeCategory} onCategoryChange={setActiveCategory} />
       <div className="container">
+
+        {/* Search bar */}
         <div className="search-bar">
           <input
             className="search-input"
@@ -113,45 +186,10 @@ function HomePage() {
             value={searchQuery}
             onChange={e => setSearchQuery(e.target.value)}
           />
-          <div className="year-filters">
-            <button
-              className={`year-btn ${!activeYear ? 'active' : ''}`}
-              onClick={() => { setActiveYear(null); setActiveMonth(null) }}
-            >
-              Todos
-            </button>
-            {YEARS.map(y => (
-              <button
-                key={y}
-                className={`year-btn ${activeYear === y ? 'active' : ''}`}
-                onClick={() => { setActiveYear(activeYear === y ? null : y); setActiveMonth(null) }}
-              >
-                {y}
-              </button>
-            ))}
-          </div>
-          {activeYear && availableMonths.length > 0 && (
-            <div className="year-filters" style={{ marginTop: 8 }}>
-              <button
-                className={`year-btn ${!activeMonth ? 'active' : ''}`}
-                onClick={() => setActiveMonth(null)}
-              >
-                Todo {activeYear}
-              </button>
-              {availableMonths.map(m => (
-                <button
-                  key={m}
-                  className={`year-btn ${activeMonth === m ? 'active' : ''}`}
-                  onClick={() => setActiveMonth(activeMonth === m ? null : m)}
-                >
-                  {MONTH_NAMES[m]}
-                </button>
-              ))}
-            </div>
-          )}
         </div>
 
-        {heroNews.length >= 3 && (
+        {/* Hero section */}
+        {heroNews.length >= 4 && !isFiltering && (
           <div className="hero-grid">
             <div className="hero-main" onClick={() => handleArticleClick(heroNews[0])}>
               <ImageWithFallback
@@ -160,10 +198,7 @@ function HomePage() {
                 showCaption={false}
               />
               <div className="hero-overlay">
-                <span
-                  className="hero-cat"
-                  style={{ background: REPORTERS.find(r => r.id === heroNews[0].reporter)?.color }}
-                >
+                <span className="hero-cat" style={{ background: REPORTERS.find(r => r.id === heroNews[0].reporter)?.color }}>
                   {heroNews[0].cat}
                 </span>
                 <h2 className="hero-title">{heroNews[0].title}</h2>
@@ -171,22 +206,15 @@ function HomePage() {
               </div>
             </div>
             <div className="hero-sidebar">
-              {heroNews.slice(1, 3).map(news => (
-                <div
-                  key={news.id}
-                  className="hero-side-card"
-                  onClick={() => handleArticleClick(news)}
-                >
+              {heroNews.slice(1, 4).map(news => (
+                <div key={news.id} className="hero-side-card" onClick={() => handleArticleClick(news)}>
                   <ImageWithFallback
                     news={news}
                     style={{ width: '100%', height: '100%', position: 'absolute', inset: 0 }}
                     showCaption={false}
                   />
                   <div className="hero-overlay">
-                    <span
-                      className="hero-cat"
-                      style={{ background: REPORTERS.find(r => r.id === news.reporter)?.color }}
-                    >
+                    <span className="hero-cat" style={{ background: REPORTERS.find(r => r.id === news.reporter)?.color }}>
                       {news.cat}
                     </span>
                     <h2 className="hero-title">{news.title}</h2>
@@ -197,59 +225,122 @@ function HomePage() {
           </div>
         )}
 
+        {/* Trending bar */}
+        {!isFiltering && (
+          <div className="trending-bar">
+            <span className="trending-label">Tendencias</span>
+            {sortedAll.slice(0, 5).map((n, i) => (
+              <span key={n.id} className="trending-item" onClick={() => handleArticleClick(n)}>
+                <span className="trending-num">{i + 1}</span>
+                {n.title.length > 55 ? n.title.slice(0, 55) + '...' : n.title}
+              </span>
+            ))}
+          </div>
+        )}
+
         <div className="main-layout">
-          <div>
-            <div className="news-section">
-              <h2 className="section-title">
-                {activeCategory !== 'Todas' ? activeCategory :
-                 activeYear ? `Noticias ${activeYear}` : 'Ultimas Noticias'}
-                <span className="section-count">{filteredNews.length} articulos</span>
-              </h2>
+          <div className="main-content">
+            {isFiltering ? (
+              /* Filtered/archive view */
+              <div className="news-section">
+                <h2 className="section-title">
+                  {activeCategory !== 'Todas' ? activeCategory :
+                   activeYear ? `Noticias ${activeYear}` : 'Resultados'}
+                  <span className="section-count">{filteredNews.length} artículos</span>
+                </h2>
 
-              {activeYear && groupedByMonth ? (
-                groupedByMonth.map(group => (
-                  <div key={group.month}>
-                    <div className="month-label">{group.label} {activeYear}</div>
-                    <div className="news-grid">
-                      {group.articles.map(news => (
-                        <NewsCard key={news.id} news={news} onClick={handleArticleClick} />
-                      ))}
+                {activeYear && groupedByMonth ? (
+                  groupedByMonth.map(group => (
+                    <div key={group.month} className="month-group">
+                      <div className="month-group-header">
+                        <span className="month-group-name">{group.label}</span>
+                        <span className="month-group-count">{group.articles.length}</span>
+                      </div>
+                      <div className="news-grid">
+                        {group.articles.map(news => (
+                          <NewsCard key={news.id} news={news} onClick={handleArticleClick} />
+                        ))}
+                      </div>
                     </div>
+                  ))
+                ) : (
+                  <div className="news-grid">
+                    {filteredNews.map(news => (
+                      <NewsCard key={news.id} news={news} onClick={handleArticleClick} />
+                    ))}
                   </div>
-                ))
-              ) : (
-                <div className="news-grid">
-                  {restNews.map(news => (
-                    <NewsCard key={news.id} news={news} onClick={handleArticleClick} />
-                  ))}
-                </div>
-              )}
+                )}
 
-              {filteredNews.length === 0 && (
-                <p style={{ textAlign: 'center', color: '#999', padding: '40px 0' }}>
-                  No se encontraron noticias con esos filtros.
-                </p>
-              )}
-            </div>
+                {filteredNews.length === 0 && (
+                  <p style={{ textAlign: 'center', color: '#999', padding: '40px 0' }}>
+                    No se encontraron noticias con esos filtros.
+                  </p>
+                )}
+              </div>
+            ) : (
+              /* Homepage category strips */
+              <>
+                {/* Latest news section */}
+                <div className="news-section">
+                  <h2 className="section-title">Últimas Noticias</h2>
+                  <div className="news-grid">
+                    {sortedAll.slice(4, 10).map(news => (
+                      <NewsCard key={news.id} news={news} onClick={handleArticleClick} />
+                    ))}
+                  </div>
+                </div>
+
+                {/* Newsletter CTA */}
+                <div className="newsletter-cta">
+                  <div className="newsletter-cta-text">
+                    <h3>Suscríbete al newsletter de Mundoscopio</h3>
+                    <p>Recibe las noticias más importantes cada semana en tu correo.</p>
+                  </div>
+                  <div className="newsletter-cta-form">
+                    <input type="email" placeholder="Tu correo electrónico" className="newsletter-input" />
+                    <button className="newsletter-btn">Suscribirse</button>
+                  </div>
+                </div>
+
+                {/* Category strips */}
+                {catSections.map(({ cat, articles }) => (
+                  <CategoryStrip key={cat} articles={articles} category={cat} onArticleClick={handleArticleClick} />
+                ))}
+              </>
+            )}
           </div>
 
           <aside className="sidebar">
+            {/* Trending sidebar */}
             <div className="sidebar-box">
-              <h3 className="sidebar-title">Ultimas Noticias</h3>
-              {latestNews.map(news => (
-                <div
-                  key={news.id}
-                  className="sidebar-news-item"
-                  onClick={() => handleArticleClick(news)}
-                >
-                  <div className="sidebar-news-title">{news.title}</div>
-                  <div className="sidebar-news-meta">{news.cat} · {news.year}</div>
+              <h3 className="sidebar-title">Lo Más Leído</h3>
+              {latestNews.map((news, i) => (
+                <div key={news.id} className="sidebar-news-item" onClick={() => handleArticleClick(news)}>
+                  <span className="sidebar-rank">{i + 1}</span>
+                  <div>
+                    <div className="sidebar-news-title">{news.title}</div>
+                    <div className="sidebar-news-meta">{news.cat} · {MONTH_NAMES[news.month]} {news.year}</div>
+                  </div>
                 </div>
               ))}
             </div>
 
+            {/* Archive accordion */}
+            <div className="sidebar-box">
+              <ArchiveAccordion
+                years={YEARS}
+                sortedAll={sortedAll}
+                activeYear={activeYear}
+                setActiveYear={setActiveYear}
+                activeMonth={activeMonth}
+                setActiveMonth={setActiveMonth}
+                MONTH_NAMES={MONTH_NAMES}
+              />
+            </div>
+
+            {/* Reporter of the day */}
             <div className="sidebar-box reporter-of-day">
-              <h3 className="sidebar-title">Reportero del Dia</h3>
+              <h3 className="sidebar-title">Reportero del Día</h3>
               <div className="reporter-avatar-lg" style={{ background: todayReporter.color }}>
                 {todayReporter.avatar}
               </div>
@@ -265,28 +356,22 @@ function HomePage() {
               </p>
             </div>
 
+            {/* Categories */}
             <div className="sidebar-box">
-              <h3 className="sidebar-title">Categorias</h3>
+              <h3 className="sidebar-title">Categorías</h3>
               {['Politica', 'Tecnologia', 'Videojuegos', 'Festividades', 'Noticias Locales', 'Internacional'].map(cat => {
                 const count = allNews.filter(n => n.cat === cat).length
                 return (
                   <div
                     key={cat}
-                    style={{
-                      display: 'flex', justifyContent: 'space-between',
-                      padding: '6px 0', fontSize: '0.85rem',
-                      cursor: 'pointer', borderBottom: '1px solid #f0f0f0'
-                    }}
+                    className="sidebar-cat-row"
                     onClick={() => { setActiveCategory(cat); window.scrollTo(0, 0) }}
                   >
                     <span style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
-                      <span
-                        style={{ width: 10, height: 10, borderRadius: 2, display: 'inline-block' }}
-                        className={`cat-bar-${getCatClass(cat)}`}
-                      />
+                      <span className={`cat-dot cat-bar-${getCatClass(cat)}`} />
                       {cat}
                     </span>
-                    <span style={{ color: '#999', fontWeight: 600 }}>{count}</span>
+                    <span className="sidebar-cat-count">{count}</span>
                   </div>
                 )
               })}
@@ -319,24 +404,23 @@ function AboutPage() {
     <div className="about-page">
       <h1>Acerca de Mundoscopio</h1>
       <p>
-        <strong>Mundoscopio</strong> es un noticiero digital peruano potenciado por
-        inteligencia artificial, fundado el 23 de marzo de 2018 en Chimbote, Ancash.
+        <strong>Mundoscopio</strong> es un noticiero digital peruano fundado el
+        23 de marzo de 2018 en Chimbote, Áncash.
       </p>
       <p>
-        Nuestro equipo esta conformado por 6 reporteros de IA, cada uno especializado
-        en una categoria informativa: Politica, Tecnologia, Videojuegos, Festividades,
-        Noticias Locales (con enfoque en Ancash y el norte del Peru) e Internacional.
+        Nuestro equipo está conformado por 6 reporteros, cada uno especializado
+        en una categoría informativa: Política, Tecnología, Videojuegos, Festividades,
+        Noticias Locales (con enfoque en Áncash y el norte del Perú) e Internacional.
       </p>
       <p>
-        Todas las noticias publicadas en Mundoscopio estan basadas en eventos reales,
-        parafraseadas con estilo editorial propio. Utilizamos inteligencia artificial
-        para asistir en la redaccion, pero cada articulo se fundamenta en fuentes
-        periodisticas verificables como El Comercio, La Republica, RPP, BBC Mundo,
+        Todas las noticias publicadas en Mundoscopio están basadas en eventos reales,
+        redactadas con estilo editorial propio. Cada artículo se fundamenta en fuentes
+        periodísticas verificables como El Comercio, La República, RPP, BBC Mundo,
         entre otras.
       </p>
       <p>
-        Mundoscopio nacio con la vision de democratizar el acceso a la informacion
-        desde una perspectiva local, conectando Chimbote y Ancash con el Peru y el mundo.
+        Mundoscopio nació con la visión de democratizar el acceso a la información
+        desde una perspectiva local, conectando Chimbote y Áncash con el Perú y el mundo.
       </p>
       <p>
         <strong>Contacto:</strong> mundoscopio@noticiero.pe

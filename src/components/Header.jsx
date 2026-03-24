@@ -25,7 +25,7 @@ export function Header({ activeCategory, onCategoryChange }) {
             <Link to="/">
               <h1 className="masthead">Mundoscopio</h1>
             </Link>
-            <div className="masthead-sub">Noticiero Digital Peruano potenciado por IA</div>
+            <div className="masthead-sub">Noticiero Digital Peruano</div>
           </div>
           <div className="header-date">
             <div>{dateStr}</div>

@@ -2,7 +2,7 @@ export const REPORTERS = [
   {
     id: "r1",
     name: "Maria Quispe",
-    alias: "MQUISPE_IA",
+    alias: "MQUISPE",
     specialty: "Politica",
     origin: "Lima, Peru",
     avatar: "MQ",
@@ -12,17 +12,17 @@ export const REPORTERS = [
   {
     id: "r2",
     name: "Diego Fernandez",
-    alias: "DFERNANDEZ_IA",
+    alias: "DFERNANDEZ",
     specialty: "Tecnologia",
     origin: "Lima / San Francisco",
     avatar: "DF",
     color: "#2980B9",
-    bio: "Cobertura de IA, startups y transformacion digital. Corresponsal en Silicon Valley y Lima Tech Hub.",
+    bio: "Cobertura de startups, innovación y transformación digital. Corresponsal en Silicon Valley y Lima Tech Hub.",
   },
   {
     id: "r3",
     name: "Valentina Cruz",
-    alias: "VCRUZ_IA",
+    alias: "VCRUZ",
     specialty: "Videojuegos",
     origin: "Trujillo, Peru",
     avatar: "VC",
@@ -32,7 +32,7 @@ export const REPORTERS = [
   {
     id: "r4",
     name: "Carlos Huaman",
-    alias: "CHUAMAN_IA",
+    alias: "CHUAMAN",
     specialty: "Noticias Locales",
     origin: "Nuevo Chimbote, Ancash",
     avatar: "CH",
@@ -42,7 +42,7 @@ export const REPORTERS = [
   {
     id: "r5",
     name: "Sofia Paredes",
-    alias: "SPAREDES_IA",
+    alias: "SPAREDES",
     specialty: "Festividades",
     origin: "Cusco, Peru",
     avatar: "SP",
@@ -52,7 +52,7 @@ export const REPORTERS = [
   {
     id: "r6",
     name: "Andres Morales",
-    alias: "AMORALES_IA",
+    alias: "AMORALES",
     specialty: "Internacional",
     origin: "Buenos Aires / Madrid",
     avatar: "AM",
