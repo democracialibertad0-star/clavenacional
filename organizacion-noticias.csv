@@ -1,0 +1,531 @@
+ID,Ano,Mes,Categoria,Reportero,Titulo,Fuente,SourceURL,TieneFoto
+n001,2018,1,Politica,r1,"Kuczynski libra la vacancia por apenas 6 votos en sesion historica",El Comercio,https://elcomercio.pe/politica/ppk-vacancia-presidencial-congreso,NO
+n002,2018,1,Tecnologia,r2,"Bitcoin se desploma y pierde mas del 50% de su valor en semanas",Gestion,https://gestion.pe/economia/bitcoin-caida-2018,NO
+n003,2018,2,Internacional,r6,"Juegos Olimpicos de Invierno en Pyeongchang: las dos Coreas marchan juntas",BBC Mundo,https://www.bbc.com/mundo/deportes-42980123,NO
+n004,2018,2,Videojuegos,r3,"Monster Hunter World rompe records: Capcom celebra el lanzamiento mas exitoso de su historia",IGN,https://www.ign.com/articles/monster-hunter-world-review,NO
+n005,2018,3,Politica,r1,"PPK renuncia a la presidencia: Martin Vizcarra asume el poder",La Republica,https://larepublica.pe/politica/ppk-renuncia-presidencia-peru-2018,NO
+n006,2018,3,Festividades,r5,"Mundoscopio nace en Chimbote: el primer noticiero digital peruano potenciado por IA",Mundoscopio,,NO
+n007,2018,3,Tecnologia,r2,"Escandalo de Cambridge Analytica sacude a Facebook y al mundo tecnologico",BBC Mundo,https://www.bbc.com/mundo/noticias-43472797,NO
+n008,2018,4,Internacional,r6,"Ataque quimico en Siria provoca represalias de Estados Unidos; Francia y Reino Unido",CNN Espanol,https://cnnespanol.cnn.com/2018/04/14/siria-ataque-estados-unidos/,NO
+n009,2018,4,Videojuegos,r3,"God of War reinventa la saga con una aventura nordica magistral para PS4",IGN,https://www.ign.com/articles/god-of-war-review-2018,NO
+n010,2018,5,Festividades,r5,"La boda real de Harry y Meghan Markle cautiva al mundo entero",BBC Mundo,https://www.bbc.com/mundo/noticias-44186685,NO
+n011,2018,5,Politica,r1,"Vizcarra anuncia referendum para reformar el sistema de justicia peruano",RPP,https://rpp.pe/politica/gobierno/vizcarra-referendum-reforma-justicia,NO
+n012,2018,6,Internacional,r6,"Peru debuta en el Mundial de Rusia 2018 tras 36 anos de ausencia",El Comercio,https://elcomercio.pe/deporte-total/futbol/peru-mundial-rusia-2018,NO
+n013,2018,6,Noticias Locales,r4,"San Pedrito 2018: Chimbote celebra a su santo patron con fervor y tradicion",RPP,https://rpp.pe/peru/ancash/chimbote-san-pedrito-festividad,NO
+n014,2018,6,Tecnologia,r2,"Apple presenta iOS 12 y apuesta por la realidad aumentada y el control del tiempo en pantalla",The Verge,https://www.theverge.com/2018/6/4/17426920/apple-ios-12-wwdc-features,NO
+n015,2018,7,Noticias Locales,r4,"Ancash: obras del proyecto Chinecas avanzan lentamente y generan preocupacion",La Republica,https://larepublica.pe/sociedad/ancash-chinecas-proyecto-irrigacion,NO
+n016,2018,7,Festividades,r5,"Fiestas Patrias 2018: Peru celebra con desfile militar y optimismo post-mundialista",Peru21,https://peru21.pe/lima/fiestas-patrias-2018-desfile-militar,NO
+n017,2018,9,Politica,r1,"Audios de la verguenza: escandalo de corrupcion sacude al sistema judicial peruano",El Comercio,https://elcomercio.pe/politica/cnm-audios-corrupcion-justicia-peru,NO
+n018,2018,9,Videojuegos,r3,"Spider-Man de Insomniac para PS4 se convierte en el juego de superheroes definitivo",IGN,https://www.ign.com/articles/marvels-spider-man-review,NO
+n019,2018,10,Internacional,r6,"Jair Bolsonaro gana las elecciones en Brasil y gira al pais hacia la ultraderecha",BBC Mundo,https://www.bbc.com/mundo/noticias-america-latina-46011741,NO
+n020,2018,10,Tecnologia,r2,"Google lanza el Pixel 3 y consolida su apuesta por la fotografia computacional",The Verge,https://www.theverge.com/2018/10/9/17955014/google-pixel-3-review,NO
+n021,2018,11,Noticias Locales,r4,"Nuevo Chimbote moderniza su infraestructura vial con nuevos proyectos de pistas y veredas",RPP,https://rpp.pe/peru/ancash/nuevo-chimbote-obras-viales,NO
+n022,2018,11,Festividades,r5,"Red Dead Redemption 2: Rockstar lanza el western definitivo que transforma el gaming",Eurogamer,https://www.eurogamer.net/red-dead-redemption-2-review,NO
+n023,2018,12,Politica,r1,"Referendum 2018: peruanos aprueban reformas al sistema de justicia y al Congreso",El Comercio,https://elcomercio.pe/politica/referendum-2018-resultados-peru,NO
+n024,2019,1,Internacional,r6,"Venezuela en crisis: Juan Guaido se autoproclama presidente interino",BBC Mundo,https://www.bbc.com/mundo/noticias-america-latina-46981390,NO
+n025,2019,1,Videojuegos,r3,"Kingdom Hearts 3 llega tras 13 anos de espera y emociona a millones de fans",IGN,https://www.ign.com/articles/kingdom-hearts-3-review,NO
+n026,2019,1,Tecnologia,r2,"Samsung presenta el Galaxy Fold; el primer smartphone plegable del mercado masivo",The Verge,https://www.theverge.com/2019/2/20/18233861/samsung-galaxy-fold-specs,NO
+n027,2019,2,Politica,r1,"Peru cierra fronteras a venezolanos sin pasaporte ante crisis migratoria",Gestion,https://gestion.pe/peru/peru-cierra-fronteras-venezolanos-migracion,NO
+n028,2019,2,Noticias Locales,r4,"Lluvias intensas causan danos en Ancash y activan quebradas en Chimbote",RPP,https://rpp.pe/peru/ancash/ancash-lluvias-huaicos-chimbote,NO
+n029,2019,3,Festividades,r5,"Mundoscopio cumple un ano: primer aniversario del noticiero digital peruano con IA",Mundoscopio,,NO
+n030,2019,3,Tecnologia,r2,"Google Stadia promete revolucionar los videojuegos en la nube sin consola",The Verge,https://www.theverge.com/2019/3/19/18272449/google-stadia-cloud-gaming,NO
+n031,2019,3,Internacional,r6,"Ataque terrorista en Christchurch: Nueva Zelanda endurece leyes de armas",CNN Espanol,https://cnnespanol.cnn.com/2019/03/15/nueva-zelanda-ataque-mezquitas/,NO
+n032,2019,4,Politica,r1,"Alan Garcia se suicida antes de ser detenido por caso Odebrecht",El Comercio,https://elcomercio.pe/politica/alan-garcia-muerte-detencion-odebrecht,NO
+n033,2019,4,Tecnologia,r2,"Primera imagen de un agujero negro: hito historico para la ciencia",BBC Mundo,https://www.bbc.com/mundo/noticias-47880527,NO
+n034,2019,5,Videojuegos,r3,"Epic Games Store desafia a Steam con exclusivas y el modelo de comision reducida",Eurogamer,https://www.eurogamer.net/epic-games-store-exclusives,NO
+n035,2019,5,Noticias Locales,r4,"Puerto de Chimbote reactiva operaciones tras modernizacion de infraestructura",Gestion,https://gestion.pe/economia/chimbote-puerto-modernizacion,NO
+n036,2019,6,Festividades,r5,"San Pedrito 2019: la pesca artesanal y la fe se unen en las calles de Chimbote",RPP,https://rpp.pe/peru/ancash/san-pedrito-chimbote-festividad-2019,NO
+n037,2019,6,Tecnologia,r2,"Huawei en la mira: Trump prohibe a empresas estadounidenses vender tecnologia a la firma china",BBC Mundo,https://www.bbc.com/mundo/noticias-48334390,NO
+n038,2019,7,Politica,r1,"Vizcarra propone adelanto de elecciones y cierre del Congreso genera tension",La Republica,https://larepublica.pe/politica/vizcarra-adelanto-elecciones-congreso,NO
+n039,2019,7,Festividades,r5,"Peru campeon de la Copa America 2019 Sub... no; pero gana corazones en Brasil",El Comercio,https://elcomercio.pe/deporte-total/seleccion/peru-copa-america-2019-final,NO
+n040,2019,8,Internacional,r6,"Incendios en la Amazonia: el pulmon del mundo arde y genera alarma global",CNN Espanol,https://cnnespanol.cnn.com/2019/08/21/incendios-amazonia-brasil/,NO
+n041,2019,8,Noticias Locales,r4,"Siderurgica de Chimbote celebra decadas de aporte a la industria nacional",Gestion,https://gestion.pe/economia/siderperu-chimbote-industria,NO
+n042,2019,9,Politica,r1,"Vizcarra disuelve el Congreso y genera la mayor crisis constitucional en anos",El Comercio,https://elcomercio.pe/politica/vizcarra-disolucion-congreso-septiembre-2019,NO
+n043,2019,9,Videojuegos,r3,"Nintendo Switch Lite llega al mercado como la opcion portatil pura de Nintendo",IGN,https://www.ign.com/articles/nintendo-switch-lite-review,NO
+n044,2019,10,Internacional,r6,"Protestas masivas sacuden Chile: estado de emergencia y toque de queda",BBC Mundo,https://www.bbc.com/mundo/noticias-america-latina-50099116,NO
+n045,2019,10,Tecnologia,r2,"Disney+ se prepara para su lanzamiento y amenaza el reinado de Netflix",The Verge,https://www.theverge.com/2019/4/11/18306935/disney-plus-streaming-service,NO
+n046,2019,11,Videojuegos,r3,"Death Stranding de Kojima divide a criticos pero fascina con su vision unica",Eurogamer,https://www.eurogamer.net/death-stranding-review,NO
+n047,2019,11,Festividades,r5,"Dia de Muertos en Mexico y su influencia cultural llega con fuerza al Peru",La Republica,https://larepublica.pe/cultura/dia-de-muertos-peru-tradicion,NO
+n048,2019,11,Politica,r1,"Bolivia en crisis: Evo Morales renuncia y huye del pais tras protestas electorales",BBC Mundo,https://www.bbc.com/mundo/noticias-america-latina-50376024,NO
+n049,2019,12,Internacional,r6,"Primeros casos de neumonia atipica en Wuhan: China reporta un brote misterioso",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-51049577,NO
+n050,2019,12,Tecnologia,r2,"La decada en tecnologia: de los smartphones al boom de la inteligencia artificial",The Verge,https://www.theverge.com/2019/12/21/21031697/decade-in-review-2010s,NO
+n051,2019,12,Videojuegos,r3,"Los Game Awards 2019 coronan a Sekiro: Shadows Die Twice como Juego del Ano",IGN,https://www.ign.com/articles/game-awards-2019-winners,NO
+n052,2019,12,Noticias Locales,r4,"Chimbote cierra el ano con expectativas por nuevos proyectos de inversion publica",La Republica,https://larepublica.pe/sociedad/ancash-chimbote-obras-proyectos-2020,NO
+n053,2019,12,Internacional,r6,"Greta Thunberg nombrada Persona del Ano por la revista Time",CNN Espanol,https://cnnespanol.cnn.com/2019/12/11/greta-thunberg-time-persona-ano/,NO
+n054,2019,12,Politica,r1,"Elecciones congresales extraordinarias en Peru: se definen los nuevos legisladores",Peru21,https://peru21.pe/politica/elecciones-congresales-extraordinarias-2020,NO
+n055,2019,12,Festividades,r5,"Navidad 2019 en Peru: tradiciones que unen al pais de costa a sierra",RPP,https://rpp.pe/peru/navidad-tradiciones-peru-2019,NO
+n056,2019,12,Noticias Locales,r4,"Ancash impulsa el turismo en la Cordillera Blanca con nuevas rutas de trekking",El Comercio,https://elcomercio.pe/vamos/ancash-cordillera-blanca-trekking-turismo,NO
+n057,2019,10,Tecnologia,r2,"TikTok conquista al mundo: la app china supera los 1;500 millones de descargas",The Verge,https://www.theverge.com/2019/11/4/20948229/tiktok-1-billion-downloads,NO
+n058,2019,11,Festividades,r5,"Festival de Santurantikuy en Cusco: la feria navidena mas tradicional del Peru",Peru21,https://peru21.pe/cultura/santurantikuy-cusco-navidad-tradicion,NO
+n059,2020,1,Internacional,r6,"Estados Unidos asesina al general iraní Qasem Soleimani en Bagdad",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-50979741,NO
+n060,2020,1,Tecnología,r2,"Samsung presenta el Galaxy S20 y apuesta todo por la conectividad 5G",The Verge,https://www.theverge.com/2020/2/11/21128827/samsung-galaxy-s20-ultra-5g,NO
+n061,2020,1,Internacional,r6,"La OMS declara emergencia internacional por brote de nuevo coronavirus en China",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-51318222,NO
+n062,2020,2,Videojuegos,r3,"Dreams de Media Molecule llega a PS4 como un lienzo infinito para crear videojuegos",IGN,https://latam.ign.com/dreams/70012/review/dreams-resena,NO
+n063,2020,2,Política,r1,"Congreso peruano aprueba eliminación de inmunidad parlamentaria",RPP,https://rpp.pe/politica/congreso/congreso-aprueba-en-primera-votacion-la-eliminacion-de-la-inmunidad-parlamentaria-noticia-1245678,NO
+n064,2020,3,Internacional,r6,"La OMS declara oficialmente al COVID-19 como pandemia mundial",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-51842708,NO
+n065,2020,3,Política,r1,"Vizcarra decreta estado de emergencia y cuarentena obligatoria en todo el Perú",El Comercio,https://elcomercio.pe/peru/coronavirus-en-peru-martin-vizcarra-decreto-estado-de-emergencia-noticia/,NO
+n066,2020,3,Noticias Locales,r4,"Chimbote entra en cuarentena: mercados y puertos pesqueros cierran operaciones",RPP,https://rpp.pe/peru/ancash/coronavirus-en-peru-chimbote-acata-cuarentena-noticia-1253890,NO
+n067,2020,3,Festividades,r5,"Mundoscopio cumple dos años informando en tiempos de incertidumbre global",RPP,https://mundoscopio.com/aniversario-2020,NO
+n068,2020,3,Videojuegos,r3,"Animal Crossing: New Horizons se convierte en el refugio perfecto para la cuarentena",IGN,https://latam.ign.com/animal-crossing-new-horizons/72345/news/animal-crossing-new-horizons-rompe-records,NO
+n069,2020,3,Videojuegos,r3,"DOOM Eternal llega desatando la furia del Doom Slayer en plena pandemia",IGN,https://latam.ign.com/doom-eternal/72890/review/doom-eternal-review,NO
+n070,2020,4,Noticias Locales,r4,"Áncash supera los primeros 100 casos de COVID-19 y hospitales entran en alerta roja",RPP,https://rpp.pe/peru/ancash/coronavirus-en-peru-ancash-supera-100-casos-covid-19-noticia-1260123,NO
+n071,2020,4,Tecnología,r2,"Zoom se convierte en la aplicación más descargada del mundo gracias al teletrabajo",BBC Mundo,https://www.bbc.com/mundo/noticias-52396727,NO
+n072,2020,4,Política,r1,"Gobierno peruano entrega bonos de 380 soles a familias vulnerables por la pandemia",Gestión,https://gestion.pe/peru/coronavirus-peru-bono-380-soles-segundo-grupo-beneficiarios-noticia/,NO
+n073,2020,5,Internacional,r6,"SpaceX y NASA lanzan astronautas al espacio desde suelo estadounidense por primera vez en 9 años",CNN Español,https://cnnespanol.cnn.com/2020/05/30/lanzamiento-spacex-nasa-crew-dragon/,NO
+n074,2020,5,Noticias Locales,r4,"Pescadores artesanales de Chimbote exigen reactivación económica en plena pandemia",La República,https://larepublica.pe/sociedad/2020/05/15/ancash-pescadores-artesanales-chimbote-exigen-reactivacion-coronavirus/,NO
+n075,2020,5,Internacional,r6,"La muerte de George Floyd desata protestas masivas contra el racismo en Estados Unidos",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-52844727,NO
+n076,2020,6,Festividades,r5,"Fiesta de San Pedrito en Chimbote se suspende por primera vez en décadas por el COVID-19",RPP,https://rpp.pe/peru/ancash/coronavirus-peru-chimbote-suspende-fiesta-san-pedrito-noticia-1275123,NO
+n077,2020,6,Videojuegos,r3,"Sony revela PlayStation 5 y su espectacular catálogo de lanzamiento",IGN,https://latam.ign.com/ps5/75234/news/sony-revela-ps5-diseno,NO
+n078,2020,6,Tecnología,r2,"Apple anuncia la transición de Mac a procesadores propios Apple Silicon",The Verge,https://www.theverge.com/2020/6/22/21299814/apple-mac-arm-processor-silicon-wwdc-2020,NO
+n079,2020,7,Festividades,r5,"Fiestas Patrias del Bicentenario se celebran en cuarentena y sin desfile militar",El Comercio,https://elcomercio.pe/peru/fiestas-patrias-2020-celebracion-cuarentena-coronavirus-noticia/,NO
+n080,2020,7,Noticias Locales,r4,"Áncash se convierte en una de las regiones más golpeadas por el COVID-19 en el Perú",La República,https://larepublica.pe/sociedad/2020/07/20/ancash-region-golpeada-covid-19-muertes/,NO
+n081,2020,7,Videojuegos,r3,"The Last of Us Part II genera controversia y debate como ningún otro juego en años",IGN,https://latam.ign.com/the-last-of-us-2-1/75890/review/the-last-of-us-part-ii-review,NO
+n082,2020,8,Tecnología,r2,"TikTok enfrenta posible prohibición en Estados Unidos por vínculos con China",CNN Español,https://cnnespanol.cnn.com/2020/08/06/trump-firma-orden-ejecutiva-tiktok/,NO
+n083,2020,8,Internacional,r6,"Explosión masiva en el puerto de Beirut devasta la capital libanesa",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-53656584,NO
+n084,2020,8,Noticias Locales,r4,"Trujillo y Chiclayo enfrentan colapso hospitalario por segunda ola de COVID-19",La República,https://larepublica.pe/sociedad/2020/08/10/la-libertad-hospitales-trujillo-colapso-covid-19/,NO
+n085,2020,9,Política,r1,"Congreso admite moción de vacancia contra el presidente Martín Vizcarra",El Comercio,https://elcomercio.pe/politica/congreso-admite-mocion-de-vacancia-contra-vizcarra-noticia/,NO
+n086,2020,9,Tecnología,r2,"Nvidia presenta la RTX 3080 y revoluciona el mercado de tarjetas gráficas",The Verge,https://www.theverge.com/2020/9/17/21440092/nvidia-geforce-rtx-3080-review,NO
+n087,2020,9,Festividades,r5,"Semana del Turismo en Áncash se realiza de forma virtual por restricciones sanitarias",RPP,https://rpp.pe/peru/ancash/ancash-semana-turismo-virtual-covid-19-noticia-1293456,NO
+n088,2020,10,Tecnología,r2,"Apple lanza el iPhone 12 con 5G y diseño que recuerda al icónico iPhone 4",The Verge,https://www.theverge.com/2020/10/13/21513628/apple-iphone-12-5g-price-release-date,NO
+n089,2020,10,Política,r1,"Bolivia celebra elecciones y Luis Arce del MAS obtiene victoria contundente",BBC Mundo,https://www.bbc.com/mundo/noticias-america-latina-54584741,NO
+n090,2020,11,Política,r1,"Congreso destituye a Vizcarra y Manuel Merino asume la presidencia del Perú",El Comercio,https://elcomercio.pe/politica/congreso-aprobo-vacancia-martin-vizcarra-noticia/,NO
+n091,2020,11,Política,r1,"Merino renuncia tras cinco días y Francisco Sagasti se convierte en presidente",BBC Mundo,https://www.bbc.com/mundo/noticias-america-latina-54955383,NO
+n092,2020,11,Noticias Locales,r4,"Chimbote se suma a las protestas nacionales contra la vacancia de Vizcarra",RPP,https://rpp.pe/peru/ancash/chimbote-protesta-vacancia-vizcarra-merino-noticia-1305678,NO
+n093,2020,11,Videojuegos,r3,"PlayStation 5 y Xbox Series X llegan al mercado inaugurando la nueva generación de consolas",IGN,https://latam.ign.com/ps5/78234/news/ps5-xbox-series-x-agotadas,NO
+n094,2020,11,Internacional,r6,"Joe Biden gana las elecciones presidenciales de Estados Unidos y derrota a Trump",CNN Español,https://cnnespanol.cnn.com/2020/11/07/joe-biden-gana-elecciones-estados-unidos/,NO
+n095,2020,11,Tecnología,r2,"Apple lanza el MacBook Air con chip M1 y deja obsoleto a Intel de un golpe",The Verge,https://www.theverge.com/2020/11/17/21570215/apple-macbook-air-m1-review,NO
+n096,2020,12,Internacional,r6,"Vacuna de Pfizer-BioNTech recibe aprobación de emergencia y comienzan las vacunaciones en el mundo",BBC Mundo,https://www.bbc.com/mundo/noticias-55232030,NO
+n097,2020,12,Política,r1,"Sagasti anuncia acuerdo para adquirir vacunas COVID-19 para el Perú",Gestión,https://gestion.pe/peru/sagasti-anuncia-acuerdo-vacunas-covid-19-peru-noticia/,NO
+n098,2020,12,Festividades,r5,"Navidad 2020: peruanos celebran en casa con restricciones y toque de queda",Peru21,https://peru21.pe/peru/navidad-2020-celebracion-restricciones-covid-19-noticia/,NO
+n099,2020,12,Noticias Locales,r4,"Chimbote cierra 2020 con más de 500 fallecidos por COVID-19 y la economía pesquera devastada",RPP,https://rpp.pe/peru/ancash/chimbote-cierra-2020-covid-19-devastacion-noticia-1312456,NO
+n100,2020,12,Festividades,r5,"Año Nuevo 2021: el mundo despide al peor año en décadas con esperanza en las vacunas",El Comercio,https://elcomercio.pe/mundo/ano-nuevo-2021-mundo-despide-2020-pandemia-noticia/,NO
+n101,2021,1,Política,r1,"Congreso del Perú vacó a Merino y Sagasti asume la presidencia en medio de crisis institucional",El Comercio,https://elcomercio.pe/politica/sagasti-asume-presidencia,NO
+n102,2021,1,Tecnología,r2,"WhatsApp anuncia nuevas políticas de privacidad y desata éxodo masivo hacia Signal y Telegram",BBC Mundo,https://www.bbc.com/mundo/noticias-55600741,NO
+n103,2021,1,Internacional,r6,"Asalto al Capitolio: turba pro-Trump irrumpe en el Congreso de Estados Unidos",CNN Español,https://cnnespanol.cnn.com/2021/01/06/asalto-capitolio/,NO
+n104,2021,1,Videojuegos,r3,"La escasez de PS5 se agrava: revendedores controlan el mercado y Sony promete más unidades",IGN,https://www.ign.com/articles/ps5-restock,NO
+n105,2021,1,Internacional,r6,"Joe Biden jura como presidente número 46 de Estados Unidos y promete unidad nacional",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-55738741,NO
+n106,2021,2,Política,r1,"Perú inicia vacunación contra el COVID-19 con el lote de Sinopharm en medio de controversias",La República,https://larepublica.pe/sociedad/2021/02/09/vacunacion-covid-19-peru/,NO
+n108,2021,2,Noticias Locales,r4,"Chimbote refuerza protocolos sanitarios ante segunda ola de COVID-19 en Áncash",RPP,https://rpp.pe/peru/ancash/covid-19-chimbote-segunda-ola,NO
+n109,2021,2,Videojuegos,r3,"Valheim conquista Steam: el juego de supervivencia vikingo supera los 5 millones de ventas en un mes",Eurogamer,https://www.eurogamer.net/valheim-5-million-sales,NO
+n110,2021,3,Política,r1,"El 'Vacunagate' sacude al Perú: más de 400 funcionarios se vacunaron en secreto contra el COVID-19",Gestión,https://gestion.pe/peru/politica/vacunagate-funcionarios-vacunados,NO
+n111,2021,3,Internacional,r6,"El carguero Ever Given encalla en el Canal de Suez y bloquea el comercio marítimo mundial",BBC Mundo,https://www.bbc.com/mundo/noticias-56516351,NO
+n112,2021,3,Festividades,r5,"Mundoscopio celebra su tercer aniversario: tres años informando con pasión y compromiso",Mundoscopio,https://mundoscopio.com/aniversario-2021,NO
+n113,2021,3,Tecnología,r2,"NFTs explotan en popularidad: la obra digital de Beeple se vende por 69 millones de dólares",The Verge,https://www.theverge.com/2021/3/11/22325054/beeple-christies-nft-sale-cost-everydays-702-702,NO
+n114,2021,3,Noticias Locales,r4,"Áncash recibe primer lote de vacunas para adultos mayores de 80 años en Chimbote y Huaraz",RPP,https://rpp.pe/peru/ancash/vacunacion-adultos-mayores-ancash,NO
+n115,2021,3,Videojuegos,r3,"Monster Hunter Rise debuta en Nintendo Switch y conquista a millones de cazadores",IGN,https://www.ign.com/articles/monster-hunter-rise-review,NO
+n116,2021,4,Política,r1,"Primera vuelta electoral en Perú: Pedro Castillo sorprende y lidera con Perú Libre",Gestión,https://gestion.pe/peru/politica/elecciones-2021-primera-vuelta-resultados,NO
+n117,2021,4,Tecnología,r2,"Apple presenta los nuevos iMac con chip M1 y diseño colorido que rompe con la tradición",The Verge,https://www.theverge.com/2021/4/20/apple-event-imac-m1,NO
+n118,2021,4,Internacional,r6,"India enfrenta segunda ola devastadora de COVID-19 con récord de más de 300 mil casos diarios",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-56859605,NO
+n119,2021,4,Festividades,r5,"Semana Santa 2021 se vive con restricciones pero con fe intacta en todo el Perú",El Comercio,https://elcomercio.pe/peru/semana-santa-2021-restricciones,NO
+n120,2021,4,Videojuegos,r3,"Returnal llega a PS5 y demuestra el potencial del DualSense con su acción roguelike",IGN,https://www.ign.com/articles/returnal-review,NO
+n121,2021,5,Política,r1,"Castillo y Fujimori se enfrentan en debates previos a la segunda vuelta más polarizada del Perú",Peru21,https://peru21.pe/politica/elecciones-2021-debates-segunda-vuelta,NO
+n122,2021,5,Internacional,r6,"Conflicto entre Israel y Palestina escala con bombardeos sobre Gaza que dejan cientos de muertos",CNN Español,https://cnnespanol.cnn.com/2021/05/19/conflicto-israel-palestina/,NO
+n123,2021,5,Tecnología,r2,"Elon Musk hace tambalear el Bitcoin al anunciar que Tesla deja de aceptar la criptomoneda",Gestión,https://gestion.pe/economia/mercados/bitcoin-tesla-elon-musk,NO
+n124,2021,5,Noticias Locales,r4,"Pescadores de Chimbote reportan disminución alarmante en la captura de anchoveta",La República,https://larepublica.pe/sociedad/ancash-pesca-anchoveta-chimbote,NO
+n125,2021,5,Videojuegos,r3,"Resident Evil Village aterroriza a los jugadores y se convierte en el lanzamiento del año",Eurogamer,https://www.eurogamer.net/resident-evil-village-review,NO
+n126,2021,6,Política,r1,"Pedro Castillo gana la segunda vuelta por estrecho margen y es proclamado presidente electo del Perú",El Comercio,https://elcomercio.pe/politica/elecciones-2021-castillo-presidente,NO
+n127,2021,6,Festividades,r5,"Chimbote celebra la Fiesta de San Pedrito con fe y adaptaciones por la pandemia",RPP,https://rpp.pe/peru/ancash/san-pedrito-chimbote-2021,NO
+n128,2021,6,Tecnología,r2,"Windows 11 es anunciado oficialmente por Microsoft con nuevo diseño y compatibilidad con apps Android",The Verge,https://www.theverge.com/2021/6/24/windows-11-announced,NO
+n129,2021,6,Internacional,r6,"La Eurocopa 2020 arranca con un año de retraso y el susto de Christian Eriksen en el campo",BBC Mundo,https://www.bbc.com/mundo/deportes-57464231,NO
+n130,2021,6,Noticias Locales,r4,"Trujillo y Chiclayo refuerzan campaña de vacunación para mayores de 50 años en el norte del Perú",RPP,https://rpp.pe/peru/la-libertad/vacunacion-trujillo-mayores-50,NO
+n131,2021,7,Política,r1,"Pedro Castillo jura como presidente del Perú en el Bicentenario de la Independencia",La República,https://larepublica.pe/politica/2021/07/28/castillo-jura-presidente-bicentenario,NO
+n132,2021,7,Festividades,r5,"Fiestas Patrias del Bicentenario: el Perú celebra 200 años de independencia con restricciones",El Comercio,https://elcomercio.pe/peru/bicentenario-fiestas-patrias-2021,NO
+n133,2021,7,Internacional,r6,"Tokio inaugura los Juegos Olímpicos 2020 sin público en los estadios por la pandemia",CNN Español,https://cnnespanol.cnn.com/2021/07/23/juegos-olimpicos-tokio-inauguracion/,NO
+n134,2021,7,Tecnología,r2,"Jeff Bezos viaja al espacio en el cohete New Shepard de Blue Origin",BBC Mundo,https://www.bbc.com/mundo/noticias-57898345,NO
+n135,2021,7,Noticias Locales,r4,"Sismo de magnitud 5.6 remece Áncash y genera alarma en Chimbote y Huaraz",RPP,https://rpp.pe/peru/ancash/sismo-ancash-chimbote-2021,NO
+n136,2021,8,Política,r1,"Guido Bellido es nombrado primer ministro y genera controversia desde el primer día",Gestión,https://gestion.pe/peru/politica/guido-bellido-primer-ministro,NO
+n137,2021,8,Internacional,r6,"Los talibanes toman Kabul y Estados Unidos completa su caótica retirada de Afganistán",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-58218559,NO
+n138,2021,8,Festividades,r5,"Santa Rosa de Lima 2021: peruanos depositan sus cartas de fe en el pozo de los deseos",El Comercio,https://elcomercio.pe/lima/santa-rosa-de-lima-2021,NO
+n139,2021,8,Noticias Locales,r4,"Nuevo Chimbote inaugura planta de oxígeno medicinal para atender la demanda hospitalaria",La República,https://larepublica.pe/sociedad/nuevo-chimbote-planta-oxigeno,NO
+n140,2021,9,Tecnología,r2,"Apple presenta el iPhone 13 con mejoras en cámara; batería y el nuevo chip A15 Bionic",The Verge,https://www.theverge.com/2021/9/14/apple-iphone-13,NO
+n141,2021,9,Política,r1,"Mirtha Vásquez reemplaza a Bellido como presidenta del Consejo de Ministros",Peru21,https://peru21.pe/politica/mirtha-vasquez-nueva-premier,NO
+n143,2021,9,Noticias Locales,r4,"Laguna de Parón en Áncash enfrenta conflicto entre comuneros y empresa energética",La República,https://larepublica.pe/sociedad/ancash-laguna-paron-conflicto,NO
+n144,2021,10,Tecnología,r2,"Facebook cambia su nombre corporativo a Meta y apuesta por el metaverso",The Verge,https://www.theverge.com/2021/10/28/facebook-meta-name-change,NO
+n145,2021,10,Festividades,r5,"El Señor de los Milagros vuelve a las calles de Lima tras un año de ausencia por la pandemia",El Comercio,https://elcomercio.pe/lima/senor-de-los-milagros-2021-procesion,NO
+n146,2021,10,Videojuegos,r3,"Metroid Dread revive la saga clásica de Nintendo tras 19 años de espera",IGN,https://www.ign.com/articles/metroid-dread-review,NO
+n147,2021,10,Internacional,r6,"Los Pandora Papers revelan fortunas ocultas de líderes mundiales en paraísos fiscales",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-58776218,NO
+n148,2021,11,Política,r1,"El Congreso del Perú rechaza primera moción de vacancia contra Pedro Castillo",Gestión,https://gestion.pe/peru/politica/congreso-vacancia-castillo-rechazada,NO
+n150,2021,11,Videojuegos,r3,"Forza Horizon 5 lleva a los jugadores a México y se convierte en el mayor lanzamiento de Xbox",Eurogamer,https://www.eurogamer.net/forza-horizon-5-review,NO
+n153,2021,12,Tecnología,r2,"El telescopio James Webb es lanzado exitosamente al espacio tras décadas de desarrollo",CNN Español,https://cnnespanol.cnn.com/2021/12/25/telescopio-james-webb-lanzamiento/,NO
+n154,2021,12,Festividades,r5,"Navidad 2021 en el Perú: familias se reencuentran con cautela tras el año más duro de la pandemia",Peru21,https://peru21.pe/lima/navidad-2021-familias-peru,NO
+n155,2021,12,Noticias Locales,r4,"Huaraz se prepara para la temporada turística con protocolos para visitar la Cordillera Blanca",RPP,https://rpp.pe/peru/ancash/huaraz-turismo-cordillera-blanca-2021,NO
+n156,2021,12,Festividades,r5,"Año Nuevo 2022: el Perú despide un año turbulento con esperanza y fuegos artificiales",La República,https://larepublica.pe/sociedad/ano-nuevo-2022-peru,NO
+n152,2022,1,Política,r1,"Pedro Castillo enfrenta su segunda moción de vacancia en menos de un año",La República,https://larepublica.pe/politica/,NO
+n153,2022,1,Tecnología,r2,"Microsoft anuncia la compra de Activision Blizzard por 68 700 millones de dólares",The Verge,https://www.theverge.com/2022/1/18/22889258/microsoft-activision-blizzard-xbox-acquisition-call-of-duty-overwatch,NO
+n154,2022,1,Internacional,r6,"Tensiones entre Rusia y Ucrania escalan con despliegue masivo de tropas rusas en la frontera",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional,NO
+n155,2022,1,Noticias Locales,r4,"Derrame de petróleo de Repsol genera desastre ecológico en playas del litoral limeño",El Comercio,https://elcomercio.pe/lima/,NO
+n156,2022,1,Videojuegos,r3,"Pokémon Legends: Arceus revoluciona la saga con mundo abierto y nueva jugabilidad",IGN,https://www.ign.com/articles/pokemon-legends-arceus-review,NO
+n157,2022,2,Internacional,r6,"Rusia invade Ucrania: Putin ordena operación militar a gran escala",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-60504487,NO
+n158,2022,2,Internacional,r6,"Occidente responde con sanciones históricas y excluye a Rusia del sistema SWIFT",CNN Español,https://cnnespanol.cnn.com/,NO
+n159,2022,2,Festividades,r5,"Carnavales 2022 retornan a las calles del Perú tras dos años de pandemia",RPP,https://rpp.pe/peru/actualidad/,NO
+n160,2022,2,Videojuegos,r3,"Elden Ring de FromSoftware se perfila como el juego más esperado del año",Eurogamer,https://www.eurogamer.es/,NO
+n161,2022,2,Tecnología,r2,"Meta reporta primera caída de usuarios en la historia de Facebook",The Verge,https://www.theverge.com/,NO
+n162,2022,3,Videojuegos,r3,"Elden Ring arrasa en ventas y se consagra como obra maestra del género soulslike",IGN,https://www.ign.com/articles/elden-ring-review,NO
+n163,2022,3,Política,r1,"Castillo sobrevive a segunda moción de vacancia con apoyo de bancadas aliadas",Peru21,https://peru21.pe/politica/,NO
+n164,2022,3,Festividades,r5,"Mundoscopio celebra su cuarto aniversario reafirmando su compromiso con el periodismo digital",El Comercio,https://mundoscopio.com/,NO
+n165,2022,3,Internacional,r6,"Ucrania resiste el avance ruso sobre Kiev y obliga a Moscú a replantear su estrategia",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional,NO
+n166,2022,3,Noticias Locales,r4,"Lluvias intensas causan inundaciones y huaicos en la región Áncash",RPP,https://rpp.pe/peru/ancash/,NO
+n167,2022,3,Tecnología,r2,"DALL-E 2 sorprende al mundo con generación de imágenes por inteligencia artificial",The Verge,https://www.theverge.com/,NO
+n168,2022,4,Política,r1,"Protestas sociales sacuden el sur del Perú por alza del combustible y fertilizantes",El Comercio,https://elcomercio.pe/peru/,NO
+n169,2022,4,Tecnología,r2,"Elon Musk adquiere el 9.2% de Twitter y se convierte en el mayor accionista",The Verge,https://www.theverge.com/,NO
+n170,2022,4,Internacional,r6,"Masacre de Bucha estremece al mundo y endurece la respuesta contra Rusia",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional,NO
+n171,2022,4,Festividades,r5,"Semana Santa 2022 recupera su esplendor en Ayacucho tras pausa pandémica",RPP,https://rpp.pe/peru/actualidad/,NO
+n172,2022,4,Noticias Locales,r4,"Puerto de Chimbote impulsa exportaciones pesqueras pese a desafíos logísticos",Gestión,https://gestion.pe/economia/,NO
+n173,2022,5,Política,r1,"Fiscalía abre investigación contra Pedro Castillo por presunta organización criminal",La República,https://larepublica.pe/politica/,NO
+n174,2022,5,Internacional,r6,"Finlandia y Suecia solicitan formalmente su ingreso a la OTAN tras décadas de neutralidad",CNN Español,https://cnnespanol.cnn.com/,NO
+n175,2022,5,Tecnología,r2,"Google presenta su modelo de IA LaMDA 2 y el asistente conversacional avanzado",The Verge,https://www.theverge.com/,NO
+n176,2022,5,Festividades,r5,"Fiesta de las Cruces se celebra con fervor en Junín y otras regiones del Perú",RPP,https://rpp.pe/peru/actualidad/,NO
+n177,2022,5,Noticias Locales,r4,"Proyecto de mejoramiento vial en Nuevo Chimbote avanza con inversión millonaria",El Comercio,https://elcomercio.pe/peru/ancash/,NO
+n178,2022,6,Festividades,r5,"Fiesta de San Pedrito vuelve a encender las calles de Chimbote con música y tradición",RPP,https://rpp.pe/peru/ancash/,NO
+n179,2022,6,Festividades,r5,"Inti Raymi 2022: la Fiesta del Sol ilumina el Cusco con su ancestral ceremonia",El Comercio,https://elcomercio.pe/vamos/,NO
+n180,2022,6,Política,r1,"Cambio de gabinete ministerial eleva la inestabilidad del gobierno de Castillo",Peru21,https://peru21.pe/politica/,NO
+n181,2022,6,Tecnología,r2,"Apple presenta el chip M2 y el nuevo MacBook Air con diseño renovado",The Verge,https://www.theverge.com/,NO
+n182,2022,6,Videojuegos,r3,"PlayStation revela nueva suscripción PS Plus con tres niveles de servicio",IGN,https://www.ign.com/,NO
+n183,2022,6,Noticias Locales,r4,"Temporada de pesca de anchoveta genera empleo y dinamiza economía en Chimbote",Gestión,https://gestion.pe/economia/,NO
+n184,2022,7,Política,r1,"Castillo cumple un año en el poder marcado por crisis e investigaciones fiscales",El Comercio,https://elcomercio.pe/politica/,NO
+n185,2022,7,Festividades,r5,"Fiestas Patrias 2022: el Perú celebra 201 años de independencia con desfile militar",RPP,https://rpp.pe/peru/actualidad/,NO
+n186,2022,7,Internacional,r6,"Shinzo Abe es asesinado durante un acto de campaña en Japón",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional,NO
+n187,2022,7,Tecnología,r2,"James Webb revela sus primeras imágenes del universo profundo con detalle sin precedentes",The Verge,https://www.theverge.com/,NO
+n188,2022,7,Videojuegos,r3,"Stray conquista a los gamers con su propuesta de explorar una ciudad cyberpunk como un gato",Eurogamer,https://www.eurogamer.es/,NO
+n189,2022,8,Política,r1,"Allanamiento a Palacio de Gobierno eleva la tensión entre Ejecutivo y Fiscalía",La República,https://larepublica.pe/politica/,NO
+n190,2022,8,Noticias Locales,r4,"Áncash recibe inversión para modernizar infraestructura educativa post pandemia",El Comercio,https://elcomercio.pe/peru/ancash/,NO
+n191,2022,8,Internacional,r6,"Nancy Pelosi visita Taiwán desatando la ira de China y una crisis diplomática",CNN Español,https://cnnespanol.cnn.com/,NO
+n192,2022,8,Tecnología,r2,"Stable Diffusion se lanza como modelo de IA de código abierto para generación de imágenes",The Verge,https://www.theverge.com/,NO
+n193,2022,8,Festividades,r5,"Santa Rosa de Lima: miles de fieles depositan sus cartas de fe en el pozo de los deseos",RPP,https://rpp.pe/peru/actualidad/,NO
+n194,2022,9,Internacional,r6,"Fallece la reina Isabel II del Reino Unido tras 70 años en el trono",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional,NO
+n195,2022,9,Política,r1,"Tercer intento de vacancia contra Castillo fracasa en el Congreso peruano",Peru21,https://peru21.pe/politica/,NO
+n196,2022,9,Videojuegos,r3,"Nintendo Direct revela nuevos títulos de Zelda; Fire Emblem y Pikmin para 2023",IGN,https://www.ign.com/,NO
+n197,2022,9,Tecnología,r2,"Apple presenta el iPhone 14 Pro con Dynamic Island y cámara de 48 megapíxeles",The Verge,https://www.theverge.com/,NO
+n198,2022,9,Noticias Locales,r4,"Universidad Nacional del Santa en Chimbote celebra aniversario con feria académica",La República,https://larepublica.pe/sociedad/,NO
+n199,2022,10,Tecnología,r2,"Elon Musk completa la compra de Twitter por 44 000 millones de dólares",The Verge,https://www.theverge.com/2022/10/27/23184519/elon-musk-twitter-acquisition-deal-complete-ceo,NO
+n200,2022,10,Política,r1,"Protestas exigen mejoras en seguridad ciudadana en Lima ante ola de criminalidad",El Comercio,https://elcomercio.pe/lima/,NO
+n201,2022,10,Internacional,r6,"Lula da Silva vence a Bolsonaro y recupera la presidencia de Brasil",BBC Mundo,https://www.bbc.com/mundo/noticias-america-latina,NO
+n202,2022,10,Festividades,r5,"Señor de los Milagros recorre Lima en multitudinaria procesión tras dos años de pausa",El Comercio,https://elcomercio.pe/lima/,NO
+n203,2022,10,Noticias Locales,r4,"Alcaldes electos en Áncash prometen priorizar agua y saneamiento en sus gestiones",RPP,https://rpp.pe/peru/ancash/,NO
+n204,2022,11,Videojuegos,r3,"God of War Ragnarök se lanza como la gran exclusiva de PlayStation del año",IGN,https://www.ign.com/articles/god-of-war-ragnarok-review,NO
+n205,2022,11,Tecnología,r2,"OpenAI lanza ChatGPT y revoluciona la inteligencia artificial conversacional",The Verge,https://www.theverge.com/,NO
+n206,2022,11,Internacional,r6,"Mundial de Qatar 2022: la Copa del Mundo más polémica de la historia arranca en noviembre",BBC Mundo,https://www.bbc.com/mundo/deportes,NO
+n207,2022,11,Política,r1,"Tensiones entre Ejecutivo y Congreso alcanzan punto crítico por reformas",La República,https://larepublica.pe/politica/,NO
+n208,2022,11,Tecnología,r2,"Musk desata el caos en Twitter con despidos masivos y cambios polémicos",The Verge,https://www.theverge.com/,NO
+n209,2022,11,Noticias Locales,r4,"Trujillo refuerza medidas de seguridad ante incremento de extorsiones en el norte",El Comercio,https://elcomercio.pe/peru/la-libertad/,NO
+n210,2022,12,Política,r1,"Pedro Castillo intenta un golpe de Estado y es destituido y arrestado",El Comercio,https://elcomercio.pe/politica/,NO
+n211,2022,12,Política,r1,"Dina Boluarte jura como primera presidenta del Perú en medio de una crisis sin precedentes",La República,https://larepublica.pe/politica/,NO
+n212,2022,12,Internacional,r6,"Argentina se consagra campeona del mundo en Qatar 2022 en una final épica",BBC Mundo,https://www.bbc.com/mundo/deportes,NO
+n213,2022,12,Videojuegos,r3,"Elden Ring gana el premio al Juego del Año en The Game Awards 2022",IGN,https://www.ign.com/,NO
+n214,2022,12,Videojuegos,r3,"Crisis en Activision Blizzard: denuncias de acoso laboral ensombrecen el año gamer",Eurogamer,https://www.eurogamer.es/,NO
+n215,2022,12,Noticias Locales,r4,"Protestas violentas sacuden el sur y se extienden a regiones del norte peruano",RPP,https://rpp.pe/peru/actualidad/,NO
+n216,2022,12,Festividades,r5,"Navidad 2022 en el Perú: celebraciones empañadas por la crisis política y social",El Comercio,https://elcomercio.pe/peru/,NO
+n217,2023,1,Política,r1,"Protestas sacuden el sur del Perú tras la destitución de Pedro Castillo",El Comercio,https://elcomercio.pe/politica/protestas-en-peru-2023/,NO
+n218,2023,1,Política,r1,"Dina Boluarte declara estado de emergencia en varias regiones del país",La República,https://larepublica.pe/politica/estado-de-emergencia-boluarte-2023/,NO
+n219,2023,1,Tecnología,r2,"ChatGPT supera los 100 millones de usuarios y revoluciona la industria tech",BBC Mundo,https://www.bbc.com/mundo/noticias-chatgpt-100-millones,NO
+n220,2023,1,Internacional,r6,"Brasil vive su propio 'asalto al Capitolio' con la toma de sedes de poder en Brasilia",CNN Español,https://cnnespanol.cnn.com/2023/01/08/brasil-invasion-brasilia/,NO
+n221,2023,1,Noticias Locales,r4,"Chimbote paralizado por protestas contra el gobierno de Boluarte",RPP,https://rpp.pe/peru/ancash/chimbote-protestas-enero-2023/,NO
+n222,2023,1,Videojuegos,r3,"Fire Emblem Engage llega a Nintendo Switch con mecánicas renovadas",IGN,https://www.ign.com/articles/fire-emblem-engage-review,NO
+n223,2023,2,Política,r1,"Congreso rechaza adelanto de elecciones propuesto por el Ejecutivo",Gestión,https://gestion.pe/peru/politica/congreso-rechaza-adelanto-elecciones-2023/,NO
+n224,2023,2,Tecnología,r2,"Microsoft integra IA de OpenAI en Bing y desafía el dominio de Google",The Verge,https://www.theverge.com/2023/2/7/microsoft-bing-ai-chatgpt,NO
+n225,2023,2,Internacional,r6,"Terremoto devastador golpea Turquía y Siria dejando más de 50;000 muertos",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-terremoto-turquia-siria,NO
+n226,2023,2,Festividades,r5,"Carnavales 2023 llenan de color y música las calles del Perú",El Comercio,https://elcomercio.pe/vamos/carnavales-peru-2023/,NO
+n227,2023,2,Videojuegos,r3,"Hogwarts Legacy rompe récords de ventas y conquista a fans de Harry Potter",IGN,https://www.ign.com/articles/hogwarts-legacy-sales-record,NO
+n228,2023,2,Noticias Locales,r4,"Áncash reporta daños en infraestructura vial por lluvias intensas",RPP,https://rpp.pe/peru/ancash/lluvias-ancash-danos-2023/,NO
+n229,2023,3,Tecnología,r2,"OpenAI lanza GPT-4 y marca un salto cualitativo en inteligencia artificial",The Verge,https://www.theverge.com/2023/3/14/openai-gpt-4-launch,NO
+n230,2023,3,Tecnología,r2,"Anthropic presenta Claude; su asistente de IA centrado en la seguridad",The Verge,https://www.theverge.com/2023/3/anthropic-claude-ai-launch,NO
+n231,2023,3,Noticias Locales,r4,"Ciclón Yaku causa estragos en el norte del Perú y golpea Áncash con fuerza",El Comercio,https://elcomercio.pe/peru/ciclon-yaku-danos-norte-peru-2023/,NO
+n232,2023,3,Noticias Locales,r4,"Emergencia en Chimbote: río Lacramarca se desborda y deja cientos de damnificados",RPP,https://rpp.pe/peru/ancash/chimbote-rio-lacramarca-desborde-2023/,NO
+n233,2023,3,Festividades,r5,"Mundoscopio celebra su 5.° aniversario con edición especial el 23 de marzo",El Comercio,https://mundoscopio.com/aniversario-5-anos/,NO
+n234,2023,3,Internacional,r6,"La Corte Penal Internacional emite orden de arresto contra Vladimir Putin",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-cpi-putin-orden-arresto,NO
+n235,2023,3,Política,r1,"Fiscalía abre investigación a Dina Boluarte por muertes durante las protestas",La República,https://larepublica.pe/politica/fiscalia-investiga-boluarte-muertes-protestas/,NO
+n236,2023,3,Tecnología,r2,"Midjourney V5 sorprende al mundo con imágenes generadas casi fotorrealistas",The Verge,https://www.theverge.com/2023/3/midjourney-v5-photorealism,NO
+n237,2023,4,Festividades,r5,"Semana Santa 2023: miles de fieles participan en procesiones a nivel nacional",El Comercio,https://elcomercio.pe/peru/semana-santa-2023-procesiones/,NO
+n238,2023,4,Internacional,r6,"Finlandia ingresa oficialmente a la OTAN y Rusia refuerza su frontera",CNN Español,https://cnnespanol.cnn.com/2023/04/finlandia-otan-ingreso/,NO
+n239,2023,4,Tecnología,r2,"Elon Musk funda xAI para competir en la carrera de la inteligencia artificial",The Verge,https://www.theverge.com/2023/4/elon-musk-xai-company,NO
+n240,2023,4,Política,r1,"Caso Rolex: Fiscalía investiga relojes de lujo no declarados por Boluarte",La República,https://larepublica.pe/politica/caso-rolex-boluarte-investigacion/,NO
+n241,2023,4,Noticias Locales,r4,"Reconstrucción post-Yaku: Áncash inicia plan de rehabilitación de infraestructura",Peru21,https://peru21.pe/peru/ancash-reconstruccion-ciclon-yaku-2023/,NO
+n242,2023,5,Videojuegos,r3,"The Legend of Zelda: Tears of the Kingdom recibe notas perfectas de la crítica",IGN,https://www.ign.com/articles/zelda-tears-of-the-kingdom-review,NO
+n243,2023,5,Videojuegos,r3,"Zelda TOTK vende 10 millones de copias en sus primeros tres días",Eurogamer,https://www.eurogamer.net/zelda-tears-of-the-kingdom-10-million-sales,NO
+n244,2023,5,Internacional,r6,"Erdogan gana las elecciones presidenciales en Turquía y extiende su mandato",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-turquia-elecciones-erdogan,NO
+n245,2023,5,Tecnología,r2,"Google presenta su visión de IA en Google I/O 2023 con Gemini en el horizonte",The Verge,https://www.theverge.com/2023/5/google-io-ai-announcements,NO
+n246,2023,5,Festividades,r5,"Día de la Madre en Perú: familias celebran con récord de consumo en restaurantes",Gestión,https://gestion.pe/economia/dia-de-la-madre-2023-consumo-restaurantes/,NO
+n247,2023,6,Videojuegos,r3,"Diablo IV se lanza con éxito masivo y atrae a millones de jugadores",IGN,https://www.ign.com/articles/diablo-4-launch-success,NO
+n248,2023,6,Festividades,r5,"Fiesta de San Pedrito: Chimbote celebra a su santo patrón con fe y tradición",RPP,https://rpp.pe/peru/ancash/chimbote-fiesta-san-pedrito-2023/,NO
+n249,2023,6,Festividades,r5,"Inti Raymi 2023: el Festival del Sol vuelve a iluminar Cusco con esplendor",El Comercio,https://elcomercio.pe/vamos/inti-raymi-2023-cusco/,NO
+n250,2023,6,Internacional,r6,"Rebelión del Grupo Wagner sacude a Rusia y desafía la autoridad de Putin",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-wagner-rebelion-rusia,NO
+n251,2023,6,Política,r1,"Congreso aprueba ley que debilita la Junta Nacional de Justicia",Gestión,https://gestion.pe/peru/congreso-ley-jnj-2023/,NO
+n252,2023,6,Tecnología,r2,"Apple presenta Vision Pro y apuesta por la computación espacial",The Verge,https://www.theverge.com/2023/6/apple-vision-pro-reveal,NO
+n253,2023,7,Política,r1,"Fiestas Patrias: Boluarte ofrece mensaje a la nación en medio de baja aprobación",Peru21,https://peru21.pe/politica/boluarte-mensaje-nacion-28-julio-2023/,NO
+n254,2023,7,Festividades,r5,"Fiestas Patrias 2023: el Perú celebra 202 años de independencia",El Comercio,https://elcomercio.pe/peru/fiestas-patrias-2023-celebraciones/,NO
+n255,2023,7,Internacional,r6,"Suecia autorizada para ingresar a la OTAN tras levantamiento del veto turco",CNN Español,https://cnnespanol.cnn.com/2023/07/suecia-otan-turquia-veto/,NO
+n256,2023,7,Tecnología,r2,"Meta lanza Threads y consigue 100 millones de usuarios en cinco días",The Verge,https://www.theverge.com/2023/7/meta-threads-launch-100-million,NO
+n257,2023,7,Política,r1,"Gobierno peruano anuncia plan de inversión pública para reactivar la economía",Gestión,https://gestion.pe/economia/plan-reactivacion-economica-peru-2023/,NO
+n258,2023,7,Noticias Locales,r4,"Chimbote fortalece su sector pesquero con nueva temporada de anchoveta",Gestión,https://gestion.pe/economia/chimbote-temporada-anchoveta-2023/,NO
+n259,2023,8,Videojuegos,r3,"Baldur's Gate 3 sale del acceso anticipado y conquista la crítica mundial",IGN,https://www.ign.com/articles/baldurs-gate-3-review,NO
+n260,2023,8,Internacional,r6,"Incendios forestales devastan la isla de Maui en Hawái",CNN Español,https://cnnespanol.cnn.com/2023/08/maui-hawaii-incendios/,NO
+n261,2023,8,Política,r1,"Perú reporta primer caso de dengue autóctono en Lima Metropolitana",El Comercio,https://elcomercio.pe/lima/dengue-lima-metropolitana-2023/,NO
+n262,2023,8,Noticias Locales,r4,"Trujillo impulsa proyecto de modernización del centro histórico",La República,https://larepublica.pe/sociedad/trujillo-modernizacion-centro-historico-2023/,NO
+n263,2023,8,Internacional,r6,"Yevgueni Prigozhin muere en misterioso accidente aéreo en Rusia",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-prigozhin-avion-muerte,NO
+n264,2023,9,Videojuegos,r3,"Starfield llega a Xbox y PC con un universo de 1;000 planetas por explorar",IGN,https://www.ign.com/articles/starfield-review,NO
+n265,2023,9,Tecnología,r2,"Apple presenta iPhone 15 con puerto USB-C tras años de Lightning",The Verge,https://www.theverge.com/2023/9/apple-iphone-15-usb-c,NO
+n266,2023,9,Política,r1,"Policía captura a líder de organización criminal vinculada al narcotráfico en Lima",Peru21,https://peru21.pe/lima/policia-captura-narcotrafico-lima-2023/,NO
+n267,2023,9,Noticias Locales,r4,"Nuevo Chimbote inaugura moderna infraestructura deportiva municipal",RPP,https://rpp.pe/peru/ancash/nuevo-chimbote-complejo-deportivo-2023/,NO
+n268,2023,9,Festividades,r5,"Mistura 2023 vuelve y reúne a lo mejor de la gastronomía peruana",El Comercio,https://elcomercio.pe/gastronomia/mistura-2023-regreso/,NO
+n269,2023,10,Internacional,r6,"Hamás lanza ataque sorpresa contra Israel y desata una guerra devastadora",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional-israel-hamas-ataque-octubre,NO
+n270,2023,10,Internacional,r6,"Israel lanza ofensiva terrestre sobre Gaza con graves consecuencias humanitarias",CNN Español,https://cnnespanol.cnn.com/2023/10/israel-ofensiva-terrestre-gaza/,NO
+n271,2023,10,Festividades,r5,"Señor de los Milagros: multitudes acompañan la procesión del Cristo Moreno",El Comercio,https://elcomercio.pe/lima/senor-de-los-milagros-2023-procesion/,NO
+n272,2023,10,Política,r1,"Perú se abstiene en votación de la ONU sobre alto el fuego en Gaza",La República,https://larepublica.pe/mundo/peru-onu-abstencion-gaza-2023/,NO
+n273,2023,10,Tecnología,r2,"Anthropic recibe inversión multimillonaria de Amazon para impulsar Claude",The Verge,https://www.theverge.com/2023/10/amazon-anthropic-investment-4-billion,NO
+n274,2023,11,Tecnología,r2,"OpenAI despide y recontrata a Sam Altman en un caos corporativo sin precedentes",The Verge,https://www.theverge.com/2023/11/openai-sam-altman-fired-reinstated,NO
+n275,2023,11,Videojuegos,r3,"Marvel's Spider-Man 2 arrasa en ventas con más de 5 millones en 11 días",Eurogamer,https://www.eurogamer.net/marvel-spider-man-2-sales-record,NO
+n276,2023,11,Política,r1,"Congreso peruano aprueba polémica ley que limita delitos de lesa humanidad",La República,https://larepublica.pe/politica/congreso-ley-lesa-humanidad-prescripcion/,NO
+n277,2023,11,Internacional,r6,"Argentina elige a Javier Milei como presidente en una elección histórica",BBC Mundo,https://www.bbc.com/mundo/noticias-america-latina-milei-presidente-argentina,NO
+n278,2023,11,Noticias Locales,r4,"Áncash: productores de palta conquistan mercados internacionales",Gestión,https://gestion.pe/economia/ancash-palta-exportaciones-2023/,NO
+n279,2023,11,Noticias Locales,r4,"Huaraz refuerza prevención ante temporada de lluvias y riesgo de desbordes",RPP,https://rpp.pe/peru/ancash/huaraz-prevencion-lluvias-2023/,NO
+n280,2023,12,Videojuegos,r3,"The Game Awards 2023: Baldur's Gate 3 se corona como Juego del Año",IGN,https://www.ign.com/articles/the-game-awards-2023-winners,NO
+n281,2023,12,Videojuegos,r3,"GTA VI confirma su primer tráiler y enloquece a la comunidad gamer",Eurogamer,https://www.eurogamer.net/gta-6-trailer-revealed,NO
+n282,2023,12,Tecnología,r2,"Google lanza Gemini; su modelo de IA más potente para competir con GPT-4",The Verge,https://www.theverge.com/2023/12/google-gemini-ai-launch,NO
+n283,2023,12,Política,r1,"Alberto Fujimori es liberado tras indulto del Tribunal Constitucional",El Comercio,https://elcomercio.pe/politica/fujimori-liberado-indulto-tc-2023/,NO
+n284,2023,12,Internacional,r6,"COP28 en Dubái logra acuerdo histórico de transición fuera de combustibles fósiles",BBC Mundo,https://www.bbc.com/mundo/noticias-cop28-dubai-acuerdo-climatico,NO
+n285,2023,12,Festividades,r5,"Navidad 2023: peruanos celebran con tradición; fe y espíritu de unión",Peru21,https://peru21.pe/peru/navidad-2023-celebraciones-peru/,NO
+n286,2023,12,Noticias Locales,r4,"Chimbote cierra el año con esperanzas en su reactivación económica pesquera",RPP,https://rpp.pe/peru/ancash/chimbote-balance-pesquero-2023/,NO
+n287,2023,12,Festividades,r5,"Año Nuevo 2024: el Perú despide el 2023 con fuegos artificiales y esperanza",El Comercio,https://elcomercio.pe/peru/ano-nuevo-2024-celebracion-peru/,NO
+n288,2024,1,Política,r1,"Dina Boluarte enfrenta nueva crisis: aprobación cae a mínimos históricos",La República,https://larepublica.pe/politica,NO
+n289,2024,1,Tecnología,r2,"OpenAI lanza GPT Store: una tienda de aplicaciones para inteligencia artificial",The Verge,https://www.theverge.com/2024/1/10/openai-gpt-store,NO
+n290,2024,1,Videojuegos,r3,"Palworld arrasa en Steam: el 'Pokémon con armas' supera los 19 millones de jugadores",IGN,https://www.ign.com/articles/palworld,NO
+n291,2024,1,Internacional,r6,"Ecuador declara conflicto armado interno tras ola de violencia narco",BBC Mundo,https://www.bbc.com/mundo/noticias-america-latina,NO
+n292,2024,1,Noticias Locales,r4,"Chimbote: pescadores artesanales reportan escasez de anchoveta por El Niño",RPP,https://rpp.pe/peru/ancash,NO
+n293,2024,1,Internacional,r6,"Trump arrasa en las primarias de Iowa y consolida su camino a la candidatura republicana",CNN Español,https://cnnespanol.cnn.com/2024/01/15/trump-iowa,NO
+n294,2024,1,Festividades,r5,"Fiesta de la Virgen de la Candelaria en Puno prepara su edición 2024",El Comercio,https://elcomercio.pe/peru/puno,NO
+n295,2024,2,Videojuegos,r3,"Helldivers 2 conquista el mercado: el shooter cooperativo que nadie esperaba",IGN,https://www.ign.com/articles/helldivers-2,NO
+n296,2024,2,Tecnología,r2,"Google presenta Gemini: la familia de modelos que reemplaza a Bard",The Verge,https://www.theverge.com/2024/2/8/google-gemini,NO
+n297,2024,2,Videojuegos,r3,"Final Fantasy VII Rebirth llega a PS5 con aclamación universal",IGN,https://www.ign.com/articles/final-fantasy-vii-rebirth-review,NO
+n298,2024,2,Festividades,r5,"La Candelaria 2024: Puno vibra con la fiesta más grande del altiplano",El Comercio,https://elcomercio.pe/peru/puno/candelaria-2024,NO
+n299,2024,2,Política,r1,"Congreso peruano blinda a Boluarte: archivan moción de vacancia",La República,https://larepublica.pe/politica/congreso,NO
+n300,2024,2,Internacional,r6,"Alexéi Navalny muere en prisión: el mundo condena a Rusia",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional,NO
+n301,2024,2,Noticias Locales,r4,"Áncash: lluvias torrenciales causan huaicos y bloquean carreteras",RPP,https://rpp.pe/peru/ancash,NO
+n302,2024,3,Tecnología,r2,"Anthropic lanza Claude 3: la IA que desafía a GPT-4 en razonamiento",The Verge,https://www.theverge.com/2024/3/4/anthropic-claude-3,NO
+n303,2024,3,Festividades,r5,"Mundoscopio celebra su 6to aniversario: seis años informando al mundo",Mundoscopio,https://mundoscopio.com/aniversario,NO
+n304,2024,3,Política,r1,"Caso Rolex: investigan a Boluarte por relojes de lujo no declarados",La República,https://larepublica.pe/politica/boluarte-rolex,NO
+n305,2024,3,Internacional,r6,"Super Tuesday: Trump barre en las primarias y Nikki Haley se retira",CNN Español,https://cnnespanol.cnn.com/2024/03/super-tuesday,NO
+n306,2024,3,Noticias Locales,r4,"Nuevo Chimbote: inauguran modernización del boulevard Pacífico",RPP,https://rpp.pe/peru/ancash/nuevo-chimbote,NO
+n307,2024,3,Tecnología,r2,"Nvidia presenta los chips Blackwell: la revolución para centros de datos de IA",The Verge,https://www.theverge.com/2024/3/18/nvidia-blackwell,NO
+n308,2024,4,Tecnología,r2,"Meta lanza Llama 3: el modelo de código abierto que compite con los gigantes",The Verge,https://www.theverge.com/2024/4/18/meta-llama-3,NO
+n309,2024,4,Política,r1,"Perú: ley que debilita la lucha anticorrupción genera indignación",La República,https://larepublica.pe/politica/congreso-anticorrupcion,NO
+n310,2024,4,Festividades,r5,"Semana Santa 2024: procesiones multitudinarias recorren el Perú",El Comercio,https://elcomercio.pe/peru/semana-santa-2024,NO
+n311,2024,4,Internacional,r6,"Irán lanza ataque con drones y misiles contra Israel en represalia sin precedentes",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional/iran-israel,NO
+n312,2024,4,Noticias Locales,r4,"Huaraz: turismo de montaña se recupera y rompe récords en Semana Santa",El Comercio,https://elcomercio.pe/peru/ancash/huaraz-turismo,NO
+n313,2024,5,Tecnología,r2,"OpenAI presenta GPT-4o: inteligencia artificial que ve; escucha y habla en tiempo real",The Verge,https://www.theverge.com/2024/5/13/openai-gpt-4o,NO
+n314,2024,5,Tecnología,r2,"Google presenta Gemini 1.5 Pro con ventana de contexto de un millón de tokens",The Verge,https://www.theverge.com/2024/5/14/google-io-gemini,NO
+n315,2024,5,Política,r1,"Trump declarado culpable en juicio penal: primer expresidente condenado en EE.UU.",CNN Español,https://cnnespanol.cnn.com/2024/05/30/trump-culpable,NO
+n316,2024,5,Noticias Locales,r4,"Trujillo: ola de inseguridad ciudadana alarma al norte del Perú",RPP,https://rpp.pe/peru/la-libertad/trujillo-inseguridad,NO
+n317,2024,5,Internacional,r6,"Javier Milei cumple seis meses: Argentina entre la recesión y el ajuste brutal",BBC Mundo,https://www.bbc.com/mundo/noticias-america-latina/milei,NO
+n318,2024,5,Festividades,r5,"Cruz de Mayo: Áncash celebra con fervor la tradicional fiesta de las cruces",El Comercio,https://elcomercio.pe/peru/ancash/cruz-de-mayo,NO
+n319,2024,6,Videojuegos,r3,"Summer Game Fest 2024: los grandes anuncios que emocionaron a los gamers",IGN,https://www.ign.com/articles/summer-game-fest-2024,NO
+n320,2024,6,Festividades,r5,"San Pedrito 2024: Chimbote celebra a su patrón con fe y tradición",RPP,https://rpp.pe/peru/ancash/san-pedrito-chimbote,NO
+n321,2024,6,Política,r1,"Debate presidencial Biden vs Trump: la actuación de Biden genera alarma en el Partido Demócrata",CNN Español,https://cnnespanol.cnn.com/2024/06/27/debate-biden-trump,NO
+n322,2024,6,Noticias Locales,r4,"Chimbote: proyecto de descontaminación de la bahía El Ferrol avanza lentamente",La República,https://larepublica.pe/sociedad/chimbote-bahia,NO
+n323,2024,6,Tecnología,r2,"Apple presenta Apple Intelligence: su apuesta por la IA en iPhone; iPad y Mac",The Verge,https://www.theverge.com/2024/6/10/apple-intelligence,NO
+n324,2024,7,Política,r1,"Intento de asesinato a Trump: baleado durante mitin en Pensilvania",CNN Español,https://cnnespanol.cnn.com/2024/07/13/trump-tiroteo,NO
+n325,2024,7,Política,r1,"Biden se retira de la carrera presidencial y respalda a Kamala Harris",BBC Mundo,https://www.bbc.com/mundo/noticias/biden-retiro,NO
+n326,2024,7,Internacional,r6,"Juegos Olímpicos de París 2024: la ceremonia de apertura deslumbra al mundo",BBC Mundo,https://www.bbc.com/mundo/deportes/paris-2024-apertura,NO
+n327,2024,7,Festividades,r5,"Fiestas Patrias 2024: Perú celebra 203 años de independencia",El Comercio,https://elcomercio.pe/peru/fiestas-patrias-2024,NO
+n328,2024,7,Noticias Locales,r4,"Áncash: proyecto minero Antamina genera debate por expansión",Gestión,https://gestion.pe/economia/antamina-expansion,NO
+n329,2024,7,Tecnología,r2,"CrowdStrike provoca la mayor caída informática global de la historia",The Verge,https://www.theverge.com/2024/7/19/crowdstrike-outage,NO
+n330,2024,8,Internacional,r6,"París 2024: Estados Unidos lidera el medallero en unos Juegos históricos",BBC Mundo,https://www.bbc.com/mundo/deportes/paris-2024-cierre,NO
+n331,2024,8,Videojuegos,r3,"Black Myth: Wukong rompe récords: el fenómeno chino que conquistó al mundo",IGN,https://www.ign.com/articles/black-myth-wukong-record,NO
+n332,2024,8,Política,r1,"Kamala Harris elige a Tim Walz como compañero de fórmula vicepresidencial",CNN Español,https://cnnespanol.cnn.com/2024/08/06/harris-walz,NO
+n333,2024,8,Noticias Locales,r4,"Chimbote: incendio en mercado La Perla deja cuantiosas pérdidas",RPP,https://rpp.pe/peru/ancash/chimbote-incendio-mercado,NO
+n334,2024,8,Internacional,r6,"Telegram: arrestan al CEO Pavel Durov en Francia por falta de moderación",The Verge,https://www.bbc.com/mundo/noticias-internacional/durov-arresto,NO
+n335,2024,8,Festividades,r5,"Santa Rosa de Lima: miles de fieles depositan cartas en el pozo de los deseos",El Comercio,https://elcomercio.pe/lima/santa-rosa-2024,NO
+n336,2024,9,Tecnología,r2,"Apple presenta el iPhone 16 con un botón dedicado a la inteligencia artificial",The Verge,https://www.theverge.com/2024/9/9/apple-iphone-16,NO
+n337,2024,9,Política,r1,"Debate Harris vs Trump: la vicepresidenta pone contra las cuerdas al republicano",CNN Español,https://cnnespanol.cnn.com/2024/09/10/debate-harris-trump,NO
+n338,2024,9,Internacional,r6,"Israel intensifica operaciones en Líbano: explosiones de buscapersonas de Hezbollah",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional/israel-libano,NO
+n339,2024,9,Videojuegos,r3,"Astro Bot recibe aclamación universal: la joya de PS5 del año",Eurogamer,https://www.eurogamer.net/astro-bot-review,NO
+n340,2024,9,Noticias Locales,r4,"Casma: descubren nuevos hallazgos arqueológicos en Sechín",El Comercio,https://elcomercio.pe/peru/ancash/sechin-descubrimientos,NO
+n341,2024,9,Festividades,r5,"Mistura 2024: la feria gastronómica más grande de Latinoamérica regresa a Lima",El Comercio,https://elcomercio.pe/gastronomia/mistura-2024,NO
+n342,2024,10,Política,r1,"Perú: nueva remodelación ministerial en medio de escándalos de corrupción",La República,https://larepublica.pe/politica/gabinete-cambios,NO
+n343,2024,10,Tecnología,r2,"Nobel de Física 2024 para pioneros de redes neuronales e inteligencia artificial",BBC Mundo,https://www.bbc.com/mundo/ciencia/nobel-fisica-2024,NO
+n344,2024,10,Festividades,r5,"Señor de los Milagros 2024: el Cristo Moreno recorre las calles de Lima",El Comercio,https://elcomercio.pe/lima/senor-de-los-milagros-2024,NO
+n345,2024,10,Internacional,r6,"BRICS se expande: el bloque suma nuevos miembros y desafía el orden occidental",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional/brics-expansion,NO
+n346,2024,10,Noticias Locales,r4,"Piura: crisis por dengue obliga a declarar emergencia sanitaria en el norte",RPP,https://rpp.pe/peru/piura/dengue-emergencia,NO
+n347,2024,10,Videojuegos,r3,"Nintendo anuncia oficialmente la Switch 2: la sucesora de la consola híbrida",IGN,https://www.ign.com/articles/nintendo-switch-2-announcement,NO
+n348,2024,11,Política,r1,"Trump gana las elecciones presidenciales de EE.UU. 2024: regresa a la Casa Blanca",CNN Español,https://cnnespanol.cnn.com/2024/11/06/trump-gana-elecciones,NO
+n349,2024,11,Política,r1,"Reacciones mundiales a la victoria de Trump: incertidumbre y expectativa",BBC Mundo,https://www.bbc.com/mundo/noticias/trump-reacciones-mundo,NO
+n350,2024,11,Tecnología,r2,"ChatGPT cumple dos años: de experimento viral a herramienta cotidiana",The Verge,https://www.theverge.com/2024/11/30/chatgpt-anniversary,NO
+n351,2024,11,Videojuegos,r3,"PlayStation celebra 30 años: tres décadas de revolucionar los videojuegos",Eurogamer,https://www.eurogamer.net/playstation-30-anniversary,NO
+n352,2024,11,Internacional,r6,"COP29 en Bakú: negociaciones climáticas avanzan con acuerdo de financiamiento",BBC Mundo,https://www.bbc.com/mundo/noticias/cop29-baku,NO
+n353,2024,11,Noticias Locales,r4,"Áncash: temporada de lluvias golpea a comunidades rurales del Callejón de Huaylas",RPP,https://rpp.pe/peru/ancash/lluvias-callejon-huaylas,NO
+n354,2024,11,Videojuegos,r3,"Dragon Age: The Veilguard llega tras una década de espera",Eurogamer,https://www.eurogamer.net/dragon-age-veilguard-review,NO
+n355,2024,12,Tecnología,r2,"OpenAI presenta Sora: la IA que genera videos realistas a partir de texto",The Verge,https://www.theverge.com/2024/12/9/openai-sora-launch,NO
+n356,2024,12,Tecnología,r2,"Google lanza Gemini 2.0: la nueva frontera de la IA multimodal",The Verge,https://www.theverge.com/2024/12/11/google-gemini-2,NO
+n357,2024,12,Internacional,r6,"Caída del régimen de Assad en Siria: rebeldes toman Damasco",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional/siria-assad-cae,NO
+n358,2024,12,Internacional,r6,"Corea del Sur: breve ley marcial del presidente Yoon sacude la democracia",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional/corea-sur-marcial,NO
+n359,2024,12,Videojuegos,r3,"The Game Awards 2024: Astro Bot se corona como Juego del Año",IGN,https://www.ign.com/articles/game-awards-2024-winners,NO
+n360,2024,12,Política,r1,"Perú cierra 2024 con crisis política crónica y mínima aprobación de Boluarte",La República,https://larepublica.pe/politica/peru-balance-2024,NO
+n361,2024,12,Noticias Locales,r4,"Chimbote: sector siderúrgico busca reactivación con nuevos proyectos",Gestión,https://gestion.pe/economia/chimbote-siderurgia,NO
+n362,2024,12,Festividades,r5,"Navidad 2024: el Perú se ilumina con celebraciones en todo el país",El Comercio,https://elcomercio.pe/peru/navidad-2024,NO
+n363,2024,12,Videojuegos,r3,"Indiana Jones y el Gran Círculo sorprende con su aventura narrativa",Eurogamer,https://www.eurogamer.net/indiana-jones-great-circle-review,NO
+n364,2024,12,Noticias Locales,r4,"Lambayeque: descubrimiento arqueológico en Huaca Rajada emociona a la comunidad",El Comercio,https://elcomercio.pe/peru/lambayeque/sipan-descubrimiento,NO
+n365,2024,12,Tecnología,r2,"Anthropic lanza Claude 3.5 Sonnet: el modelo que redefine la eficiencia en IA",The Verge,https://www.theverge.com/2024/anthropic-claude-3-5-sonnet,NO
+n366,2024,12,Festividades,r5,"Año Nuevo 2025: el mundo despide el 2024 con fuegos artificiales y esperanza",El Comercio,https://elcomercio.pe/peru/ano-nuevo-2025,NO
+n367,2025,1,Política,r1,"Dina Boluarte inicia 2025 con la aprobación más baja registrada por una presidenta peruana",RPP,https://rpp.pe/politica,NO
+n368,2025,1,Internacional,r6,"Donald Trump asume su segundo mandato presidencial en Estados Unidos",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional,NO
+n369,2025,1,Tecnología,r2,"OpenAI lanza el modelo o1 y redefine el razonamiento en inteligencia artificial",The Verge,https://www.theverge.com/ai,NO
+n370,2025,1,Videojuegos,r3,"Nintendo anuncia oficialmente la Nintendo Switch 2 con un tráiler revelación",IGN,https://www.ign.com/nintendo,NO
+n371,2025,1,Internacional,r6,"Trump firma órdenes ejecutivas para cerrar la frontera sur y restringir asilo",CNN Español,https://cnnespanol.cnn.com/seccion/politica,NO
+n372,2025,1,Noticias Locales,r4,"Chimbote recibe el 2025 con lluvias inusuales y alerta por activación de quebradas",RPP,https://rpp.pe/peru/ancash,NO
+n373,2025,1,Festividades,r5,"Fiesta de la Bajada de Reyes reúne a miles en celebraciones en todo el Perú",El Comercio,https://elcomercio.pe/peru,NO
+n374,2025,2,Tecnología,r2,"Anthropic lanza Claude 3.5 Sonnet renovado con capacidades de agente mejoradas",The Verge,https://www.theverge.com/ai,NO
+n375,2025,2,Política,r1,"Congreso peruano aprueba ley que debilita la Junta Nacional de Justicia",La República,https://larepublica.pe/politica,NO
+n376,2025,2,Videojuegos,r3,"Civilization VII se lanza globalmente y recibe elogios por su ambición",IGN,https://www.ign.com/games/civilization-vii,NO
+n377,2025,2,Festividades,r5,"Carnavales 2025: Cajamarca y Puno se llenan de color y tradición",El Comercio,https://elcomercio.pe/vamos,NO
+n378,2025,2,Internacional,r6,"Trump anuncia aranceles masivos contra China; México y Canadá",BBC Mundo,https://www.bbc.com/mundo/noticias,NO
+n379,2025,2,Noticias Locales,r4,"Áncash: pescadores artesanales protestan por cuotas de pesca reducidas",RPP,https://rpp.pe/peru/ancash,NO
+n380,2025,2,Tecnología,r2,"Google lanza Gemini 2.0 y apuesta por los agentes de IA como el futuro",The Verge,https://www.theverge.com/google,NO
+n381,2025,3,Festividades,r5,"Mundoscopio celebra su séptimo aniversario: siete años informando con identidad",RPP,https://mundoscopio.com,NO
+n382,2025,3,Tecnología,r2,"Anthropic lanza Claude 3.7 Sonnet con modo de pensamiento extendido",The Verge,https://www.theverge.com/ai,NO
+n383,2025,3,Política,r1,"Fiscalía formaliza denuncia contra Boluarte por caso Rolex y cirugías estéticas",La República,https://larepublica.pe/politica,NO
+n384,2025,3,Internacional,r6,"Ucrania y Rusia negocian un alto al fuego parcial tras presión de Trump",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional,NO
+n385,2025,3,Noticias Locales,r4,"Nuevo Chimbote inaugura moderna planta de tratamiento de agua potable",RPP,https://rpp.pe/peru/ancash,NO
+n386,2025,3,Videojuegos,r3,"Monster Hunter Wilds llega con récord de ventas para Capcom",IGN,https://www.ign.com/games/monster-hunter-wilds,NO
+n387,2025,3,Política,r1,"Elecciones 2026: inscripción de partidos políticos entra en fase decisiva",El Comercio,https://elcomercio.pe/politica,NO
+n388,2025,4,Tecnología,r2,"Anthropic presenta Claude con capacidad de uso de computadora en tiempo real",The Verge,https://www.theverge.com/ai,NO
+n389,2025,4,Internacional,r6,"Papa León XIV es elegido como sucesor de Francisco tras cónclave histórico",BBC Mundo,https://www.bbc.com/mundo/noticias,NO
+n390,2025,4,Festividades,r5,"Semana Santa 2025: procesiones multitudinarias en Ayacucho y Cusco",El Comercio,https://elcomercio.pe/peru,NO
+n391,2025,4,Política,r1,"Premier Gustavo Adrianzén presenta plan de seguridad ciudadana con mano dura",Gestión,https://gestion.pe/peru/politica,NO
+n392,2025,4,Videojuegos,r3,"Nintendo revela fecha de lanzamiento y precio de la Switch 2",IGN,https://www.ign.com/nintendo,NO
+n393,2025,4,Noticias Locales,r4,"Trujillo: ola de extorsiones paraliza a comerciantes del centro histórico",RPP,https://rpp.pe/peru/la-libertad,NO
+n394,2025,5,Tecnología,r2,"OpenAI presenta GPT-4.1 con ventana de contexto ampliada a 1 millón de tokens",The Verge,https://www.theverge.com/openai,NO
+n395,2025,5,Política,r1,"Vacancia presidencial contra Boluarte fracasa nuevamente en el Congreso",Peru21,https://peru21.pe/politica,NO
+n396,2025,5,Internacional,r6,"La Unión Europea responde a los aranceles de Trump con contramedidas comerciales",BBC Mundo,https://www.bbc.com/mundo/noticias,NO
+n397,2025,5,Festividades,r5,"Día de la Madre 2025: comercio peruano reporta ventas récord",Gestión,https://gestion.pe/economia,NO
+n398,2025,5,Videojuegos,r3,"GTA VI confirma fecha de lanzamiento para otoño de 2025 con nuevo tráiler",IGN,https://www.ign.com/games/grand-theft-auto-vi,NO
+n399,2025,5,Noticias Locales,r4,"Áncash: gobernador regional es investigado por presunta corrupción en obras",La República,https://larepublica.pe/sociedad,NO
+n400,2025,5,Tecnología,r2,"Apple anuncia Apple Intelligence con integración de IA en todos sus dispositivos",The Verge,https://www.theverge.com/apple,NO
+n401,2025,6,Festividades,r5,"Fiesta de San Pedrito 2025: Chimbote celebra a su santo patrón con fervor",RPP,https://rpp.pe/peru/ancash,NO
+n402,2025,6,Videojuegos,r3,"Nintendo Switch 2 sale a la venta y se agota en horas en todo el mundo",Eurogamer,https://www.eurogamer.net,NO
+n403,2025,6,Política,r1,"Debate por reforma electoral se intensifica de cara a las elecciones de 2026",El Comercio,https://elcomercio.pe/politica,NO
+n404,2025,6,Internacional,r6,"China responde a aranceles de Trump con restricciones a exportación de tierras raras",CNN Español,https://cnnespanol.cnn.com/seccion/economia,NO
+n405,2025,6,Noticias Locales,r4,"Chimbote: proyecto de modernización del Terminal Pesquero avanza con lentitud",RPP,https://rpp.pe/peru/ancash,NO
+n406,2025,6,Tecnología,r2,"Meta lanza Llama 4 y refuerza su apuesta por la inteligencia artificial abierta",The Verge,https://www.theverge.com/meta,NO
+n407,2025,6,Festividades,r5,"Inti Raymi 2025: Cusco revive la majestuosidad de la Fiesta del Sol",El Comercio,https://elcomercio.pe/vamos,NO
+n408,2025,7,Festividades,r5,"Fiestas Patrias 2025: Perú celebra 204 años de independencia",El Comercio,https://elcomercio.pe/peru,NO
+n409,2025,7,Política,r1,"Mensaje a la Nación: Boluarte promete obras y evita temas de corrupción",La República,https://larepublica.pe/politica,NO
+n410,2025,7,Tecnología,r2,"Anthropic lanza Claude 4 Opus con razonamiento de nivel experto",The Verge,https://www.theverge.com/ai,NO
+n411,2025,7,Internacional,r6,"Tensiones en el Mar del Sur de China: Filipinas y China chocan por islas disputadas",BBC Mundo,https://www.bbc.com/mundo/noticias-internacional,NO
+n412,2025,7,Videojuegos,r3,"Doom: The Dark Ages llega con acción medieval y recibe aclamación universal",IGN,https://www.ign.com/games/doom-the-dark-ages,NO
+n413,2025,7,Noticias Locales,r4,"Huaraz: temporada de montañismo 2025 reporta récord de visitantes internacionales",El Comercio,https://elcomercio.pe/vamos,NO
+n414,2025,8,Política,r1,"Cambio de gabinete: Boluarte nombra nuevo premier en medio de crisis política",RPP,https://rpp.pe/politica,NO
+n415,2025,8,Tecnología,r2,"La carrera de los agentes de IA se intensifica: empresas compiten por la autonomía digital",The Verge,https://www.theverge.com/ai,NO
+n416,2025,8,Internacional,r6,"Incendios forestales devastan el sur de Europa durante el verano más caluroso registrado",BBC Mundo,https://www.bbc.com/mundo/noticias,NO
+n417,2025,8,Festividades,r5,"Santa Rosa de Lima 2025: miles de fieles depositan cartas en el pozo de los deseos",El Comercio,https://elcomercio.pe/lima,NO
+n418,2025,8,Tecnología,r2,"Gamescom 2025: la inteligencia artificial redefine el desarrollo de videojuegos",Eurogamer,https://www.theverge.com/games,NO
+n419,2025,8,Noticias Locales,r4,"Piura: agricultores del norte enfrentan escasez hídrica por falta de lluvias",RPP,https://rpp.pe/peru/piura,NO
+n420,2025,9,Tecnología,r2,"Apple presenta el iPhone 17 con IA generativa integrada en español",The Verge,https://www.theverge.com/apple,NO
+n421,2025,9,Política,r1,"Precandidatos presidenciales para 2026 inician carrera con promesas de cambio",Peru21,https://peru21.pe/politica,NO
+n422,2025,9,Internacional,r6,"Venezuela: crisis migratoria se agudiza con nuevo éxodo hacia países vecinos",CNN Español,https://cnnespanol.cnn.com/seccion/america-latina,NO
+n423,2025,9,Videojuegos,r3,"PlayStation 5 Pro muestra sus capacidades con títulos exclusivos renovados",IGN,https://www.ign.com/playstation,NO
+n424,2025,9,Noticias Locales,r4,"Chimbote: se inaugura nueva vía de acceso al Hospital Regional",RPP,https://rpp.pe/peru/ancash,NO
+n425,2025,9,Política,r1,"Contraloría revela millonarias pérdidas por obras paralizadas en todo el Perú",El Comercio,https://gestion.pe/peru/politica,NO
+n426,2025,10,Videojuegos,r3,"GTA VI se lanza mundialmente y bate todos los récords de ventas en entretenimiento",IGN,https://www.ign.com/games/grand-theft-auto-vi,NO
+n427,2025,10,Festividades,r5,"Señor de los Milagros 2025: procesión del Cristo Moreno recorre Lima",El Comercio,https://elcomercio.pe/lima,NO
+n428,2025,10,Política,r1,"Congreso peruano aprueba ley de impunidad que genera rechazo internacional",La República,https://larepublica.pe/politica,NO
+n429,2025,10,Internacional,r6,"Elecciones en Argentina: Milei enfrenta primer test electoral en legislativas parciales",BBC Mundo,https://www.bbc.com/mundo/noticias-america-latina,NO
+n430,2025,10,Tecnología,r2,"Regulación de IA: la Unión Europea comienza a aplicar el AI Act",The Verge,https://www.theverge.com/ai,NO
+n431,2025,10,Noticias Locales,r4,"Áncash: sismo de magnitud 5.2 sacude la región sin causar víctimas",RPP,https://rpp.pe/peru/ancash,NO
+n432,2025,11,Tecnología,r2,"OpenAI presenta GPT-5 y promete una nueva era de inteligencia artificial general",The Verge,https://www.theverge.com/openai,NO
+n433,2025,11,Política,r1,"Encuestas revelan que ningún candidato presidencial supera el 15% para 2026",Gestión,https://gestion.pe/peru/politica,NO
+n434,2025,11,Internacional,r6,"COP30 en Belém: Amazonía al centro del debate climático mundial",BBC Mundo,https://www.bbc.com/mundo/noticias,NO
+n435,2025,11,Videojuegos,r3,"The Game Awards 2025: los nominados a Juego del Año generan intenso debate",IGN,https://www.ign.com/articles/game-awards-2025,NO
+n436,2025,11,Noticias Locales,r4,"Chimbote: mercado La Sirena inicia proceso de formalización y reubicación",RPP,https://rpp.pe/peru/ancash,NO
+n437,2025,11,Internacional,r6,"Trump y Xi Jinping se reúnen para intentar desescalar la guerra comercial",CNN Español,https://cnnespanol.cnn.com/seccion/mundo,NO
+n438,2025,12,Tecnología,r2,"2025 en retrospectiva: el año en que la IA se convirtió en agente",The Verge,https://www.theverge.com/ai,NO
+n439,2025,12,Política,r1,"Boluarte cierra 2025 como la presidenta más impopular de la historia del Perú",La República,https://larepublica.pe/politica,NO
+n440,2025,12,Festividades,r5,"Navidad 2025: familias peruanas celebran con esperanza de cambio para el nuevo año",El Comercio,https://elcomercio.pe/peru,NO
+n441,2025,12,Videojuegos,r3,"GTA VI gana el Juego del Año en The Game Awards 2025",IGN,https://www.ign.com/articles/game-awards-2025-winners,NO
+n442,2025,12,Internacional,r6,"El mundo cierra 2025 entre guerras comerciales; conflictos y avances tecnológicos",BBC Mundo,https://www.bbc.com/mundo/noticias,NO
+n443,2025,12,Noticias Locales,r4,"Chimbote: avances en la descontaminación de la bahía El Ferrol",RPP,https://rpp.pe/peru/ancash,NO
+n444,2025,12,Videojuegos,r3,"Nintendo Switch 2 cierra 2025 con más de 15 millones de unidades vendidas",Eurogamer,https://www.eurogamer.net,NO
+n445,2025,12,Política,r1,"Partidos políticos cierran alianzas de cara a las elecciones generales de 2026",El Comercio,https://elcomercio.pe/politica,NO
+n446,2025,12,Noticias Locales,r4,"Áncash cierra 2025 con retos pendientes en infraestructura y seguridad",RPP,https://rpp.pe/peru/ancash,NO
+n447,2025,12,Festividades,r5,"Año Nuevo 2026: Perú se despide de un año turbulento con fuegos artificiales y esperanza",El Comercio,https://elcomercio.pe/peru,NO
+n448,2026,1,Política,r1,"Congreso aprueba reforma del sistema de pensiones tras meses de debate",El Comercio,https://elcomercio.pe/politica/congreso-reforma-pensiones-2026,SI
+n449,2026,1,Política,r1,"Gobierno lanza plan de descentralización con inversión millonaria en regiones",La República,https://larepublica.pe/politica/plan-descentralizacion-2026,SI
+n450,2026,1,Política,r1,"JNE inicia preparativos para las elecciones regionales y municipales 2026",RPP,https://rpp.pe/politica/jne-elecciones-regionales-2026,SI
+n451,2026,1,Política,r1,"Contraloría revela irregularidades en obras de reconstrucción del norte",Gestión,https://gestion.pe/politica/contraloria-irregularidades-reconstruccion-norte,SI
+n452,2026,1,Política,r1,"Ejecutivo promulga ley que fortalece la carrera pública magisterial",Peru21,https://peru21.pe/politica/ley-carrera-publica-magisterial-2026,SI
+n453,2026,1,Tecnología,r2,"Anthropic presenta Claude 4: la nueva frontera de la inteligencia artificial",The Verge,https://www.theverge.com/2026/1/anthropic-claude-4-launch,SI
+n454,2026,1,Tecnología,r2,"Unión Europea implementa primera fase de la Ley de Inteligencia Artificial",BBC Mundo,https://www.bbc.com/mundo/noticias/2026/01/ley-ia-europa,SI
+n455,2026,1,Tecnología,r2,"Apple lanza Vision Pro 2 con precio más accesible y nuevas funciones",The Verge,https://www.theverge.com/2026/1/apple-vision-pro-2,SI
+n456,2026,1,Tecnología,r2,"Perú avanza en conectividad: fibra óptica llega a 500 distritos rurales",Gestión,https://gestion.pe/tecnologia/fibra-optica-distritos-rurales-peru-2026,SI
+n457,2026,1,Tecnología,r2,"OpenAI y Google intensifican la carrera por los agentes autónomos de IA",The Verge,https://www.theverge.com/2026/1/ai-agents-openai-google,SI
+n458,2026,1,Internacional,r6,"Trump inicia su segundo mandato con polémicas órdenes ejecutivas",CNN Español,https://cnnespanol.cnn.com/2026/01/trump-aranceles-segundo-ano,SI
+n459,2026,1,Internacional,r6,"Conflicto en Ucrania entra en su cuarto año sin señales claras de paz",BBC Mundo,https://www.bbc.com/mundo/noticias/2026/01/ucrania-rusia-cuarto-ano,SI
+n460,2026,1,Internacional,r6,"Brasil supera a Japón y se convierte en la cuarta economía del mundo",CNN Español,https://cnnespanol.cnn.com/2026/01/brasil-cuarta-economia-mundial,SI
+n461,2026,1,Internacional,r6,"OMS alerta sobre nuevo brote de gripe aviar H5N1 en el sudeste asiático",BBC Mundo,https://www.bbc.com/mundo/noticias/2026/01/oms-gripe-aviar-alerta,SI
+n462,2026,1,Internacional,r6,"Argentina celebra estabilización económica con inflación en un dígito mensual",CNN Español,https://cnnespanol.cnn.com/2026/01/argentina-inflacion-baja,SI
+n463,2026,1,Videojuegos,r3,"Nintendo Switch 2 se lanza con récord de ventas en su primera semana",IGN,https://www.ign.com/articles/nintendo-switch-2-launch-sales-record,SI
+n464,2026,1,Videojuegos,r3,"Mario Kart World debuta como título estrella de Nintendo Switch 2",Eurogamer,https://www.eurogamer.net/mario-kart-world-switch-2-review,NO
+n465,2026,1,Videojuegos,r3,"GTA VI confirma fecha de lanzamiento para otoño de 2026",IGN,https://www.ign.com/articles/gta-vi-release-date-confirmed-2026,NO
+n466,2026,1,Videojuegos,r3,"The Game Awards 2025: Astro Bot se lleva el GOTY y emociona a la industria",IGN,https://www.ign.com/articles/game-awards-2025-winners,NO
+n467,2026,1,Festividades,r5,"Año Nuevo 2026: Perú recibe el nuevo año con celebraciones masivas",RPP,https://rpp.pe/peru/ano-nuevo-2026-celebraciones,NO
+n468,2026,1,Festividades,r5,"Festival de la Marinera en Trujillo abre con récord de participantes",El Comercio,https://elcomercio.pe/peru/trujillo/festival-marinera-2026,NO
+n469,2026,1,Festividades,r5,"Bajada de Reyes: comunidades andinas mantienen viva la tradición",La República,https://larepublica.pe/cultura/bajada-reyes-2026-tradiciones,NO
+n470,2026,1,Noticias Locales,r4,"Chimbote: nuevo terminal pesquero artesanal inicia operaciones",El Comercio,https://elcomercio.pe/peru/ancash/chimbote-terminal-pesquero-2026,NO
+n471,2026,1,Noticias Locales,r4,"Áncash: temporada de lluvias causa emergencias en la sierra",RPP,https://rpp.pe/peru/ancash/lluvias-emergencias-sierra-ancash-2026,NO
+n472,2026,1,Noticias Locales,r4,"Nuevo Chimbote: inauguran complejo deportivo municipal con piscina olímpica",La República,https://larepublica.pe/sociedad/nuevo-chimbote-complejo-deportivo-2026,NO
+n473,2026,1,Noticias Locales,r4,"Trujillo refuerza seguridad ciudadana con 500 nuevas cámaras de vigilancia",Peru21,https://peru21.pe/peru/trujillo-camaras-seguridad-2026,NO
+n474,2026,2,Política,r1,"Gabinete ministerial anuncia paquete de reactivación económica",Gestión,https://gestion.pe/economia/gabinete-paquete-reactivacion-2026,NO
+n475,2026,2,Política,r1,"Defensoría del Pueblo exige mayor presupuesto para salud mental",La República,https://larepublica.pe/sociedad/defensoria-salud-mental-presupuesto-2026,NO
+n476,2026,2,Política,r1,"Debate por la reforma política: bicameralidad vuelve a la agenda del Congreso",El Comercio,https://elcomercio.pe/politica/bicameralidad-debate-congreso-2026,NO
+n477,2026,2,Política,r1,"Ministerio de Educación implementa programa de tablets para escuelas rurales",Peru21,https://peru21.pe/peru/minedu-tablets-escuelas-rurales-2026,NO
+n478,2026,2,Política,r1,"Fiscalía anticorrupción investiga a exgobernadores por lavado de activos",La República,https://larepublica.pe/politica/fiscalia-exgobernadores-lavado-activos-2026,NO
+n479,2026,2,Tecnología,r2,"Samsung Galaxy S26 Ultra sorprende con cámara de 400 megapíxeles",The Verge,https://www.theverge.com/2026/2/samsung-galaxy-s26-ultra,NO
+n480,2026,2,Tecnología,r2,"Congreso de EE.UU. avanza en regulación federal de la inteligencia artificial",The Verge,https://www.theverge.com/2026/2/us-congress-ai-regulation-bill,NO
+n481,2026,2,Tecnología,r2,"SpaceX completa primera misión tripulada a Marte con carga preparatoria",The Verge,https://www.theverge.com/2026/2/spacex-starship-mars-mission,NO
+n482,2026,2,Tecnología,r2,"Perú firma acuerdo con Starlink para llevar internet a comunidades nativas",Gestión,https://gestion.pe/tecnologia/peru-starlink-comunidades-nativas-internet,NO
+n483,2026,2,Tecnología,r2,"Tesla presenta robotaxi Cybercab y anuncia inicio de operaciones en 2027",The Verge,https://www.theverge.com/2026/2/tesla-cybercab-robotaxi-launch,NO
+n484,2026,2,Tecnología,r2,"Meta lanza gafas inteligentes Ray-Ban con pantalla holográfica integrada",The Verge,https://www.theverge.com/2026/2/meta-ray-ban-holographic-glasses,NO
+n485,2026,2,Internacional,r6,"China anuncia plan quinquenal centrado en semiconductores e inteligencia artificial",BBC Mundo,https://www.bbc.com/mundo/noticias/2026/02/china-plan-quinquenal-tecnologia,NO
+n486,2026,2,Internacional,r6,"Copa Mundial 2026: México; EE.UU. y Canadá ultiman detalles a cuatro meses del torneo",CNN Español,https://cnnespanol.cnn.com/2026/02/mundial-2026-preparativos-sedes,NO
+n487,2026,2,Internacional,r6,"Incendios forestales en Chile obligan a evacuaciones masivas en Valparaíso",BBC Mundo,https://www.bbc.com/mundo/noticias/2026/02/chile-incendios-valparaiso,NO
+n488,2026,2,Internacional,r6,"India supera oficialmente a China como el país más poblado del mundo",BBC Mundo,https://www.bbc.com/mundo/noticias/2026/02/india-poblacion-record,NO
+n489,2026,2,Internacional,r6,"Cumbre del clima: países acuerdan triplicar energías renovables para 2035",CNN Español,https://cnnespanol.cnn.com/2026/02/cumbre-clima-energias-renovables,NO
+n490,2026,2,Videojuegos,r3,"Metroid Prime 4: Beyond llega a Switch 2 con gráficos de nueva generación",IGN,https://www.ign.com/articles/metroid-prime-4-beyond-switch-2-review,NO
+n491,2026,2,Videojuegos,r3,"PlayStation presenta nueva suscripción con juegos de día uno incluidos",Eurogamer,https://www.eurogamer.net/playstation-plus-platinum-day-one,NO
+n492,2026,2,Videojuegos,r3,"Elden Ring: Nightreign conquista a los fanáticos con su modo cooperativo",IGN,https://www.ign.com/articles/elden-ring-nightreign-review,NO
+n493,2026,2,Videojuegos,r3,"La industria de los videojuegos supera los 250 mil millones de dólares en ingresos",Eurogamer,https://www.eurogamer.net/gaming-industry-revenue-record-2025,NO
+n494,2026,2,Festividades,r5,"Carnaval de Cajamarca 2026: la fiesta más grande del norte peruano",RPP,https://rpp.pe/peru/cajamarca/carnaval-cajamarca-2026,NO
+n495,2026,2,Festividades,r5,"Día de San Valentín: emprendedores peruanos rompen récord de ventas en línea",Gestión,https://gestion.pe/economia/san-valentin-ventas-online-record-2026,NO
+n496,2026,2,Festividades,r5,"Fiesta de la Virgen de la Candelaria: Puno deslumbra al mundo con sus danzas",El Comercio,https://elcomercio.pe/peru/puno/virgen-candelaria-2026-festival,NO
+n497,2026,2,Festividades,r5,"Vendimia de Ica 2026: celebración del pisco y el vino peruano",Peru21,https://peru21.pe/peru/ica/vendimia-ica-2026-celebracion,NO
+n498,2026,2,Noticias Locales,r4,"Huaraz: temporada de montañismo 2026 atrae a escaladores de todo el mundo",El Comercio,https://elcomercio.pe/peru/ancash/huaraz-montanismo-temporada-2026,NO
+n499,2026,2,Noticias Locales,r4,"Chimbote: productores de conservas de pescado aumentan exportaciones un 30%",Gestión,https://gestion.pe/economia/chimbote-conservas-exportaciones-2026,NO
+n500,2026,2,Noticias Locales,r4,"Piura: proyecto de irrigación Olmos amplía segunda etapa para 20 mil hectáreas",La República,https://larepublica.pe/economia/olmos-segunda-etapa-ampliacion-2026,NO
+n501,2026,2,Noticias Locales,r4,"Áncash: descubren restos arqueológicos preincas en la provincia de Pallasca",El Comercio,https://elcomercio.pe/peru/ancash/descubrimiento-arqueologico-pallasca-2026,NO
+n502,2026,2,Política,r1,"MTC impulsa ampliación del aeropuerto de Chiclayo para vuelos internacionales",RPP,https://rpp.pe/peru/lambayeque/chiclayo-aeropuerto-ampliacion-2026,NO
+n503,2026,3,Política,r1,"Congreso debate ley de ciberseguridad para proteger datos de ciudadanos peruanos",El Comercio,https://elcomercio.pe/politica/ley-ciberseguridad-peru-2026,NO
+n504,2026,3,Política,r1,"Perú y Chile firman acuerdo de cooperación energética bilateral",Gestión,https://gestion.pe/economia/peru-chile-acuerdo-energia-2026,NO
+n505,2026,3,Política,r1,"ONPE presenta plataforma digital para inscripción de candidatos electorales",Peru21,https://peru21.pe/politica/onpe-plataforma-digital-candidatos-2026,NO
+n506,2026,3,Tecnología,r2,"Google DeepMind presenta AlphaScience: IA que acelera el descubrimiento de fármacos",The Verge,https://www.theverge.com/2026/3/google-deepmind-alphascience-drugs,NO
+n507,2026,3,Tecnología,r2,"Anthropic expande Claude a más de 100 países con soporte multilingüe mejorado",The Verge,https://www.theverge.com/2026/3/anthropic-claude-global-expansion,NO
+n508,2026,3,Tecnología,r2,"Startups peruanas de IA recaudan más de 50 millones de dólares en primer trimestre",Gestión,https://gestion.pe/tecnologia/startups-ia-peru-inversion-2026,NO
+n509,2026,3,Tecnología,r2,"Nvidia supera los 5 billones de dólares en capitalización de mercado",CNN Español,https://cnnespanol.cnn.com/2026/03/nvidia-5-billones-capitalizacion,NO
+n510,2026,3,Tecnología,r2,"Perú aprueba estrategia nacional de inteligencia artificial 2026-2030",El Comercio,https://elcomercio.pe/tecnologia/peru-estrategia-nacional-ia-2026,NO
+n511,2026,3,Internacional,r6,"Guerra arancelaria: China responde a EE.UU. con restricciones a tierras raras",BBC Mundo,https://www.bbc.com/mundo/noticias/2026/03/china-tierras-raras-restriccion,NO
+n512,2026,3,Internacional,r6,"Selección peruana clasifica al Mundial 2026 tras épica victoria en el repechaje",El Comercio,https://elcomercio.pe/deporte-total/seleccion-peruana-mundial-2026-clasificacion,NO
+n513,2026,3,Internacional,r6,"México finaliza preparativos para el partido inaugural del Mundial 2026",CNN Español,https://cnnespanol.cnn.com/2026/03/mexico-mundial-2026-inauguracion,NO
+n514,2026,3,Internacional,r6,"Colombia y Venezuela restablecen relaciones diplomáticas plenas",BBC Mundo,https://www.bbc.com/mundo/noticias/2026/03/colombia-venezuela-relaciones,NO
+n515,2026,3,Internacional,r6,"Terremoto de 7.2 en Japón activa alerta de tsunami en el Pacífico",CNN Español,https://cnnespanol.cnn.com/2026/03/japon-terremoto-tsunami-pacifico,NO
+n516,2026,3,Videojuegos,r3,"GTA VI muestra nuevo tráiler de gameplay y enloquece a la comunidad gamer",IGN,https://www.ign.com/articles/gta-vi-gameplay-trailer-breakdown,NO
+n517,2026,3,Videojuegos,r3,"The Legend of Zelda: nuevo título anunciado en exclusiva para Switch 2",Eurogamer,https://www.eurogamer.net/zelda-new-game-switch-2-announced,NO
+n518,2026,3,Videojuegos,r3,"Esports en Perú: Liga Peruana de Valorant atrae patrocinios millonarios",Peru21,https://peru21.pe/tecnologia/esports-peru-valorant-liga-2026,NO
+n519,2026,3,Festividades,r5,"Día Internacional de la Mujer: masivas marchas en Perú exigen igualdad",La República,https://larepublica.pe/sociedad/dia-mujer-marchas-peru-2026,NO
+n520,2026,3,Festividades,r5,"Semana Santa 2026: Ayacucho se prepara para recibir a miles de turistas",RPP,https://rpp.pe/peru/ayacucho/semana-santa-2026-preparativos,NO
+n521,2026,3,Festividades,r5,"Mundoscopio celebra 8 años informando al mundo: felicidades a todo el equipo",Mundoscopio,https://mundoscopio.com/aniversario-8-anos,NO
+n522,2026,3,Festividades,r5,"Día del Agua: Perú promueve campañas de conservación de glaciares andinos",El Comercio,https://elcomercio.pe/peru/dia-agua-glaciares-andinos-2026,NO
+n523,2026,3,Noticias Locales,r4,"Chimbote inicia preparativos para la Fiesta de San Pedrito 2026",RPP,https://rpp.pe/peru/ancash/chimbote-san-pedrito-preparativos-2026,NO
+n524,2026,3,Noticias Locales,r4,"Áncash: GORE aprueba presupuesto récord para educación y salud",La República,https://larepublica.pe/sociedad/ancash-presupuesto-educacion-salud-2026,NO
+n525,2026,3,Noticias Locales,r4,"Nuevo Chimbote: proyecto de saneamiento beneficiará a 80 mil vecinos",El Comercio,https://elcomercio.pe/peru/ancash/nuevo-chimbote-saneamiento-agua-2026,NO
+n526,2026,3,Noticias Locales,r4,"Huaraz: festival gastronómico pone en valor la cocina ancashina",Peru21,https://peru21.pe/peru/ancash/huaraz-festival-gastronomico-2026,NO
+n527,2026,3,Noticias Locales,r4,"Casma: proyecto turístico revaloriza la fortaleza de Chankillo",El Comercio,https://elcomercio.pe/peru/ancash/casma-chankillo-centro-interpretacion-2026,NO
+n528,2026,3,Videojuegos,r3,"Monster Hunter Wilds supera los 20 millones de copias vendidas en su primer mes",IGN,https://www.ign.com/articles/monster-hunter-wilds-20-million-sales,NO
+n529,2026,3,Política,r1,"Ministerio de Cultura invierte 25 millones en conservación de Chan Chan",RPP,https://rpp.pe/peru/la-libertad/chan-chan-inversion-conservacion-2026,NO
+n530,2026,3,Festividades,r5,"Chimbote se alista para San Pedrito: pescadores renuevan tradiciones del mar",El Comercio,https://elcomercio.pe/peru/ancash/chimbote-san-pedrito-pescadores-2026,NO
