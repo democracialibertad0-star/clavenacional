@@ -1,5 +1,6 @@
 import { useNavigate, Link } from 'react-router-dom'
 import { ImageWithFallback } from './ImageWithFallback'
+import { SocialShareBar } from './SocialShareBar'
 import { REPORTERS } from '../data/reporters'
 import allNews from '../data/index'
 import { useMemo } from 'react'
@@ -151,7 +152,21 @@ export function ArticleView({ news }) {
 
   return (
     <div className="article-view">
-      <span className="article-back" onClick={() => navigate(-1)}>← Volver</span>
+      {/* Breadcrumb */}
+      <nav className="article-breadcrumb">
+        <Link to="/">Home</Link>
+        <span className="breadcrumb-sep">•</span>
+        <span>{news.cat}</span>
+        {news.tags[0] && (
+          <>
+            <span className="breadcrumb-sep">•</span>
+            <span>{news.tags[0]}</span>
+          </>
+        )}
+      </nav>
+
+      {/* Social share floating bar */}
+      <SocialShareBar title={news.title} />
 
       {/* Hero image */}
       <div className="article-hero-img">
