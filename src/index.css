@@ -523,16 +523,16 @@ h1, h2, h3, h4 {
   color: #ccc;
 }
 
-/* Article 3-column layout */
+/* Article 2-column layout (content + right sidebar) */
 .article-layout {
   display: grid;
-  grid-template-columns: 220px 1fr;
+  grid-template-columns: 1fr 240px;
   gap: 32px;
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;
 }
-.article-left-sidebar {
+.article-right-sidebar {
   padding-top: 32px;
 }
 .article-sidebar-sticky {
@@ -612,7 +612,7 @@ h1, h2, h3, h4 {
 
 @media (max-width: 900px) {
   .article-layout { grid-template-columns: 1fr; }
-  .article-left-sidebar { display: none; }
+  .article-right-sidebar { display: none; }
   /* Show floating bar on mobile since sidebar is hidden */
   .social-share-bar {
     display: flex;
