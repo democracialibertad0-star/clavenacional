@@ -523,14 +523,17 @@ h1, h2, h3, h4 {
   color: #ccc;
 }
 
-/* Article 2-column layout (content + right sidebar) */
+/* Article 3-column layout (share | content | sidebar) */
 .article-layout {
   display: grid;
-  grid-template-columns: 1fr 240px;
-  gap: 32px;
-  max-width: 1100px;
+  grid-template-columns: 50px 1fr 240px;
+  gap: 16px 24px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+}
+.article-left-share {
+  padding-top: 32px;
 }
 .article-right-sidebar {
   padding-top: 32px;
@@ -612,6 +615,7 @@ h1, h2, h3, h4 {
 
 @media (max-width: 900px) {
   .article-layout { grid-template-columns: 1fr; }
+  .article-left-share { display: none; }
   .article-right-sidebar { display: none; }
   /* Show floating bar on mobile since sidebar is hidden */
   .social-share-bar {

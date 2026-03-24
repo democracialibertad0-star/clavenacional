@@ -152,6 +152,13 @@ export function ArticleView({ news }) {
 
   return (
     <div className="article-layout">
+      {/* Left: Share buttons */}
+      <aside className="article-left-share">
+        <div className="article-sidebar-sticky">
+          <SocialShareBar title={news.title} layout="vertical" />
+        </div>
+      </aside>
+
       {/* Main article content */}
       <div className="article-view">
       {/* Breadcrumb */}
@@ -356,7 +363,6 @@ export function ArticleView({ news }) {
       {/* Right sidebar: Newsletter + Publicidad + Share */}
       <aside className="article-right-sidebar">
         <div className="article-sidebar-sticky">
-          <SocialShareBar title={news.title} layout="vertical" />
           <div className="article-sidebar-box">
             <h4 className="article-sidebar-title">Newsletter</h4>
             <p className="article-sidebar-text">Recibe lo más importante cada semana.</p>
