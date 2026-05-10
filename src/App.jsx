@@ -313,7 +313,7 @@ function HomePage() {
                 {/* Newsletter CTA */}
                 <div className="newsletter-cta">
                   <div className="newsletter-cta-text">
-                    <h3>Suscríbete al newsletter de Mundoscopio</h3>
+                    <h3>Suscríbete al newsletter de ClavNacional</h3>
                     <p>Recibe las noticias más importantes cada semana en tu correo.</p>
                   </div>
                   <div className="newsletter-cta-form">
@@ -414,9 +414,9 @@ function ArticlePage() {
 function AboutPage() {
   return (
     <div className="about-page">
-      <h1>Acerca de Mundoscopio</h1>
+      <h1>Acerca de ClavNacional</h1>
       <p>
-        <strong>Mundoscopio</strong> es un noticiero digital peruano fundado el
+        <strong>ClavNacional</strong> es un noticiero digital peruano fundado el
         23 de marzo de 2018 en Chimbote, Áncash.
       </p>
       <p>
@@ -425,17 +425,17 @@ function AboutPage() {
         Noticias Locales (con enfoque en Áncash y el norte del Perú) e Internacional.
       </p>
       <p>
-        Todas las noticias publicadas en Mundoscopio están basadas en eventos reales,
+        Todas las noticias publicadas en ClavNacional están basadas en eventos reales,
         redactadas con estilo editorial propio. Cada artículo se fundamenta en fuentes
         periodísticas verificables como El Comercio, La República, RPP, BBC Mundo,
         entre otras.
       </p>
       <p>
-        Mundoscopio nació con la visión de democratizar el acceso a la información
+        ClavNacional nació con la visión de democratizar el acceso a la información
         desde una perspectiva local, conectando Chimbote y Áncash con el Perú y el mundo.
       </p>
       <p>
-        <strong>Contacto:</strong> mundoscopio@noticiero.pe
+        <strong>Contacto:</strong> contacto@clavenacional.com
         <br />
         <strong>Ubicacion:</strong> Nuevo Chimbote, Ancash, Peru
         <br />

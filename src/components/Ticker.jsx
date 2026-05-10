@@ -10,7 +10,7 @@ export function Ticker({ news }) {
 
   return (
     <div className="ticker-bar">
-      <div className="ticker-label">Mundoscopio</div>
+      <div className="ticker-label">ClavNacional</div>
       <div className="ticker-content">
         {doubled.map((h, i) => (
           <span key={i}>{h}</span>

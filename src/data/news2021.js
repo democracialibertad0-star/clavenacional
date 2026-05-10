@@ -258,24 +258,24 @@ const news2021 = [
     month: 3,
     cat: "Festividades",
     reporter: "r5",
-    title: "Mundoscopio celebra su tercer aniversario: tres años informando con pasión y compromiso",
-    summary: "El 23 de marzo de 2021, el equipo de Mundoscopio conmemoró tres años desde su fundación, reafirmando su compromiso con el periodismo local y la cobertura de noticias que importan a la comunidad. Nuestros reporteros en todas las secciones —desde política hasta videojuegos— renovaron su dedicación para seguir llevando información veraz y oportuna a todos los rincones.",
+    title: "ClavNacional celebra su tercer aniversario: tres años informando con pasión y compromiso",
+    summary: "El 23 de marzo de 2021, el equipo de ClavNacional conmemoró tres años desde su fundación, reafirmando su compromiso con el periodismo local y la cobertura de noticias que importan a la comunidad. Nuestros reporteros en todas las secciones —desde política hasta videojuegos— renovaron su dedicación para seguir llevando información veraz y oportuna a todos los rincones.",
     body: [
-      "El 23 de marzo de 2021, Mundoscopio cumplió tres años de existencia como medio de comunicación comprometido con la verdad y la comunidad. Desde su fundación en 2018, el equipo periodístico ha trabajado incansablemente para ofrecer cobertura informativa de calidad en un espectro temático que abarca desde la política nacional e internacional hasta la tecnología, los videojuegos, las festividades y las noticias locales. Este aniversario fue motivo de reflexión y celebración para todos los integrantes del medio.",
-      "Durante estos tres años, Mundoscopio se consolidó como una voz confiable para su audiencia, cubriendo eventos de enorme trascendencia como la pandemia de COVID-19, las crisis políticas del Perú y los avances tecnológicos que transformaron la vida cotidiana. El compromiso con el rigor periodístico y la independencia editorial se mantuvo como pilar fundamental de la línea editorial, incluso en los momentos más complejos y polarizados del acontecer nacional.",
-      "El equipo de reporteros, cada uno especializado en su área, renovó su compromiso con la misión fundacional del medio. Desde la cobertura política hasta el análisis de la industria de los videojuegos, pasando por las festividades que definen la identidad cultural peruana, Mundoscopio buscó siempre ofrecer una mirada plural y contextualizada de la realidad. La sección de noticias locales, con especial atención a la región Áncash y Chimbote, se fortaleció como enlace directo con la comunidad.",
-      "La pandemia representó un desafío sin precedentes para el medio, que debió adaptar sus métodos de trabajo al teletrabajo y la cobertura remota. Sin embargo, esta adversidad también impulsó la transformación digital de Mundoscopio, fortaleciendo su presencia en redes sociales y plataformas digitales. La audiencia respondió con un crecimiento sostenido que validó la apuesta por un periodismo accesible y cercano a la gente.",
-      "De cara al futuro, el equipo de Mundoscopio se planteó nuevos retos: ampliar la cobertura internacional, profundizar en el periodismo de investigación y consolidar alianzas con otros medios independientes de la región. El tercer aniversario no fue solo una celebración del camino recorrido, sino un punto de partida para seguir creciendo al servicio de los lectores que confían en Mundoscopio como su ventana al mundo."
+      "El 23 de marzo de 2021, ClavNacional cumplió tres años de existencia como medio de comunicación comprometido con la verdad y la comunidad. Desde su fundación en 2018, el equipo periodístico ha trabajado incansablemente para ofrecer cobertura informativa de calidad en un espectro temático que abarca desde la política nacional e internacional hasta la tecnología, los videojuegos, las festividades y las noticias locales. Este aniversario fue motivo de reflexión y celebración para todos los integrantes del medio.",
+      "Durante estos tres años, ClavNacional se consolidó como una voz confiable para su audiencia, cubriendo eventos de enorme trascendencia como la pandemia de COVID-19, las crisis políticas del Perú y los avances tecnológicos que transformaron la vida cotidiana. El compromiso con el rigor periodístico y la independencia editorial se mantuvo como pilar fundamental de la línea editorial, incluso en los momentos más complejos y polarizados del acontecer nacional.",
+      "El equipo de reporteros, cada uno especializado en su área, renovó su compromiso con la misión fundacional del medio. Desde la cobertura política hasta el análisis de la industria de los videojuegos, pasando por las festividades que definen la identidad cultural peruana, ClavNacional buscó siempre ofrecer una mirada plural y contextualizada de la realidad. La sección de noticias locales, con especial atención a la región Áncash y Chimbote, se fortaleció como enlace directo con la comunidad.",
+      "La pandemia representó un desafío sin precedentes para el medio, que debió adaptar sus métodos de trabajo al teletrabajo y la cobertura remota. Sin embargo, esta adversidad también impulsó la transformación digital de ClavNacional, fortaleciendo su presencia en redes sociales y plataformas digitales. La audiencia respondió con un crecimiento sostenido que validó la apuesta por un periodismo accesible y cercano a la gente.",
+      "De cara al futuro, el equipo de ClavNacional se planteó nuevos retos: ampliar la cobertura internacional, profundizar en el periodismo de investigación y consolidar alianzas con otros medios independientes de la región. El tercer aniversario no fue solo una celebración del camino recorrido, sino un punto de partida para seguir creciendo al servicio de los lectores que confían en ClavNacional como su ventana al mundo."
     ],
-    tags: ["Mundoscopio", "aniversario", "periodismo", "comunidad"],
-    sourceUrl: "https://mundoscopio.com/aniversario-2021",
+    tags: ["ClavNacional", "aniversario", "periodismo", "comunidad"],
+    sourceUrl: "https://clavenacional.com/aniversario-2021",
     imageLocal: "/images/2021/n112.jpg",
     imageFallback: "https://source.unsplash.com/800x450/?newsroom-celebration",
     imageQuery: "newsroom team celebration",
-    imageCaption: "El equipo de Mundoscopio celebra tres años de periodismo apasionado y comprometido con la verdad.",
+    imageCaption: "El equipo de ClavNacional celebra tres años de periodismo apasionado y comprometido con la verdad.",
     hasGallery: false,
     galleryImages: [],
-    source: "Mundoscopio"
+    source: "ClavNacional"
   },
   {
     id: "n113",

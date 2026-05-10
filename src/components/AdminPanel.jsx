@@ -247,7 +247,7 @@ export function AdminPanel() {
   return (
     <div className="admin-panel">
       <div className="admin-header">
-        <h1>Panel de Control — Mundoscopio</h1>
+        <h1>Panel de Control — ClavNacional</h1>
         <p className="admin-subtitle">Gestión de noticias y contenido editorial</p>
       </div>
 

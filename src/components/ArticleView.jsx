@@ -280,7 +280,7 @@ export function ArticleView({ news }) {
       {/* Conforme a los criterios */}
       <div className="article-trust">
         <span>Conforme a los criterios de</span>
-        <strong style={{ marginLeft: 6 }}>Mundoscopio Editorial</strong>
+        <strong style={{ marginLeft: 6 }}>ClavNacional Editorial</strong>
         <span style={{ margin: '0 12px', color: '#ccc' }}>|</span>
         <span>Tipo de trabajo: Noticias</span>
       </div>
@@ -371,7 +371,7 @@ export function ArticleView({ news }) {
           </div>
           <div className="article-sidebar-box">
             <h4 className="article-sidebar-title">Publicidad</h4>
-            <p className="article-sidebar-text">Anuncia en Mundoscopio y llega a miles de lectores.</p>
+            <p className="article-sidebar-text">Anuncia en ClavNacional y llega a miles de lectores.</p>
             <input type="text" placeholder="Tu empresa" className="article-sidebar-input" />
             <input type="email" placeholder="Tu correo" className="article-sidebar-input" />
             <button className="article-sidebar-btn article-sidebar-btn-alt">Solicitar info</button>

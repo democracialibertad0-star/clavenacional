@@ -133,24 +133,24 @@ const news2019 = [
     month: 3,
     cat: "Festividades",
     reporter: "r5",
-    title: "Mundoscopio cumple un año: primer aniversario del noticiero digital peruano con IA",
-    summary: "El 23 de marzo de 2019, Mundoscopio celebra su primer aniversario con más de 50 artículos publicados y un equipo consolidado de reporteros IA. Desde Chimbote, el noticiero ha cubierto la politica peruana, avances tecnológicos, el Mundial de Rusia y eventos locales de Ancash con voz editorial propia.",
+    title: "ClavNacional cumple un año: primer aniversario del noticiero digital peruano con IA",
+    summary: "El 23 de marzo de 2019, ClavNacional celebra su primer aniversario con más de 50 artículos publicados y un equipo consolidado de reporteros IA. Desde Chimbote, el noticiero ha cubierto la politica peruana, avances tecnológicos, el Mundial de Rusia y eventos locales de Ancash con voz editorial propia.",
     body: [
-      "El 23 de marzo de 2019, Mundoscopio celebro su primer aniversario como medio digital pionero en la integracion de inteligencia artificial al periodismo peruano. Nacido en Chimbote, en el corazon de la región Ancash, el noticiero surgio con la mision de informar sobre los acontecimientos más relevantes del Perú y del mundo con una voz editorial propia y un enfoque innovador. En su primer año, el equipo público más de 50 artículos que cubrieron desde la politica naciónal hasta los avances tecnológicos globales.",
-      "Durante 2018, Mundoscopio cubrio eventos de trascendencia mundial como el Mundial de Futbol de Rusia, donde Perú regreso a la maxima cita del futbol tras 36 años de ausencia. Tambien informo sobre la crisis politica peruana que llevo a la renuncia de Pedro Pablo Kuczynski y la asuncion de Martin Vizcarra, así como sobre los avances en inteligencia artificial, videojuegos y tecnologia que marcaron el año. La cobertura local de Ancash y Chimbote le dio al medio una identidad unica entre los portales naciónales.",
-      "El equipo de reporteros de Mundoscopio se consolido como un grupo multidisciplinario capaz de abordar temas de politica, tecnologia, videojuegos, festividades, noticias locales e internaciónales. Cada reportero desarrollo una voz editorial distintiva que resonaba con la audiencia peruana. La apuesta por un periodismo que combinara rigor informativo con accesibilidad digital demostro ser acertada en un ecosistema mediatico dominado por los grandes medios limenos.",
-      "El primer aniversario fue también un momento de reflexion sobre el papel de la inteligencia artificial en el periodismo contemporaneo. Mundoscopio se posicióno como un experimento único en Latinoamerica: un medio que abraza la tecnologia no como reemplazo del criterio editorial humano, sino como herramienta para amplificar la capacidad de análisis y cobertura. Esta vision resulto adelantada a su tiempo en un continente donde la transformación digital de los medios avanzaba a paso lento.",
-      "De cara al segundo ano, Mundoscopio se propuso ampliar su cobertura y profundizar en los temas que más importan a sus lectores. Con 2019 perfilandose como un año de grandes convulsiones politicas en America Latina y avances significativos en tecnologia, el noticiero chimbotano se preparaba para continuar su mision de informar con calidad, rigor y una perspectiva unica desde la costa norte del Perú."
+      "El 23 de marzo de 2019, ClavNacional celebro su primer aniversario como medio digital pionero en la integracion de inteligencia artificial al periodismo peruano. Nacido en Chimbote, en el corazon de la región Ancash, el noticiero surgio con la mision de informar sobre los acontecimientos más relevantes del Perú y del mundo con una voz editorial propia y un enfoque innovador. En su primer año, el equipo público más de 50 artículos que cubrieron desde la politica naciónal hasta los avances tecnológicos globales.",
+      "Durante 2018, ClavNacional cubrio eventos de trascendencia mundial como el Mundial de Futbol de Rusia, donde Perú regreso a la maxima cita del futbol tras 36 años de ausencia. Tambien informo sobre la crisis politica peruana que llevo a la renuncia de Pedro Pablo Kuczynski y la asuncion de Martin Vizcarra, así como sobre los avances en inteligencia artificial, videojuegos y tecnologia que marcaron el año. La cobertura local de Ancash y Chimbote le dio al medio una identidad unica entre los portales naciónales.",
+      "El equipo de reporteros de ClavNacional se consolido como un grupo multidisciplinario capaz de abordar temas de politica, tecnologia, videojuegos, festividades, noticias locales e internaciónales. Cada reportero desarrollo una voz editorial distintiva que resonaba con la audiencia peruana. La apuesta por un periodismo que combinara rigor informativo con accesibilidad digital demostro ser acertada en un ecosistema mediatico dominado por los grandes medios limenos.",
+      "El primer aniversario fue también un momento de reflexion sobre el papel de la inteligencia artificial en el periodismo contemporaneo. ClavNacional se posicióno como un experimento único en Latinoamerica: un medio que abraza la tecnologia no como reemplazo del criterio editorial humano, sino como herramienta para amplificar la capacidad de análisis y cobertura. Esta vision resulto adelantada a su tiempo en un continente donde la transformación digital de los medios avanzaba a paso lento.",
+      "De cara al segundo ano, ClavNacional se propuso ampliar su cobertura y profundizar en los temas que más importan a sus lectores. Con 2019 perfilandose como un año de grandes convulsiones politicas en America Latina y avances significativos en tecnologia, el noticiero chimbotano se preparaba para continuar su mision de informar con calidad, rigor y una perspectiva unica desde la costa norte del Perú."
     ],
-    tags: ["Mundoscopio", "Aniversario", "Chimbote", "IA", "Periodismo"],
+    tags: ["ClavNacional", "Aniversario", "Chimbote", "IA", "Periodismo"],
     sourceUrl: "",
     imageLocal: "/images/2019/n029.jpg",
     imageFallback: "https://source.unsplash.com/800x450/?anniversary,celebration,newspaper",
     imageQuery: "newspaper anniversary celebration one year",
-    imageCaption: "Mundoscopio celebra su primer aniversario desde Chimbote",
+    imageCaption: "ClavNacional celebra su primer aniversario desde Chimbote",
     hasGallery: false,
     galleryImages: [],
-    source: "Mundoscopio"
+    source: "ClavNacional"
   },
   {
     id: "n030",

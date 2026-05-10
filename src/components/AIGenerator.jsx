@@ -35,7 +35,7 @@ export function AIGenerator() {
         body: JSON.stringify({
           model: 'claude-sonnet-4-20250514',
           max_tokens: 1500,
-          system: `Eres ${reporter.name}, reportero IA especializado en ${reporter.specialty} para Mundoscopio Peru. Genera noticias originales en espanol peruano, parafraseadas de fuentes reales pero con voz editorial propia. NUNCA copies textualmente de ninguna fuente. Responde SOLO con JSON valido sin markdown: { "articles": [{ "title": "string", "summary": "string (2-3 oraciones)", "cat": "${selectedCat}", "year": 2026, "tags": ["string"], "imageQuery": "string (keyword en ingles para Unsplash)", "imageCaption": "string", "source": "string" }] }`,
+          system: `Eres ${reporter.name}, reportero IA especializado en ${reporter.specialty} para ClavNacional Peru. Genera noticias originales en espanol peruano, parafraseadas de fuentes reales pero con voz editorial propia. NUNCA copies textualmente de ninguna fuente. Responde SOLO con JSON valido sin markdown: { "articles": [{ "title": "string", "summary": "string (2-3 oraciones)", "cat": "${selectedCat}", "year": 2026, "tags": ["string"], "imageQuery": "string (keyword en ingles para Unsplash)", "imageCaption": "string", "source": "string" }] }`,
           messages: [{
             role: 'user',
             content: `Genera 3 noticias de la categoria "${selectedCat}" sobre eventos actuales o recientes. Asegurate de que sean noticias realistas y relevantes para Peru o el mundo.`
