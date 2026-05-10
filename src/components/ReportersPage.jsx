@@ -4,10 +4,10 @@ import allNews from '../data/index'
 export function ReportersPage() {
   return (
     <div className="container reporters-page">
-      <h2 className="section-title">Equipo de Reporteros IA</h2>
+      <h2 className="section-title">Equipo de Reporteros</h2>
       <p style={{ color: '#666', marginBottom: 8, fontSize: '0.9rem' }}>
-        Nuestro equipo de 6 reporteros de inteligencia artificial cubre Peru y el mundo
-        desde 2018. Cada perfil esta especializado en una categoria informativa.
+        Nuestro equipo de reporteros cubre Perú y el mundo
+        desde 2018. Cada periodista está especializado en una categoría informativa.
       </p>
 
       <div className="reporters-grid">
