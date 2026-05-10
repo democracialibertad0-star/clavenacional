@@ -5,7 +5,7 @@
  * Estructura: {year}/n001.jpg  (misma que local)
  *
  * Uso: node scripts/upload-to-supabase.js
- * Requiere: VITE_SUPABASE_URL y VITE_SUPABASE_ANON_KEY en .env
+ * Requiere: VITE_SUPABASE_URL y SUPABASE_SERVICE_ROLE en .env
  *           npm install @supabase/supabase-js dotenv
  */
 import 'dotenv/config'
@@ -21,7 +21,7 @@ const MANIFEST_PATH = path.join(IMAGES_DIR, 'manifest.json')
 
 const supabase = createClient(
   process.env.VITE_SUPABASE_URL,
-  process.env.VITE_SUPABASE_ANON_KEY
+  process.env.SUPABASE_SERVICE_ROLE
 )
 
 async function ensureBucket() {
