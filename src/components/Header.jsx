@@ -33,7 +33,7 @@ export function Header({ activeCategory, onCategoryChange }) {
         <div className="header-top">
           <div>
             <Link to="/">
-              <h1 className="masthead">ClavNacional</h1>
+              <h1 className="masthead">Clavenacional</h1>
             </Link>
             <div className="masthead-sub">Noticiero Digital Peruano</div>
           </div>

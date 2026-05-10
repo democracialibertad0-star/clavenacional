@@ -18,7 +18,7 @@ export function Footer() {
 
           {/* Column 1 — Brand */}
           <div className="footer-col footer-col--brand">
-            <span className="footer-logo">ClavNacional</span>
+            <span className="footer-logo">Clavenacional</span>
             <p className="footer-text">
               Noticiero digital peruano. Cubrimos Perú y el mundo desde 2018.
             </p>
@@ -80,7 +80,7 @@ export function Footer() {
 
         <div className="footer-bottom">
           <div className="footer-bottom-left">
-            <span>© 2018–2026 ClavNacional. Todos los derechos reservados.</span>
+            <span>© 2018–2026 Clavenacional. Todos los derechos reservados.</span>
             <span className="footer-bottom-location">Hecho desde Chimbote, Áncash, Perú</span>
           </div>
           <div className="footer-bottom-links">

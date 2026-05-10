@@ -6,7 +6,7 @@ export function TerminosPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>1. Aceptacion de los Terminos</h3>
       <p>
-        Al acceder y utilizar el sitio web de ClavNacional (en adelante, "el Sitio"),
+        Al acceder y utilizar el sitio web de Clavenacional (en adelante, "el Sitio"),
         usted acepta cumplir con estos Terminos y Condiciones de uso. Si no esta de
         acuerdo con alguno de estos terminos, le rogamos no utilizar el Sitio. El uso
         continuado del Sitio constituye la aceptacion de cualquier modificacion a estos
@@ -15,15 +15,15 @@ export function TerminosPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>2. Descripcion del Servicio</h3>
       <p>
-        ClavNacional es un noticiero digital peruano independiente. El contenido publicado
-        se basa en eventos reales y fuentes periodísticas verificables. ClavNacional es un
+        Clavenacional es un noticiero digital peruano independiente. El contenido publicado
+        se basa en eventos reales y fuentes periodísticas verificables. Clavenacional es un
         medio de comunicación digital fundado el 23 de marzo de 2018 en Chimbote, Áncash, Perú.
       </p>
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>3. Propiedad Intelectual</h3>
       <p>
         Todo el contenido editorial, diseno, logotipos, graficos y codigo fuente del
-        Sitio son propiedad de ClavNacional o se utilizan con la debida autorizacion.
+        Sitio son propiedad de Clavenacional o se utilizan con la debida autorizacion.
         Las noticias publicadas son parafraseadas con voz editorial propia a partir de
         fuentes publicas. Las fotografias utilizadas provienen de fuentes de acceso
         publico o servicios con licencia. Queda prohibida la reproduccion total o
@@ -32,8 +32,8 @@ export function TerminosPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>4. Contenido Editorial</h3>
       <p>
-        Los artículos de ClavNacional son redactados por nuestro equipo editorial y se basan
-        en hechos reales reportados por fuentes periodísticas verificables. ClavNacional no
+        Los artículos de Clavenacional son redactados por nuestro equipo editorial y se basan
+        en hechos reales reportados por fuentes periodísticas verificables. Clavenacional no
         garantiza la exactitud absoluta de la información publicada y recomienda contrastar
         con las fuentes originales citadas en cada artículo.
       </p>
@@ -49,24 +49,24 @@ export function TerminosPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>6. Limitacion de Responsabilidad</h3>
       <p>
-        ClavNacional proporciona su contenido "tal cual" sin garantias de ningun tipo,
+        Clavenacional proporciona su contenido "tal cual" sin garantias de ningun tipo,
         expresas o implicitas. No nos hacemos responsables de decisiones tomadas en base
         a la informacion publicada en el Sitio. El usuario asume toda responsabilidad
-        por el uso que haga del contenido. ClavNacional no sera responsable por danos
+        por el uso que haga del contenido. Clavenacional no sera responsable por danos
         directos, indirectos, incidentales o consecuentes derivados del uso del Sitio.
       </p>
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>7. Enlaces Externos</h3>
       <p>
         El Sitio puede contener enlaces a sitios web de terceros (fuentes de noticias,
-        redes sociales, etc.). ClavNacional no tiene control sobre el contenido de estos
+        redes sociales, etc.). Clavenacional no tiene control sobre el contenido de estos
         sitios externos y no asume responsabilidad por su contenido, politicas de
         privacidad o practicas.
       </p>
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>8. Modificaciones</h3>
       <p>
-        ClavNacional se reserva el derecho de modificar estos Terminos y Condiciones en
+        Clavenacional se reserva el derecho de modificar estos Terminos y Condiciones en
         cualquier momento. Las modificaciones entraran en vigor al momento de su
         publicacion en el Sitio. Es responsabilidad del usuario revisar periodicamente
         estos terminos.
@@ -99,7 +99,7 @@ export function PrivacidadPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>1. Informacion General</h3>
       <p>
-        En ClavNacional respetamos su privacidad y nos comprometemos a proteger sus
+        En Clavenacional respetamos su privacidad y nos comprometemos a proteger sus
         datos personales. Esta Politica de Privacidad describe como recopilamos, usamos
         y protegemos la informacion cuando usted visita nuestro sitio web. Esta politica
         cumple con la Ley N° 29733, Ley de Proteccion de Datos Personales del Peru, y
@@ -131,7 +131,7 @@ export function PrivacidadPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>4. Servicios de Terceros</h3>
       <p>
-        ClavNacional puede utilizar servicios de terceros para analisis web (como Google
+        Clavenacional puede utilizar servicios de terceros para analisis web (como Google
         Analytics), alojamiento (Vercel) y entrega de contenido. Estos servicios pueden
         recopilar informacion de acuerdo con sus propias politicas de privacidad. Le
         recomendamos revisar las politicas de privacidad de estos proveedores.
@@ -164,7 +164,7 @@ export function PrivacidadPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>8. Menores de Edad</h3>
       <p>
-        ClavNacional no esta dirigido a menores de 14 anos. No recopilamos
+        Clavenacional no esta dirigido a menores de 14 anos. No recopilamos
         intencionalmente informacion personal de menores. Si descubrimos que hemos
         recopilado datos de un menor sin el consentimiento de sus padres o tutores,
         tomaremos medidas para eliminar esa informacion.
@@ -185,7 +185,7 @@ export function PrivacidadPage() {
         <br />
         <strong>Direccion:</strong> Nuevo Chimbote, Ancash, Peru
         <br />
-        <strong>Responsable:</strong> Equipo Editorial ClavNacional
+        <strong>Responsable:</strong> Equipo Editorial Clavenacional
       </p>
     </div>
   )
@@ -289,17 +289,17 @@ export function CopyrightPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>1. Titularidad del Contenido</h3>
       <p>
-        Todo el contenido editorial publicado en ClavNacional — incluyendo artículos,
+        Todo el contenido editorial publicado en Clavenacional — incluyendo artículos,
         reportajes, crónicas, opiniones, titular, resúmenes y cualquier texto redactado
         por nuestro equipo — está protegido por las leyes de propiedad intelectual de
-        la República del Perú y por los convenios internacionales aplicables. ClavNacional
+        la República del Perú y por los convenios internacionales aplicables. Clavenacional
         opera desde su fundación el 23 de marzo de 2018 en Chimbote, Áncash, Perú.
       </p>
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>2. Período de Protección</h3>
       <p>
-        Los derechos de autor sobre el contenido editorial de ClavNacional comprenden
-        desde el año 2018 hasta el presente (© 2018–2026 ClavNacional). Toda obra
+        Los derechos de autor sobre el contenido editorial de Clavenacional comprenden
+        desde el año 2018 hasta el presente (© 2018–2026 Clavenacional). Toda obra
         creativa publicada en este medio goza de protección desde el momento de su
         creación, sin necesidad de registro previo, conforme al artículo 3 del
         Decreto Legislativo N° 822 — Ley sobre el Derecho de Autor del Perú.
@@ -308,7 +308,7 @@ export function CopyrightPage() {
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>3. Prohibición de Reproducción</h3>
       <p>
         Queda estrictamente prohibida la reproducción total o parcial de cualquier
-        contenido de ClavNacional sin la autorización expresa y por escrito de la
+        contenido de Clavenacional sin la autorización expresa y por escrito de la
         dirección editorial. Esto incluye, pero no se limita a: la copia, distribución,
         publicación en otros sitios web, modificación, traducción o cualquier otra
         forma de utilización del contenido, ya sea con fines comerciales o no comerciales.
@@ -316,7 +316,7 @@ export function CopyrightPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>4. Contenido Fotográfico</h3>
       <p>
-        Las fotografías e imágenes publicadas en ClavNacional provienen de fuentes de
+        Las fotografías e imágenes publicadas en Clavenacional provienen de fuentes de
         acceso público, servicios con licencia libre de derechos o materiales cedidos
         por sus autores con autorización de uso. En los casos en que se utilizan imágenes
         de terceros, se respetan los términos de la licencia correspondiente. Si usted
@@ -326,8 +326,8 @@ export function CopyrightPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>5. Uso Permitido bajo Citación</h3>
       <p>
-        Se permite la cita breve y parcial de contenido de ClavNacional, siempre que
-        se mencione expresamente la fuente con el nombre "ClavNacional" y se incluya
+        Se permite la cita breve y parcial de contenido de Clavenacional, siempre que
+        se mencione expresamente la fuente con el nombre "Clavenacional" y se incluya
         un enlace directo al artículo original. La cita no puede alterar el sentido
         del texto original ni utilizarse en contextos que dañen la imagen o reputación
         del medio.
@@ -335,24 +335,24 @@ export function CopyrightPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>6. Contenido Sindicado y Colaboraciones</h3>
       <p>
-        ClavNacional puede publicar contenido sindicado o colaboraciones de terceros
+        Clavenacional puede publicar contenido sindicado o colaboraciones de terceros
         debidamente acreditados. En tales casos, los derechos de autor corresponden
-        a sus respectivos autores o medios originadores. ClavNacional actúa como
+        a sus respectivos autores o medios originadores. Clavenacional actúa como
         plataforma de difusión y no reclama titularidad sobre dicho contenido.
       </p>
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>7. Marcas y Elementos Gráficos</h3>
       <p>
-        El nombre "ClavNacional", el logotipo, los elementos de diseño gráfico, la
+        El nombre "Clavenacional", el logotipo, los elementos de diseño gráfico, la
         paleta de colores corporativa y cualquier otra marca distintiva son propiedad
-        exclusiva de ClavNacional. Su uso no autorizado constituye una infracción de
+        exclusiva de Clavenacional. Su uso no autorizado constituye una infracción de
         los derechos de marca y puede derivar en acciones legales.
       </p>
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>8. Cómo Solicitar Permisos</h3>
       <p>
         Para solicitar autorización de reproducción, republicación, uso comercial
-        u otro tipo de licencia sobre contenido de ClavNacional, envíe su solicitud
+        u otro tipo de licencia sobre contenido de Clavenacional, envíe su solicitud
         por escrito a:
         <br /><br />
         <strong>Correo electrónico:</strong> contacto@clavenacional.com
@@ -367,7 +367,7 @@ export function CopyrightPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>9. Infracciones y Reclamaciones</h3>
       <p>
-        Si detecta un uso no autorizado del contenido de ClavNacional, o si usted
+        Si detecta un uso no autorizado del contenido de Clavenacional, o si usted
         considera que algún contenido publicado en este sitio infringe sus propios
         derechos de autor, le pedimos que nos lo notifique a contacto@clavenacional.com
         con los datos del material involucrado. Atendemos todas las reclamaciones
@@ -394,7 +394,7 @@ export function DerechosLectorPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>1. Nuestro Compromiso con los Lectores</h3>
       <p>
-        En ClavNacional, los lectores son el centro de nuestra actividad periodística.
+        En Clavenacional, los lectores son el centro de nuestra actividad periodística.
         Desde nuestra fundación el 23 de marzo de 2018, nos hemos comprometido a
         informar con rigor, transparencia y responsabilidad. Reconocemos que cada
         persona que nos lee tiene derechos fundamentales que como medio de comunicación
@@ -404,7 +404,7 @@ export function DerechosLectorPage() {
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>2. Derecho a la Información Veraz</h3>
       <p>
         Todo lector tiene derecho a recibir información precisa, verificada y
-        contextualizada. En ClavNacional, todos nuestros artículos se elaboran a partir
+        contextualizada. En Clavenacional, todos nuestros artículos se elaboran a partir
         de fuentes periodísticas confiables y verificables. Nos comprometemos a no
         publicar información sin contrastarla previamente con al menos dos fuentes
         independientes cuando la materia lo requiera.
@@ -414,7 +414,7 @@ export function DerechosLectorPage() {
       <p>
         Si un artículo publicado contiene un error factual — ya sea en cifras, nombres,
         fechas u otros datos verificables — el lector tiene derecho a solicitarnos su
-        corrección. ClavNacional se compromete a revisar la solicitud en un plazo de
+        corrección. Clavenacional se compromete a revisar la solicitud en un plazo de
         5 días hábiles y, de confirmarse el error, a publicar la corrección de manera
         visible en el mismo artículo, indicando la fecha y naturaleza de la enmienda.
       </p>
@@ -422,9 +422,9 @@ export function DerechosLectorPage() {
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>4. Derecho de Réplica</h3>
       <p>
         Toda persona natural o jurídica que se considere directamente aludida en un
-        reportaje o artículo publicado por ClavNacional tiene derecho a presentar una
+        reportaje o artículo publicado por Clavenacional tiene derecho a presentar una
         réplica. Dicha réplica debe ser proporcional en extensión al contenido que la
-        motiva y no debe contener expresiones injuriosas. ClavNacional la publicará
+        motiva y no debe contener expresiones injuriosas. Clavenacional la publicará
         dentro de los 7 días hábiles siguientes a su recepción, en la misma sección
         y con visibilidad equivalente al artículo original.
       </p>
@@ -433,7 +433,7 @@ export function DerechosLectorPage() {
       <p>
         Los lectores tienen derecho a que sus datos personales sean tratados con
         respeto y confidencialidad, conforme a nuestra Política de Privacidad y a la
-        Ley N° 29733 de Protección de Datos Personales del Perú. ClavNacional no
+        Ley N° 29733 de Protección de Datos Personales del Perú. Clavenacional no
         compartirá información personal de sus lectores con terceros sin consentimiento
         explícito, salvo obligación legal expresa.
       </p>
@@ -441,7 +441,7 @@ export function DerechosLectorPage() {
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>6. Derecho a Conocer las Fuentes</h3>
       <p>
         Los lectores tienen derecho a conocer el origen de la información que
-        publicamos. Cuando las circunstancias lo permitan, ClavNacional identificará
+        publicamos. Cuando las circunstancias lo permitan, Clavenacional identificará
         las fuentes consultadas en cada artículo. En los casos en que sea necesario
         proteger la identidad de una fuente por razones de seguridad o confidencialidad,
         lo indicaremos explícitamente en el texto.
@@ -451,7 +451,7 @@ export function DerechosLectorPage() {
       <p>
         Todo lector tiene derecho a identificar claramente cuándo está leyendo una
         noticia de carácter informativo y cuándo se trata de un artículo de opinión
-        o análisis editorial. En ClavNacional, estos géneros periodísticos están
+        o análisis editorial. En Clavenacional, estos géneros periodísticos están
         debidamente señalados para que el lector pueda distinguirlos sin ambigüedad.
       </p>
 
@@ -473,7 +473,7 @@ export function DerechosLectorPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>9. Compromiso Editorial Permanente</h3>
       <p>
-        ClavNacional se compromete a revisar y actualizar estos derechos periódicamente,
+        Clavenacional se compromete a revisar y actualizar estos derechos periódicamente,
         incorporando los estándares más exigentes del periodismo responsable. Creemos
         que la confianza de nuestros lectores es el activo más valioso de este medio,
         y trabajamos cada día para merecerla.
@@ -485,12 +485,12 @@ export function DerechosLectorPage() {
 export function PublicidadPage() {
   return (
     <div className="about-page">
-      <h1>Publicidad en ClavNacional</h1>
+      <h1>Publicidad en Clavenacional</h1>
       <p><strong>Última actualización:</strong> 23 de marzo de 2026</p>
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>1. Oportunidades Publicitarias</h3>
       <p>
-        ClavNacional ofrece a marcas, empresas e instituciones la posibilidad de llegar
+        Clavenacional ofrece a marcas, empresas e instituciones la posibilidad de llegar
         a una audiencia comprometida con la información regional, nacional e internacional.
         Desde nuestra fundación en 2018, hemos construido una comunidad de lectores
         comprometidos del norte del Perú y más allá. Nuestros espacios publicitarios
@@ -508,7 +508,7 @@ export function PublicidadPage() {
         periodístico sobre temas relevantes para su marca, publicados en nuestra
         plataforma con etiqueta visible de "Contenido Patrocinado". Nuestro equipo
         editorial puede colaborar en la redacción para garantizar coherencia con
-        el estilo de ClavNacional.
+        el estilo de Clavenacional.
       </p>
       <p>
         <strong>Boletín de noticias:</strong> Mención o pieza publicitaria incluida
@@ -524,7 +524,7 @@ export function PublicidadPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>3. Alcance de Nuestra Audiencia</h3>
       <p>
-        ClavNacional concentra su audiencia principal en la región de Áncash y el
+        Clavenacional concentra su audiencia principal en la región de Áncash y el
         norte del Perú, con lectores también en Lima y otras ciudades del país.
         Nuestro contenido cubre temas de alcance nacional e internacional, lo que
         atrae a un perfil lector diverso e informado. Para información detallada
@@ -533,7 +533,7 @@ export function PublicidadPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>4. Independencia Editorial</h3>
       <p>
-        ClavNacional mantiene una separación estricta entre su actividad editorial
+        Clavenacional mantiene una separación estricta entre su actividad editorial
         y sus relaciones comerciales. La contratación de espacios publicitarios no
         implica en ningún caso influencia sobre la línea editorial, la selección de
         noticias, el tratamiento de los temas ni las opiniones expresadas por nuestros
@@ -543,7 +543,7 @@ export function PublicidadPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>5. Política de Contenido Publicitario</h3>
       <p>
-        ClavNacional se reserva el derecho de rechazar publicidad que considere
+        Clavenacional se reserva el derecho de rechazar publicidad que considere
         contraria a sus valores editoriales, engañosa para los lectores, de carácter
         discriminatorio, o que promueva actividades ilícitas. Todo el contenido
         patrocinado debe estar claramente etiquetado para que los lectores puedan
@@ -588,7 +588,7 @@ export function ContactoPage() {
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>1. Contacto Editorial</h3>
       <p>
         Para enviar información, comunicados de prensa, sugerencias de cobertura
-        o cualquier consulta relacionada con el contenido periodístico de ClavNacional:
+        o cualquier consulta relacionada con el contenido periodístico de Clavenacional:
         <br /><br />
         <strong>Correo electrónico:</strong> contacto@clavenacional.com
         <br />
@@ -605,7 +605,7 @@ export function ContactoPage() {
         <br />
         <strong>País:</strong> Perú
         <br /><br />
-        ClavNacional opera como medio digital desde su fundación el 23 de marzo de 2018
+        Clavenacional opera como medio digital desde su fundación el 23 de marzo de 2018
         en Chimbote, Áncash. Para visitas presenciales, le recomendamos coordinar
         previamente por correo electrónico.
       </p>
@@ -636,10 +636,10 @@ export function ContactoPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>5. Redes Sociales</h3>
       <p>
-        ClavNacional tiene presencia activa en redes sociales. Puede seguirnos para
+        Clavenacional tiene presencia activa en redes sociales. Puede seguirnos para
         recibir nuestras publicaciones en tiempo real y participar en la conversación
         ciudadana. Próximamente habilitaremos los enlaces directos a nuestros perfiles
-        oficiales en esta sección. Le recomendamos buscar "ClavNacional" en las
+        oficiales en esta sección. Le recomendamos buscar "Clavenacional" en las
         principales plataformas y verificar que el perfil sea el oficial antes de seguirlo.
       </p>
 
@@ -682,7 +682,7 @@ export function EticaEditorialPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>1. Compromiso con la Verdad</h3>
       <p>
-        La verdad es el principio fundacional del periodismo de ClavNacional. Desde
+        La verdad es el principio fundacional del periodismo de Clavenacional. Desde
         nuestra fundación el 23 de marzo de 2018, nos hemos comprometido a publicar
         únicamente información que podamos respaldar con evidencia verificable. No
         publicamos rumores, especulaciones sin sustento ni información que no haya
@@ -702,7 +702,7 @@ export function EticaEditorialPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>3. Política de Correcciones</h3>
       <p>
-        ClavNacional asume sus errores con transparencia. Cuando se detecta un error
+        Clavenacional asume sus errores con transparencia. Cuando se detecta un error
         factual en un artículo publicado — ya sea por iniciativa propia o por señalamiento
         de un lector — procedemos a: (a) corregir el error en el artículo original;
         (b) añadir una nota de corrección visible al pie del artículo, indicando la
@@ -712,7 +712,7 @@ export function EticaEditorialPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>4. Separación entre Información y Opinión</h3>
       <p>
-        ClavNacional distingue claramente entre contenido informativo y contenido de
+        Clavenacional distingue claramente entre contenido informativo y contenido de
         opinión o análisis. Los artículos de opinión representan el punto de vista
         de su autor y no necesariamente la posición editorial del medio. Esta distinción
         está señalada de forma visible en todos los artículos para que el lector pueda
@@ -721,7 +721,7 @@ export function EticaEditorialPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>5. Conflicto de Intereses</h3>
       <p>
-        Los reporteros y colaboradores de ClavNacional están obligados a declarar
+        Los reporteros y colaboradores de Clavenacional están obligados a declarar
         cualquier posible conflicto de interés antes de cubrir una noticia. No está
         permitido que un periodista cubra temas en los que tenga interés personal,
         familiar, económico o ideológico que pueda comprometer la objetividad de su
@@ -731,7 +731,7 @@ export function EticaEditorialPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>6. Protección de Fuentes</h3>
       <p>
-        ClavNacional garantiza la confidencialidad de las fuentes que así lo soliciten.
+        Clavenacional garantiza la confidencialidad de las fuentes que así lo soliciten.
         El secreto profesional periodístico es un derecho reconocido en el artículo
         2, inciso 18 de la Constitución Política del Perú. Nunca revelaremos la
         identidad de una fuente protegida, ni bajo presión de terceros ni en
@@ -740,7 +740,7 @@ export function EticaEditorialPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>7. Imparcialidad y Pluralismo</h3>
       <p>
-        En la cobertura de temas controversiales o políticamente sensibles, ClavNacional
+        En la cobertura de temas controversiales o políticamente sensibles, Clavenacional
         se compromete a presentar las distintas perspectivas relevantes de manera
         equitativa. Buscamos que nuestros lectores cuenten con la información necesaria
         para formarse su propia opinión. La pluralidad de voces es un valor fundamental
@@ -749,7 +749,7 @@ export function EticaEditorialPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>8. Independencia Frente a Presiones Externas</h3>
       <p>
-        ClavNacional opera con plena independencia editorial frente a presiones
+        Clavenacional opera con plena independencia editorial frente a presiones
         políticas, económicas o institucionales. Ningún anunciante, funcionario,
         partido político o entidad privada puede influir en las decisiones editoriales
         de este medio. La publicidad y el contenido editorial son ámbitos completamente
@@ -758,7 +758,7 @@ export function EticaEditorialPage() {
 
       <h3 style={{ marginTop: 24, marginBottom: 8 }}>9. Respeto a la Dignidad y la Presunción de Inocencia</h3>
       <p>
-        ClavNacional se compromete a tratar a todas las personas mencionadas en sus
+        Clavenacional se compromete a tratar a todas las personas mencionadas en sus
         artículos con respeto a su dignidad. En la cobertura de procesos judiciales
         o investigaciones, aplicamos el principio de presunción de inocencia y
         evitamos el juicio mediático. No publicamos información que pueda estigmatizar
@@ -787,15 +787,15 @@ export function EticaEditorialPage() {
 export function NewsletterPage() {
   return (
     <div className="about-page">
-      <h1>Boletín de Noticias ClavNacional</h1>
+      <h1>Boletín de Noticias Clavenacional</h1>
       <p>
         Reciba las noticias más importantes directamente en su bandeja de entrada,
         seleccionadas por nuestro equipo editorial cada semana.
       </p>
 
-      <h3 style={{ marginTop: 24, marginBottom: 8 }}>1. ¿Qué es el Boletín de ClavNacional?</h3>
+      <h3 style={{ marginTop: 24, marginBottom: 8 }}>1. ¿Qué es el Boletín de Clavenacional?</h3>
       <p>
-        El boletín semanal de ClavNacional es una selección editorial de los artículos
+        El boletín semanal de Clavenacional es una selección editorial de los artículos
         más relevantes de la semana, preparada por nuestro equipo de reporteros con
         sede en Nuevo Chimbote, Áncash, Perú. Cada edición incluye los titulares
         principales, un análisis de la noticia de la semana y las historias locales
@@ -817,7 +817,7 @@ export function NewsletterPage() {
         Cada entrega del boletín incluye:
       </p>
       <ul style={{ paddingLeft: 20, lineHeight: 1.9 }}>
-        <li>Los 5 artículos más leídos de la semana en ClavNacional.</li>
+        <li>Los 5 artículos más leídos de la semana en Clavenacional.</li>
         <li>La noticia más importante de Áncash y el norte del Perú.</li>
         <li>Un resumen de la actualidad política nacional.</li>
         <li>Novedades en tecnología y videojuegos relevantes para la semana.</li>
@@ -848,7 +848,7 @@ export function NewsletterPage() {
         marginBottom: 8,
       }}>
         <p style={{ marginBottom: 16, fontWeight: 600, fontSize: '1rem' }}>
-          Suscríbase al boletín semanal de ClavNacional — es gratuito.
+          Suscríbase al boletín semanal de Clavenacional — es gratuito.
         </p>
         <form
           onSubmit={e => e.preventDefault()}
