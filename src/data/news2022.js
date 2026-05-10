@@ -405,6 +405,33 @@ const news2022 = [
     source: "The Verge"
   },
 
+  {
+    id: "n539",
+    year: 2022,
+    month: 3,
+    cat: "Politica",
+    reporter: "r1",
+    title: "La sombra del MOVADEF en las universidades peruanas: docentes que huyen al exilio",
+    summary: "La organización fachada de Sendero Luminoso mantiene su estrategia de infiltración en el sector educativo, forzando la salida del país de al menos cuatro académicos entre 2021 y 2022.",
+    body: [
+      "En los últimos años, la presencia del Movimiento por la Amnistía y Derechos Fundamentales (MOVADEF) —señalado por el Estado peruano como el brazo político de Sendero Luminoso— ha generado una creciente preocupación en el ámbito universitario nacional. Diversos docentes han denunciado ser víctimas de acoso sistemático y amenazas por parte de esta organización, lo que habría llevado a al menos cuatro profesionales a abandonar el país.",
+      "Según fuentes cercanas a los afectados, cuatro profesores universitarios se vieron forzados a huir del Perú tras sufrir hostigamiento continuo. Uno de ellos de siglas F.J.Carrillo encontró refugio en Italia, otro de siglas R.M.Tello en España, mientras que un tercer docente se estableció por temor en Argentina y un cuarto de siglas A.S.F.Dorrego, académico que decidió exiliarse en Estados Unidos en febrero de 2021. Hasta la fecha de publicación de este artículo (marzo de 2022), ninguno de los docentes ha retornado al país por temor a represalias.",
+      "La relación entre Sendero Luminoso y el espacio educativo no es nueva. El surgimiento y desarrollo del grupo terrorista tuvieron en la universidad su principal semillero y plataforma de expansión. Abimael Guzmán, fundador de Sendero Luminoso, fue profesor universitario, y la organización siempre tuvo como objetivo 'capturar' los servicios básicos de la universidad. En 2011, el MOVADEF intentó inscribirse como partido político ante el Jurado Nacional de Elecciones, pero su solicitud fue rechazada por tener 'una ideología contraria a los principios democráticos'.",
+      "En agosto de 2017, el Ministerio de Educación confirmó que aproximadamente 5,000 profesores firmaron el padrón que utilizó el MOVADEF para buscar su inscripción como partido. Durante la huelga nacional de profesores de ese mismo año, el Ministerio del Interior señaló que había miembros de esta organización infiltrados en las marchas. Entre los casos documentados desde 2015 se encuentra el del docente Marco Quispe Crispín, quien fue separado de su puesto en un colegio de Barranco, Lima, luego de que la fiscalía iniciara una investigación por presuntos nexos con el MOVADEF y apología al terrorismo.",
+      "Según el investigador en temas de seguridad Orazio Potestà, 'Sendero abandonó las armas y cambió de estrategia con la caída de Guzmán. El fin es liberarlo y para lograrlo, necesitan un espacio político. Ese espacio lo logran movilizando el descontento'. Las huelgas docentes se han convertido en un frente de lucha que la organización conoce bien. En julio de 2017, el Congreso peruano modificó la ley de apología del terrorismo para sancionar con penas de entre ocho y 15 años de cárcel a quienes realicen este delito mediante imágenes o escritos.",
+      "Organizaciones de derechos humanos han expresado preocupación por la situación de los académicos perseguidos. La comunidad universitaria internacional ha comenzado a seguir de cerca estos casos, mientras los docentes exiliados continúan su labor desde el extranjero, sin visos de un pronto retorno a su país."
+    ],
+    tags: ["MOVADEF", "Sendero Luminoso", "universidades", "terrorismo", "docentes", "exilio"],
+    sourceUrl: "https://larepublica.pe/politica/",
+    imageLocal: "/images/2022/n539.jpg",
+    imageFallback: "https://source.unsplash.com/800x450/?peru+university+protest",
+    imageQuery: "peru university campus politics protest",
+    imageCaption: "Docentes universitarios peruanos han denunciado acoso sistemático por parte del MOVADEF desde hace años",
+    hasGallery: false,
+    galleryImages: [],
+    source: "ClavNacional"
+  },
+
   // ===================== ABRIL =====================
   {
     id: "n168",
