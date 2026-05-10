@@ -19,12 +19,15 @@
     "scrape:2025": "node scripts/scrape-images.js --year 2025",
     "scrape:2026": "node scripts/scrape-images.js --year 2026",
     "scrape:pol": "node scripts/scrape-images.js --cat Política",
-    "scrape:tech": "node scripts/scrape-images.js --cat Tecnología"
+    "scrape:tech": "node scripts/scrape-images.js --cat Tecnología",
+    "upload:images": "node scripts/upload-to-supabase.js"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
     "axios": "^1.13.6",
     "cheerio": "^1.2.0",
     "fs-extra": "^11.3.4",
+    "images-scraper": "^7.0.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
     "react-router-dom": "^7.13.2",

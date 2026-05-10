@@ -1,4 +1,15 @@
-import { useState, useRef } from 'react'
+import { useState } from 'react'
+
+const SUPABASE_STORAGE = import.meta.env.VITE_SUPABASE_URL
+  ? `${import.meta.env.VITE_SUPABASE_URL}/storage/v1/object/public/clavenacional-images`
+  : null
+
+function resolveImageUrl(path) {
+  if (!path) return null
+  if (path.startsWith('http')) return path
+  if (SUPABASE_STORAGE) return `${SUPABASE_STORAGE}/${path.replace(/^\/images\//, '')}`
+  return path
+}
 
 // Load manifest dynamically
 let manifest = {}
@@ -20,8 +31,8 @@ const CAT_COLORS = {
 
 export function ImageWithFallback({ news, className, style, showCaption = true }) {
   const cached = manifest[news.id]
-  const hasLocalImage = cached?.cover?.startsWith('/images/')
-  const [src, setSrc] = useState(hasLocalImage ? cached.cover : null)
+  const hasLocalImage = cached?.cover?.startsWith('/images/') || cached?.cover?.startsWith('http')
+  const [src, setSrc] = useState(hasLocalImage ? resolveImageUrl(cached.cover) : null)
   const [loaded, setLoaded] = useState(false)
   const [failed, setFailed] = useState(!src)
 
